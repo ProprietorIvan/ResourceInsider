@@ -1,0 +1,1538 @@
+===POST===
+SLUG: 065-scott-tinker
+TITLE: Dr. Scott Tinker, Switch Energy — Finding the Radical Middle (#65)
+DATE: Not specified in page content
+BODY:
+"I think the challenge with the renewables, the solar and wind and batteries is. People said they would be cheaper and they're not. They are in some places at the plant gate, but not to you and me, as we've already discussed. They said they would be reliable and they're not because you have to have something else to back them up. And they said they would be cleaner. And the definition was very narrow. It was a clean in the sense of CO2 emissions, not the mining."
+
+— Dr. Scott Tinker
+
+Scott Tinker is a globally renowned geologist, energy expert, and advocate for balanced approaches to energy, environment, and economy.
+
+In this episode, Scott shares his perspectives on the "radical middle," addressing the complexities of energy systems, climate narratives, and the future of sustainable solutions.
+
+Scott unpacks the challenges of energy poverty, the myths of energy transitions, and the pivotal role of innovation in driving global progress.
+
+In this episode, Scott and I discuss:
+
+The concept of the "radical middle" in energy policy.
+
+The global realities of energy poverty and its moral implications.
+
+The role of hydrocarbons and the challenges of renewable energy scalability.
+
+The resurgence of nuclear energy and its potential for global impact.
+
+Innovations and investment opportunities in the evolving energy sector.
+
+The intersection of policy, markets, and technology in shaping the energy landscape.
+
+Please enjoy!
+
+Listen to the episode on Apple Podcasts, Spotify, YouTube, SoundCloud, or on your favourite podcast platform.
+
+Enjoyed this episode? Sign up to our free newsletter to access to the latest podcasts, expert insights, and exclusive reports on our recent deals.
+
+The transcript of this episode is included below.
+
+Note: Transcripts may contain a few typos.
+
+Transcript:
+
+[00:00:00] Jamie: All right, Scott Tinker, welcome to the Resource Insider podcast. Thank you very much for joining us today.
+
+[00:00:10] Scott: Jamie. It's great to be here with you.
+
+[00:00:12] Jamie: Well, I'm going to try to fit this into an hour, but I have a lot of questions for you and I've been preparing for this podcast for a very long time. So, thank you for taking the time out of your very busy schedule to Particularly so close to the holidays. So, we're a couple of days away from New Year's. We're kind of in the little break between Christmas and New Year's. And I'm appreciating you getting this on the books before the end of the year.
+
+[00:00:36] Scott: Happy to do it very much. And since you haven't shared the questions, I'm sure we will be very candid as we go forward and spontaneous.
+
+[00:00:44] Jamie: Yeah, I'm sorry. I probably should have sent them through. So. I actually would like to start talking. Sometimes I get criticism for talking too much on these podcasts, so I'll try to keep it brief, but about how I heard about you. So, I first came across your work or as I'm sure many other people did. After listening to an interview between yourself and Jordan Peterson. And then I followed kind of down that rabbit hole and I saw the presentation, the talk you gave at his conference last year, ARC in London, and I was really excited to listen to that conversation and hear that presentation because I felt like. You had articulated a mindset and a worldview that really closely paralleled my own in a way that I'd been kind of striving to do on this podcast and in the works, we do at resource insider very well. And so, I was excited to hear that. And that's why I reached out to you. And we've had numerous interactions since then, but for viewers at home, I just kind of wanted to give that. That backstory and for people who haven't seen your work, Scott, can you give us the high-level overview of who you are, what you do and how you got there? And we'll obviously dig into that in some more detail over the next few minutes.
+
+[00:02:01] Scott: Sure. Yeah. Well, it's always good to visit with people who agree with us. Thanks for the nice intro. Yeah. I'm a geologist. By training and background and profession was in the oil and gas industry on the research end of it for 17 years. And then left that to join the university of Texas at Austin 25 years ago now. So been doing this a long time. I'm a global explorer, energy explorer. I've been in over 60 countries. Jamie had been fortunate to do that and deep into them seeing probably the poorest of the poor and the richest of the rich and everything in between as we've looked at energy systems and their environmental impacts and economic impacts around the world. So my career has taken me down lots of places both again, academic service, industry service, some government service and All that comes together in what I lovingly call the radical middle, which is where we actually try to solve real problems, you know, not getting too far out on the edges anywhere, but the practical data driven compromise world of overlap space between those entities and in a sense, the energy, the environment, the economy. So that's been my passion for most of my career, actually. And it's where I'm still playing around. And I think we're making headway.
+
+[00:03:16] Jamie: And what I really like.
+
+[00:03:18] Scott: Hold on just one second. Oh, sorry.
+
+[00:03:23] Jamie: Dangers of working at home during the holidays.
+
+[00:03:24] Scott: I didn't tell anybody I was on a podcast.
+
+[00:03:27] Jamie: Yeah. Well,
+
+[00:03:28] Scott: I'm on a podcast sweetie.
+
+[00:03:30] Jamie: What I really like about your work was exactly what you mentioned there. It's sort of finding that balance between energy, the economy and the environment. I think, you know, in your presentations, you have a great sort of graphic that demonstrates that and finding the radical middle. And can you kind of give us an overview of what that means, the radical middle? And I guess what made you start thinking about that earlier in your career?
+
+[00:03:57] Scott: Yeah, I Can briefly define what I mean by that. And it's that overlap space between challenges in this case, the energy world, the environmental world, and the economic world and how those all relate and what's that overlap space look like. And again. Every single energy component has an environmental and economic impact, and I think in many ways, vice versa, Jamie. So, as you deal with this, you begin to realize that you can't address these big challenges unless you're willing to play with all of those things. I came to it as most things just slowly and through time and trying to understand how to get things done in that world. And it's not easy space. You know, in that compromise world, that data world, you're not always going to be dramatic or go viral because you make some wild statement about something. And it's where I'm wrong oftentimes, or not completely right, let's say. I like to, I described it to Senator Manchin's hearing in which I testified a few years ago. The Senate Energy, for those in Canada, the Senate Energy Committee here in the US in Washington as more than, completely factual, but factually complete.
+
+[00:05:19] Jamie: Right
+
+[00:05:19] Scott: And it's that effort, nobody can be factually complete. There's too much out there, but it's the effort to try to be as inclusive of the various components of things as we can be. And that's what the radical middle is and it's been radically lonely for a long time, but I think it's starting to grow and the people that play around in there really are some, in my opinion some of the real leaders in the environment, by the way, or in the economy or in the energy world. And that's what we're trying to do there. And I think it's it's working, you know, there are a lot of people that are engaging now and willing to engage in that complicated overlap space.
+
+[00:06:01] Jamie: Well, something that was so interesting to me is your talk at the ARC conference the YouTube video got something like two million views now, I think it's the most viewed the most viewed presentation from that conference. And you mentioned, you know, that was been a lonely space for such a long time, but it would seem that, Maybe the rest of the world starting to catch up to you because probably four or five years ago, I think I would have been pretty surprised to see a talk about energy the economy and the environment be one of the top viewed podcast at a, or rather in videos at a, at an event like that.
+
+[00:06:35] Scott: Yeah, that was a neat event. It was the first of its kind. They're going to host it again in February in the coming year. And I'll, I think I'm going to kick off the energy environment piece there. But they had, you know, faith and family. They had education, they had healthcare, they had government and policy. It wasn't just an energy and environment conference of fun, music and the arts. So, yeah, I. I guess that may be true. Jordan asked me that on his podcast. Why are so many people watching this? Yeah. And I said, I don't know, Jordan, maybe they're bored. But it is, it's that because it touches all of us and we are very much inundated. Particularly with the climate side of the environment, I think of environment broader than that, but let, you know, the climate piece, we're very much inundated with information and sometimes fear about what's going to happen to us in a warming world. And I think people want to know more. They think in their gut, Jamie, they get that it's not a binary, good and bad, clean and dirty believer, denier narrative. Nothing's that way. People know this. We're all decently intelligent. So, they want more. And when you try to ravel some of these things in or unravel some of it, I should say, I think it's more satisfying. They don't like everything, but it tends to be more satisfying. And like you, people start digging in.
+
+[00:07:59] Jamie: Yeah, well, I kind of came about this in a really roundabout way. So, I mean, as listeners will know, I spent the majority of my career in the mining industry, working on mining projects and in mining companies. And the mining industry has somewhat surprisingly, but though not really, if you're in it. Found a way to claim a very virtuous role in the energy transition of, you know, we're fueling the energy transition. We need copper and lithium and nickel and batteries and electrification. And, you know, without mining, there's no, you know, there's no renewable energy, et cetera, et cetera. And you know, every mining conference, every event has kind of latched on to that narrative as the driving force behind why you want to own metals and mining and why mining is a relative or a relevant industry. You know, 20 years ago was the rise of China. Now it's the rise of renewables and electrification. And so, I was really quite in that bandwagon and I was like, okay, great. Like, you electrify everything and people are going to buy a boatload of copper. And, you know, I've invested all these companies. I'm going to be rich and it's going to be great. And as you know, I started a carbon credit company where I'm the chairman. And again, this very much fits into that narrative that there's going to be a push towards net zero or decarbonization or what have you in that world. And then being much more heavily ensconced in that, especially with carbon credits, I started thinking about, well, why would people buy carbon credits? And what are the actual realities of emissions look like? And what is the realities of energy demand look like? And I was shocked actually at how the narrative of decarbonization that is happening right now is. I would say my words are very disingenuous right in that renewables are growing and electrification is happening, but we're consuming more oil, more coal, more gas than at any other time in history and the whole energy pie is growing and growing. And the energy transition is really not happening at all. In my view, there is an energy addition happening, right? There's more wind farms and solar panels and what have you, but it's not in any way to turn from the growth of fossil fuel consumption. And I kind of think, where am I going with that question? What I'd like to kind of open this conversation with in some ways is helping people kind of have that eye opening moment that I had, which is like, oh my God, this is so much bigger and so much more complex to solve. Then I think the common narrative is letting on and we can't even begin to think about solving the problem, you know, depending on what that problem is and how it's identified. Until we actually understand the scope of it. And I don't think I don't think even most people who are in the climate industry have any concept of the scope of the problem that they think that they are trying to address. So that's a very wrong way to sort of open that. But can you start by just giving people an understanding of how big fossil fuels is and how important that is to what's going on in the world or to our life in the world right now? Yeah, I guess I should say.
+
+[00:11:21] Scott: No, it's a very, those are good observations. And I think a real framing let me come at it from the perspective of humans. I'll start that way. And the concept of human flourishing, if you will, I made a couple of feature length films with Harry Lynch. He's the, Producer, director, I'm just the pretty face, you know, we partnered out there and we made one on energy we released in 2012. So that's a dozen years ago now and filmed in 9 and 10, a long time. Went to 11 countries and looked at the best energy in the world, pros and cons of that. And it was a very popular film, 50 countries and lots of languages and continues to be shown even all over the world. And then later we got together and said, you know, we left off a big chunk of the world. Those who don't have much energy or any or are growing into energy. So, we made a second film. The first one was called Switch. And the second one is Switch On. And that film looks at energy poverty. And I think we, again, we were the first probably to put out a film on energy poverty. And it's since become a very popular topic for good reason, different countries, five different countries. There are people who turns out people who are living in some state of energy poverty represent about 60 percent of the world or more. So, there's the abject property, the like dirt mud huts, no clothing, food, you know, very just abjectly poor. But then there's this emerging group of 1 to 2 billion. That's about a billion people, by the way, another 1 to 2 billion that are starting to come out from that. And another couple billion who let's call them developing as opposed to developed out your window. And behind me, we are developed. We are rich. So, this huge body of humans, 5 billion people or more that don't have access to affordable, reliable energy on a daily basis. That's a moral challenge. It's a moral question. It's a reality. So, when you talk about energy addition. And I've used that term as well. As these people start to come from a very low per capita consumption level to one that is closer to ours, not even ours, but closer, we need more energy, the world is going to need a tremendous amount of energy to allow for that growth. So, we can't, when people say energy transition, I think they hear going from what's today to something different tomorrow, in that case, it would be going from coal oil and maybe even natural gas to solar, wind, electric vehicles, and ironically biofuels, which, which are just low-density hydrocarbons, you know, carbohydrates very interesting irony there. So going from fossil fuels to so called renewable energy, that's what people think of in a transition, and that's not what's happening. And by the way, it's not what's going to happen, and I'll be even a little stronger. It's not what should happen, and what do I mean by those statements? Solar and wind, if you think about the amount of energy that's collected in a unit of area, that's because the sun and the wind are collected. So, we call that surface power density. It's watts per meter squared. They're very low density. You don't get much energy from a square meter of sun or a square meter of wind. Takes a lot of surface to collect enough energy to do useful things for modern society. And that's fine. The sun and the wind are out there. They're free, if you will. But we have to, you can't put the sun in your car. So, you have to collect it and convert it. And you mentioned mining. So, the collection systems, the solar panels, the wind turbines, the chemical batteries, lithium ion today, maybe other kinds of cations and anions in the future are mined. They're mined from the earth or manufactured into these collection systems, and then they collect that low density energy and turn it into electricity, which does some useful work for us. And it just takes a tremendous amount of stuff to do that. Mine stuff, land stuff, water stuff. It wears out. We dump it back into the earth. And I mean that we don't recycle and reuse it and we do it again. So, in a Ted talk a couple of years ago, I said, there's no renewable energy to 1100 students and I had on Kevlar. So, I'm here still alive to talk to you today. The eyes got really big, you know, what the hell did this guy just say? No renewable energy. I've learned renewable energy in this case, they're college students, my whole life. That's like saying, you know, there's no gravity or something, but what I meant by that, it comes from the earth. We make it into collection systems. We dump it back when it wears out and do it over and over. So that's not renewable. That's just a different form of energy collection. And I think. The challenge with solar, wind and batteries, they have a useful place for sure. And I've installed solar. We could talk about that, you know, down an indigenous village in Columbia, but they, you simply can't get enough earth material and use enough land to collect the amount of energy that this growing, evolving, emerging, developing world is going to need for the future. And even if you could, it wouldn't be in the right form because, you know, unfortunately physics makes solar and wind intermittent. And that is important. Some people will try to push that aside. Well, we can make up for that with batteries. No, it makes it intermittent. Night happens, clouds happen, non windy times happen. And so, we love energy 24/7, 365. So, I gotta have something else there when that isn't working as a redundant, expensive backup. So where are we headed instead in this transition? And it's been happening for centuries now, a couple centuries, is toward denser forms of energy. Things that, the bang for the buck takes less stuff, okay? And so, what are those? Nuclear is probably the leader. Uranium and thorium, radioactive elements used to, when you split them apart, fission, they make a bunch of heat. And that heat boils water, makes steam, turns a turbine, runs a generator, and makes electricity for us to use. And it doesn't take much uranium and thorium to make a lot of electricity, a lot of heat. So, you're getting a tremendous bang for the buck there. Not much land, not much earth material, no emissions, and always on. Okay. Well, what's the problem? Well, there are, there's problems with everything. There's pros and cons or trade offs with everything. You know, the problem with nuclear is you've got a radioactive waste product, a fission product, not waste, but a fission product or that you have to manage and deal with. And that's the big challenge. And it's doable. We are, we're handling that in reactors around the world today, but it worries some people. Now, another, ironically, maybe in some folks' heads, another very dense form of energy is natural gas. Methane, CH4, one carbon, four hydrogens, or other kinds of gases. Gas isn't dense. It is when you, by unit weight, okay? So, when you think about, bang.
+
+[00:18:51] Jamie: Does that mean by the like the amount of energy per unit weight? It's
+
+[00:18:55] Scott: Correct. Yeah, correct. So, if you think about a an exajoule or a megawatt per unit weight a kilogram or whatever. Natural gas is denser than even oil or coal or wood, and you can't weigh the sun and you can't weigh the wind. And that's why we went to a surface power density. Another Canadian boss, Vaclav Smil came up with that but my unit weight, natural gas is very dense. So, you get a lot of bang for the buck. And that's why we've been transitioning from dung and wood and hay through coal and then liquid hydrocarbons toward natural gas and nuclear. For over a century now, we can try to go back to the sun and the wind. Those were the first forms of energy, by the way, we had windmills, not wind turbines, windmills to lift water and solar energy grew the hay that ran our vehicles, oxen and horses and different things. So those have been around forever. We can try to capture that low density energy, but it is a very minerals and metals and land intensive process, and that some of us might argue isn't very environmentally green. If you will, it has a place. Don't get me wrong. I'm not against solar and wind. I've not at all. I really am not. They have a role to play, but the transition is not from something to that. It's toward denser forms of energy, and that would shock some people. Probably maybe some of your listeners. I don't know. But that's where it's headed. And has been headed with growth and different wedges to help supplement that transition and it's a good, it's a good change less is more, you know, and that's true in the energy world. That's certainly true in the environmental world. Less impact is more.
+
+[00:20:46] Jamie: When you know, when you tell me this all seems very, I don't want to say obvious, but it all seems very logical to me that it obviously makes sense. And I think, you asked about our listeners, it will be very logical to our listeners as well. On the other hand, you've got a group of college students that you talk to regularly. And, you know, they I can see why that would be very surprising for them as it goes against maybe the common narrative that they've been inundated with since birth. But I wonder, you know, more importantly, you know, you've had the chance to talk to business leaders, but I think more importantly, political leaders and government officials all over the world. Is there a recognition of this sort of physical reality amongst the majority of these people that you talk to? Or or are they kind of living in their bubble of only renewables all the time, no matter what do you find there? Are the higher levels of government that you've talked to? You don't have to obviously mention any names or anything like that, but you can.
+
+[00:21:51] Scott: And you also asked me where do hydrocarbons fit in? And I didn't even answer that question, but let me write that down. I'll try to come into that. The political leaders and business leaders. And even the university leaders, it varies by where they are. So, I've been in 60 countries, luckily. And you know, in Asia, I think they're pretty clear eyed on this. They know what it's going to take for them to grow and it's going to take a lot of everything. That's why they're leaders in solar and wind. They are manufacturing, let me step back. They own the processing of the metals, 80% of the processing, the metals on average, some a 100%, some 50 for the metals in the world, China does brilliant, bought it with belt and roads initiatives and other investment initiatives. So, they process those key metals. They manufacture the solar panels and the wind turbines and send them out to the world. And they, they really control the supply chains for solar, wind, and batteries. And that was a brilliant move. They need to, because they don't have a lot of hydrocarbons. They've been looking for them, but they don't in their own country have, China doesn't at least have a lot of hydrocarbons. So, they went down a different road. And that's a good thing for them. Probably pretty wise. They're pretty clear eyed about this story. They're building the most nuclear reactors today, along with Russia, China and Russia, 70% of the world's nuclear, et cetera, mining the most coal and burning the most coal for affordable, reliable electricity with high environmental impact. So, there's the trade offs to them. Now, as they come, the Middle East understand this a lot lower population, but they get it. Now they're betting their game oil and gas. That said, the UAE is now built for nuclear reactors. They're operating in the Middle East.
+
+[00:23:39] Jamie: I didn't know that. Interesting.
+
+[00:23:41] Scott: Yes. Yeah. So, they get it.
+
+[00:23:44] Jamie: Over what time period would you say they built those?
+
+[00:23:47] Scott: It took about five or six years.
+
+[00:23:49] Jamie: Yeah, how many nuclear reactors have been built in the U. S. in the last five or six years?
+
+[00:23:55] Scott: Yeah, only one very expensive one on a brownfield, Plant Vogel, Southern Company. It took more than twice as long and twice as much money, and it was on an existing site, but it's coming. So, I would say the people that are emerging and particularly developing understand this now they're happy to have Europe and the US continue down this path of buying solar panels and wind turbines and batteries from them and electric cars from them and imploding our own reliable energy industries. Look, when your enemy is in the process of destroying themselves, don't interrupt
+
+[00:24:36] Jamie: Napoleon, right?
+
+[00:24:38] Scott: Yeah, right. Just let it go. And it's just shocking to me, New York state just this week passed a law. I was writing an op-ed on the plane last night about basically trying to tax the fossil fuel industry or penalize them 25 billion for climate change.
+
+[00:24:57] Jamie: I see.
+
+[00:24:58] Scott: And it's incredible.
+
+[00:24:59] Jamie: So, none of the people that actually use fossil fuels, just the people that produce it.
+
+[00:25:04] Scott: Yeah. And so, my op-ed was about making analogies, you know, what if we were to say that anybody who sold burgers and fries or produce burgers and fries and pizza had to pay for obesity in everybody or heart disease. As opposed to the consumers of those things, and you know, just tons of analogies. So now Western Europe and the US, we got caught up in this latest thing. And we tend to get caught up in a lot of things, a lot of fads and trends, as you mentioned earlier. Climate was a, is a very sticky one. So, it captured the imaginations of young people and political leaders. Kind of one political side more than another, let's say. And they, so they have been using that as a vehicle or a tool to instill policies and, you know, central control for things in a way that, that has been very effective so far. But I think the shine is coming off it, Jamie.
+
+[00:26:07] Jamie: Yeah.
+
+[00:26:08] Scott: People are starting to see their power bills and their gasoline bills and their industries are going away and the companies are running, can't afford to compete because their electricity is so bloody expensive on and on. So, you ask the question, does every, did the leaders I talked to get it? I think they do, but they're struggling now to unwind from the decisions and policies they promoted. And instead, a lot of them are doubling down. And by the way, your leader in Canada is doing that.
+
+[00:26:36] Jamie: Our current leader in Canada, I, now, it appears that Canada may be on track to become the 51st state according to what you read on Twitter at the moment, but you know, although I don't necessarily love that narrative. I do think it's hilarious that Donald Trump is basically single handedly trolling Justin Trudeau out of office right now, so since he's done that our minister of finance has quit and like is trying to drag Trudeau down with her so just Trump has basically accomplished in the last 6 weeks more than conservative Canadians have accomplished in the last 10 years. So, I'm kind of grateful for that, if I'm being honest. But you know, you talk about this delusion. I had a couple years ago, right around the time of the, just after Russia invaded Ukraine and Germany was experiencing an energy crisis, I had this, like, surreal experience. I was at an event in Europe and I was chatting with this guy who was effectively a green energy lobbyist in the EU. And he was talking about, oh, you know, how horrible it is that they're, you know, reliant on Russian gas and, you know, what a terrible situation they find themselves in. And the conclusion he drew from that was that, you know, we just need to get on renewables as fast as possible. And that's the only way we're going to solve this problem, which is the exact opposite conclusion that I drew from that scenario, which is Germany and he was primarily focused on Germany is, you know, has more, has put more into renewables than anyone else and put themselves in a situation where they were unbelievably vulnerable. And I think you could draw a very clear line between. Germany's energy policy and Putin's confidence in invading the Ukraine. I think you could very easily draw that line. And I have, I've joked that, you're not gonna like this joke, Scott. I've joked on here that Angela Merkel is the second worst German chancellor we've ever had. It has caused a significant amount of destruction in Europe. But like, there is some truth to that. I mean, I really do think that there's, you know, this war probably wouldn't be happening if Germany had more commonsensical energy policy. And that doesn't even mean fossil fuels. It could have just been nuclear, for God's sakes. And here we are.
+
+[00:28:55] Scott: Yeah. Energiewende, which is the German word for their new Energy started in 2007, 2006, 2007 timeframe, Angela Merkel, and they decided to reduce their use of things. Coal, oil, natural gas, and nuclear and proceeded with it. The Fukushima Daiichi event happened pre-Ukraine, and that drove them to accelerate their decline in nuclear. And then. They finalized it after Ukraine by closing their last three nuclear power plants and building, or re opening coal plants. When they lost the gas from Russia, which stunned climate scientists. And it should have, they were aghast at that and they should be, you know, why are we building coal instead of nuclear with no emissions? And they accomplished the same dispatchable or in many cases, baseload electricity provision. So, Germany, yes, it's easy to pick on for Germany, but they continue down these roads in some ways. And that's the challenge I think is. How do you get more clear eyed about this? The UK has now flipped as you know, and they are starting, they're now pushing ahead in a Germany, California, like way. Shockingly. And I don't think this prime minister will last long. And Ed Miliband is really their energy minister. Who's driving all this. And he's fairly conflicted on some things too. So, you know, it does get to politics. It does get to conflicts of interest and conflicts of commitment. But Germany policy in some ways this let's look at the good parts. They added diversity to their portfolio. That's good. Wind is good. It's windy in Germany. Now. A lot of the landowners are tired of building turbines everywhere. Solar not good in Germany. It's If you look at a solar intensity map, it looks like Seattle, Washington or Vancouver, you know, so yeah, not great sun in Germany. So, you're very inefficient or I should say, the capacity factor is a better, is low on solar in Germany and you don't get, it doesn't generate electricity as often as it does in really sunny places like Arizona. Okay. That's just the reality of. Physics again, or the weather. But some of that's good. You know, I like diverse portfolios of anything. I think adding some components of solar and wind and electric vehicles in the German mix is a good thing. If you take away coal completely, natural gas, oil completely, and nuclear, it's not a good thing. All of a sudden, you're limited in your options again, and they're. Intermittent. They're not reliable. So, you're more dependent on others. California is importing more electricity now from other states, more petrochemical products, you know, more energy, either, either in raw form or as products than others. And. It drives up the price when you start to have these redundant backup systems or rely on others. It gets more expensive, Jamie. And this is where our three E's, our energy, environment, economy come in. It gets more expensive. And that's just the reality of it. You can pretend like the sun and the wind. And let me be real clear here. There's a Lazard number, that's a company that's called LCOE Levelized Cost of Energy or Electricity. It's been quoted a lot by those who want to show that solar and wind are now cheaper than coal and gas in many places. That number is a calculation of the cost of electricity at the plant gate where the electron is generated. Not to you or me. To get it to you or me, 24/7 365, requires this redundant thing or thing sitting over here to be available when night comes or the wind stops blowing. That redundant thing is very expensive. So, when I add that redundant thing into the cheaper thing, it makes it more expensive to the consumer.
+
+[00:32:56] Jamie: Right.
+
+[00:32:57] Scott: So, you see the price of energy in these countries.
+
+[00:32:59] Jamie: Just to dig into that, because that's something I hadn't thought about before you actually mentioned it to me. So, you've got your wind farm or your solar panels, but you also have to have your coal fire power plant or nat gas plant or whatever in the background sitting there ready for when it's not sunny or it's not windy.
+
+[00:33:15] Scott: Correct.
+
+[00:33:15] Jamie: People don't realize that there's these redundancies built into this.
+
+[00:33:18] Scott: Correct.
+
+[00:33:19] Jamie: Yeah. Okay.
+
+[00:33:19] Scott: They're called load following plants in the gas world. The best one for that as natural gas, because natural gas, think of your kitchen. You don't cook with charcoal in your kitchen because it takes a while to start up and it would make it very smoky, you know, nasty. You don't cook with oil in your kitchen. You could cook with electricity or natural gas. Natural gas actually comes up faster than electricity. Bam. The heat's there and you can turn it right off. So natural gas is a great load following power plant, if you will, but when it's just sitting there idle and then it gets called on and then it's sitting idle called on that makes that electron very expensive because you got to pay the people to build that plant and have it available with fuel. Yeah, and the other way to back that up is with batteries and you're hearing a lot today reading a lot about grid scale batteries. And these are giant, and when I say giant, I mean the system, the battery system, not individual cells. But the system of batteries may look like a Walmart. And they're everywhere. Okay. They're being built everywhere. Giant lithium-ion batteries in warehouses that are getting charged, hopefully when the wind is blowing and the sun is shining and not needed as much. Hopefully I say, and then they're there to call on when it's not windy or sunny. And they back up that intermittency right now, we're up to about four hours of backup. And that's gone up from a few minutes to four hours on particular systems of electric backup from.
+
+[00:34:54] Jamie: Is that backup for like the entire United States so it can run or.
+
+[00:34:59] Scott: No, it's a very strange number, but that's how they quote it. So, what they, it's a very strange number.
+
+[00:35:04] Jamie: Yeah. Like what can you run for 4 hours?
+
+[00:35:06] Scott: A very astute question, you know, 4 hours to what, run my phone or like the whole city of Houston, you know, four hours or what, and what they're quoting is four hours to run whatever component of the grid it is they're backing up. So, so if and yes, so if you were going to try to back up the whole nation, which you couldn't do.
+
+[00:35:25] Jamie: Yeah, so those batteries can't even service the grid they're currently on, let alone all the grids or the components of the grids.
+
+[00:35:31] Scott: Right.
+
+[00:35:32] Jamie: They're not yet on.
+
+[00:35:33] Scott: So, they're servicing some component of the grid and they're up to about 4 hours of capacity for that. Which is a lot, it helps in certain ways if you had to run all on battery, but hey, you know, there's a funny term again, another German term dunkelflaute, which means sort of a, I don't know exactly, but no wind for a longer period of time than you would expect. Although it happens all the time. And Europe just went through one of these at the end of this year, in November and December, a couple of weeks in a row where there's no wind. And so, they're having to call on all the backup systems. And there were rolling brownouts and things got very expensive because everybody providing is charging more. It's a supply and demand basic economics thing. So yes, your observation. When you have an intermittent source, you have to have something there to make it reliable. And that reliability is expensive. It's different if you have nuclear, cause that runs all the time. It's literally very high-capacity factors in the 90%+ range, natural gas, coal, they all have times when they're not running. You have to service the plants or your fuel supply is strained or weather can happen, etc. But we calculate all those things. So that's one of the great challenges, I think. And again, it's just kind of a bummer of physics for the solar and wind. I don't use the word renewable solar and winds. They're good for some things and not so good for other things. You asked about coal and oil and gas though, a while ago. And how much is there? It's a finite resource at some level. So, there's the nature only made so much in the whole tank. We have produced some of that. From the so-called conventional reservoirs. That's where the oil comes out of the source rock, migrates into nice little potholes in the sandstone or limestone, mostly in other places called conventional reservoirs. And we've produced some of that. There's still more to be found than produced. 15 years ago, actually more now, close to 25 years ago, the first attempts, but about in 2006, 7, 8, George Mitchell finally cracked the code on producing natural gas from shale, the Barnett shale, North Texas, north of in the Fort Worth area, it wasn't economic, but he was producing it successfully, getting methane to come out and flow out of shale and that's called unconventional shale. Gas, the gas is the same gas. It's just unconventional reservoirs. And then along, we did that in the Barnett and the Fayetteville, Haynesville, and the Marcellus. And then in parallel later came oil out of shale, which nobody thought could happen, but the Eagle Ford, the Bakken and the West Texas. So, these are huge. The kitchen, if you will, that's generating oil and gas, and we're producing from it now using remarkable combination of technologies. Nothing new. It wasn't a, it was very much of a multiple decadal thing, moving, horizontal drilling, hydraulic fracturing, which has been around for 60 or 70 years together and neater, better ways to crack into that really tight rock and produce oil and gas. And that's opened up whole new resources for us.
+
+[00:39:00] Jamie: Yeah. So, for people at home, so conventional is basically tapping into liquid or gaseous reservoirs under the surface. Whereas sort of there's non conventional is pulling the gas or the weight of the oil out of basically solid rock right for by fracturing hydraulic fracturing of the solid rock. Am I summarizing that well or am I.
+
+[00:39:20] Scott: A little different? So conventional is pulling it out of rock that has holes that are the size of the point of a pin to a pinhead. That's what those pores look like. Think of going to the beach, it's sand and you dump your Coke on the beach and it just soaks right in. Okay. Yeah. So, it looks like it's kind of rocky or sandy, but there's a lot of holes in it. When you make that sand into a rock, it's called sandstone. And there's still 15%. Or space in there. So that's conventional reservoirs or limestone reefs, little holes, relatively connected that flow when you, they're under pressure and the subsurface. So, when you drill down and poke a hole in there, the pressure releases those gases and liquids to the surface. Mostly what's produced. And this is very important. Mostly what's produced by conventional oil and gas production is water. Okay. Old oceans that were trapped in those sandstones and limestone reefs get buried and trapped old oceans from hundreds of millions of years ago. And that gets produced too. So, oil and gas companies are really water handling companies. They're handling water. And occasionally they get some oil and gas with it, which they separate out. So that's kind of, I hope that's clear. The conventional reservoir scene, conventional reservoirs. Unconventional is also rock, but it's organic, rich. Silts and muds and clays that are deposited deep in the oceans and organic material rains out of the oceans and gets buried. Oil and gas comes from organics, basically dead plants, not dinosaurs, dead plants that get buried and cooked through time. So, the carbohydrates get cooked and they become hydrocarbons. And in that old organic stuff, we call the lump term for that is shale. Okay. It's a grab bag term for geologists used for this really fine grain material. And you make that compact that and make it into rock. And you're right. It's very dense. You could polish it up and you could probably put it on your kitchen counter and cut steak or cheese on there, you know, like marble or something. So, it's very dense. The holes in that are so small, Jamie, they're there, but they're very small. What do I mean by that? You could fit in the Barnett shale. You could, and we've done the work on this. You could fit about a hundred of those holes or up to 200 across the width of one human hair. Okay. So, they're nanometers. 50 to a 100 nanometers. A nanometer is a billionth of a meter. A billionth of a meter. So, these are teeny little holes. Sometimes they're the size of a hydrocarbon molecule, one molecule or a few methane molecules. So, the gas and oil doesn't flow out of there very well. You've got crack that rock in order for to create pathways for the molecules to flow to the well board. That's what hydraulic fracturing does, or fracking. It puts water. And sand on and some chemicals, not much biocides mostly under pressure and pushes it into the rock under high pressure. And it cracks the rock and creates these pathways to flow back into the well bore and the sand grains that they put in hold the cracks open. So, this, the molecules can continue to flow. Those are called proppants. And so, when you're down, we didn't think we could produce oil and gas out of shale before we knew it was there, but there's no way to get to it. And now there is a way. So, you ask about oil and gas. Here's the simplest form. There's something called resource. That's the total tank. That's what nature has made in the earth. The resource. And then there's a technically recoverable reserve. That's what you can get from that resource with today's technology. And today's price, both of those change. So, reserves change, they tend to grow because technology gets better and price dynamics happen. And then there's something called the reserve and that's just What we can see today that has been legally defined as some amount of producible oil and gas. Okay, so resource and reserve are different terms, and we have a limited number of shale reserves today. But we haven't produced much oil and gas relatively out of all those shales yet. The US is leading in this. We've probably produced 5 to 10% of the oil and gas with all this drilling. 90% is left behind. So as technology improves. Price dynamics change. We hope to be able to get more from that shale, just like we did in conventional reservoirs. Here's the kicker. The United States ain't the only place with shale. It's the source rock for conventional reservoirs. Guess who else has it? People who have conventional oil and gas, the Middle East, Russia, Latin America, you know, there are plenty of source rocks down in those parts of the world and they are quietly developing them. And they're going to release them onto the world stage. When it becomes expedient for them to do that. And by expedient, I mean, right now it's cheaper to produce the conventional oil and gas in Russia and the Middle East and sell it to the world's market, bigger arbitrage. Yeah. And then as that changes and the United States starts to decline in our show production, voila. So, we have. A lot of oil and gas left in the world. If there's a demand for it at the right price, long winded answer, but it takes a while to talk through all that.
+
+[00:44:59] Jamie: You know, there's a bit of a narrative going on that sort of US oil and gas or US like shale has peaked, you know, that we've seen the permium kind of reach its peak output or at least its peak growth and that growth is starting to decline. Do you kind of buy into that narrative that we're near the end of sort of cheap gas or cheap oil and. And that, you know, price demand will come on to, to incentivize prices. Goal will go up to incentivize the supply to come online. Or do you think, you know, we are likely, you know, technical technology will continue to advance at the rate it has and unlock resources that we might not have been able to previously, um, get access to economically.
+
+[00:45:40] Scott: A couple of things to unpack in that, I gave a talk two years ago in Washington, D.C. called Houston, We May Have a Problem. So yes, we have actually seen 7 of the 10 big natural gas, shale gas basins, a rollover or plateau at that time. Only 3 are continuing to go up with today's technology and today's price. And that's the key. We've said, we've heard for many years. We've. Oil is peaked. Oil is peaked. King Hubbard. It hasn't yet globally. So, technology continues to improve. I just described earlier, there's a lot of resource still to go after there. So, it's not a resource issue for the peaking. It's really more of a technology and demand story. If something better was there to replace oil and or natural gas and whatever uses, then we might've seen a peak. And by something better, I mean, it has to be as affordable. And as reliable and efficient as those are, that's very hard to do. Hydrocarbons are very tough to replace because they're so dense and so useful in many ways. So, we don't have that yet. And if it comes along, then you might have seen a peak.
+
+[00:46:54] Jamie: Infrastructure as well in place. Say that again. We also have over a hundred years of infrastructure in place designed to take advantage of hydrocarbons as well.
+
+[00:47:02] Scott: In key places. Yeah. Okay. Not everywhere it needs to be, but in key places. So, you asked, would price then adjust? I think we, it will, now the dynamics are very important as supply starts to get strained, price goes up because we still want it and then price drives technology. And more people push into technology, which finds another way to produce the next slug out of shale and price goes back down because we've got the supply. So, you see these fascinating technology price dynamics and then competitor technologies. And that's really the world of energy, isn't it? It's all those dynamics playing together. And I think the challenge with the renewables, the solar and wind and batteries is. People said they would be cheaper and they're not they are in some places at the plant gate, but not to you and me, as we've already discussed. They said they would be reliable and they're not because you have to have something else to back them up. And they said they would be cleaner. And the definition was very narrow. It was a clean in the sense of CO2 emissions, not the mining your industry, you know, and I look, I'm a geologist. I don't mind mining. Yeah, we, I like mining, but it's not green, you know, mining has impacts. So, so this is the dynamic that I think these. Policymakers who bought into that whole story or dealing with and trying to kind of deny not more affordable, not more reliable. And it's really not cleaner. Well, why are we doing it?
+
+[00:48:43] Jamie: You really touch on, I think, what is really one of the central travesties of the climate obsession, which is that every other social and environmental impact has been pushed to the wayside. You know, When I was a kid, we used to care about water quality and air quality and land use and soils and conservation and all these and that's all been become a secondary or tertiary conversation in service of the climate. Right? And which is why I mean. You're like you said you're a geologist. I'm a mining engineer. I've worked on a lot of mines. I mean, you look at an oil and gas well, and you look at a mega copper mine, the impact on the earth of those things is wildly different, right? Wildly different. And that's all been sort of conveniently forgotten that exists as well. And we spent the last almost hour here kind of defining the problem. But. I'd love to talk for a minute about a couple things. Like what's the solution here? You know, you've been in a phenomenal position with your PBS show Energy Switch over the last couple of years to sit down with some of the world's leading energy experts and business leaders and government leaders and academics and what have you and hear very not conflicting, but sort of debates on different sides of the story. You've spent your career in energy. You know, if I were to, you know, appoint Scott Tinker, a sort of master of energy for the world. What approach should we even think be thinking about and how to actually address these problems so that it does kind of hit that radical middle so that it's economically viable, that it's environmentally friendly provides us or friendly Ish. It provides us the energy. We need the reliable, safe, et cetera. What should we be thinking about? And part of the reason I asked this is one it's interesting. And I find like so few interviews actually spend any time talking about viable solutions versus problems or maybe sorry, fairy tale solutions. And two, the listeners of this podcast are primarily investors in commodity sectors. Or working in commodity sectors. And they're interested because that's an opportunity. You know, I see today's energy world as one of the biggest opportunities we'll ever see for investors of our generation. I think what we're going to see in energy over the next decade is similar to what we saw in tech. Over the last 20 years, I think there's going to be a lot of billionaires and millionaires made. And I know there's a lot of people listening to this who are thinking along those lines as well. So. What do you think the real opportunity is here? And what should be happening? And, you know, people can kind of act with their wallets too. And that's what I intend to do.
+
+[00:51:32] Scott: Right. Well, I'll start with a caveat. If you listen to me for investment advice, you'll be working until you're older than me. And that's pretty damn old. So, fair enough. You know, there are components to it, Jamie. There are the, there are markets. There's the human component, there's the resource component, the density component, technology components to it, and then the whole governments and economics, components to this, that to say, it's not simple, you know, it's solvable, but not simple, and there's no one size fits all, this is really important. I think Africa is speaking loudly now at these climate conferences called COP or Conference of the Parties that happen annually saying, look, quit telling us we can't do these things. You did. And we're going to do it. And I think what you're going to see in general is that in emerging economies, several billion people, they're going to go for low, you know, the highly reliable, affordable energy, just like we did, and it's going to be coal if they've got it and then other things coming in there and I can't blame them. They probably aren't going to clean it up much either, at least initially until they can afford that allows them to start to grow their economy a bit, build on a base and begin to afford more things. In the emerging economies, you're seeing more of, you're still seeing a bunch of coal if they've got it, but then also oil for transportation as they get cars. Oil is a remarkable transportation fuel and when it's distilled, you know, refined gasoline, diesel, jet fuels, whatever. It's just really dense. A lot of bang for the buck. So, you're seeing that happen and then natural gas is starting to grow in all the economies in the world as well, because it's such a versatile fuel, it can use it in transportation. It makes electricity, as we've already discussed it's needed for fertilizers and plastics and the list is endless. What we use methane for and propane and bentane, you know, butane and pentane and everything else. So those are some of the, these are the foundational energies of things. And gas is going to be here for a long time. In the developed world, we have the luxury of being rich. So, we're starting to transition toward other things. Like nuclear, and it's been around a while, but I think we're going to see nuclear come back for sure. And one of the benefits, and I think the positives is, both sides of the aisle seem to agree on that now, the political aisle. Democrats are strongly supporting nuclear, at least in this Biden administration, and I think the Republicans will as well. Young people aren't scared of nuclear. They weren't trained to be scared of nuclear. Like I was, they were trained to be scared of climate, you know, so they have a different fear set that they were trained to be scared of. So nuclear is coming, it's coming back and that's a good thing. I'm involved with several different components of nuclear companies, different kinds of investments and putting away the waste. What do you do with the waste? That's a neat area. All the nuclear facilities and services that are needed. That's a neat area. The nuclear mining of those things is pretty cool. And then the generation itself, a lot going on in nuclear and how it works with other things to make, like you can make hydrogen from methane with nuclear or from water. And then the sun and the wind and batteries have a role to play. I think they're going to continue to be pushed by governments who won't back off of their initial thinking quite yet until they're either voted out of office or finally find some courage, but they're going to come around. You know, solar and wind are going to be there. You've got to put solar and wind and other distributed forms of energy in places that have no infrastructure, like wires or roads or pipelines. First energy is often that a panel, a little pico hydro unit, or, you know, a micro turbine of some kind, wind turbine, that's what comes first. And then you can grow from there. So, I see a lot of upside in the emerging and developing world. And then. At some scale, where the wind resource is excellent, like in the central United States, or the solar resource is outstanding, like in California, Arizona, New Mexico, parts of Texas, that makes more sense. You can collect it in an efficient way and it would be affordable. The human flourishing part of that says, however, that all the world needs energy. Not as much as we consume per person, but at some minimum level, we've got to enough of the energy poverty, or we're going to see, we're going to have issues that are going to make everything else look silly by comparison. Revolutions happen when the classes get so disparate. The lower classes say we've had enough of this and on a global scale, we don't can't afford that to happen and it shouldn't happen. It'd be morally wrong. So, we've got to get energy to everyone. And I spent a lot of time working on energy poverty and in solving those issues and they're happening. In neat ways. The bottom line on that real quickly is it's not aid. You can't go in and say here's this solar panel, you know, good luck. And then you leave and they don't even know what to do when a fuse blows or something. It has to be something that the community wants and is willing to learn about and then take care of. On a density sense, what I described is really moving from low density to high density energy. Those are the resources. And that's a nice thing again, because it takes fewer wells and less fewer mines when you're using high density forms of energy and the technology side. What drives those? What's going to get more oil and gas out of shale? What's going to allow us to technologically accomplish affordable fusion? You know, instead of fission. What's, how are we going to create hydrogen affordably if we ever can? What's it going to come from? Water or methane? And what's the energy source is going to be to split those molecules? Those are very fascinating. Again, what are the competitors? So, I think there's just the dynamics are a tremendous amount of energy investment space out there. Yeah. It's going to vary by the economy, the resources, the education levels, the political structure et cetera, et cetera. And that's just the reality of it. We shouldn't try to impose some elite kind of global order on these things because we're not smart enough.
+
+[00:58:18] Jamie: To do the top-down approach and assume we have everything figured out and, you know, it meets the equation and then where we go. Yeah.
+
+[00:58:25] Scott: Yeah, just do this. What governments are good for is investing in high-risk research that industries can't afford to do. And then that research gets used in different ways for markets to then say, hey, I can use that to go do this, but at the end of the day, if markets don't do it, we won't scale it. So, it's a common, I'm not against government investment, but it needs to be not buying out some failed electric car company, which is what we're doing in the US over and over before this administration leaves. It needs to be an investing in fundamental research and the understanding the problems. That we will encounter as we go forward that then allows the markets to pick that up and go and develop it in ways that are better for all humans. Right?
+
+[00:59:16] Jamie: Yeah, you know, I have a bit of a pet theory right now that we're going to see a lot of money flow into energy and commodities more broadly. From two sources for one from government. I think government's gonna wake up and say, oh, look, you know, China has its, you know, you can touch on earlier belt road policy. They've secured basically all the critical mineral infrastructure to process and refine these things. They have secured mineral and energy deposits all over Africa and Latin America. We are way behind and frankly, we're going to need to mobilize billions, if not trillions of dollars to go actually out and compete on that front. So that's one. I think that's going to happen in the Western world.
+
+[01:00:02] Scott: That's an energy security issue. Yes. I completely agree. We are waking up to the fact That China controls the critical pathways for the forms of energy. We thought we wanted to go towards and it's not secure.
+
+[01:00:21] Jamie: It's genius like it's, they were thinking a hundred years into the future when, you know, thinking on 4-year terms.
+
+[01:00:27] Scott: And they didn't have oil and gas, they have coal. So, they're using coal, but they didn't have oil and gas. So, they're doing everything else. And it's, you know, we talked about this for many years. You could see all this happening and coming, but people wanted to put their head in the security sand, if you will, but we're waking up now to that and China sent a signal across recently. Like if Europe says, hey, we're going to put, we're going to hit you with a border taxes for carbon. That's one of the schemes China might say. Well, we're just not going to pay them. What do you mean? Well, we'll just sell our stuff to India. You know, they have 1.3 billion people, 3 or 4 times the population of Europe and their markets are growing. We'll just sell our stuff to them. Good luck. They have more control than we do at this point.
+
+[01:01:13] Jamie: Yeah, I know. I mean, we kind of control the financialized assets, but they, like the financialized system, but they control the actual physical assets. And at the end of the day, the physics, I think will win out, you know, it's.
+
+[01:01:25] Scott: And Russia has 11 times.
+
+[01:01:29] Jamie: Yeah, and now the other component of this, which I think has to happen is that tech people, a lot of people disagree with this, but I think we're going to see tech companies heavily controlling their supply chain. And I think we're going to start seeing that happen again with the Tesla's and the Microsoft's and whomever. So, I'm pretty excited about that.
+
+[01:03:30] Scott: Sure. I mean, you've got people opening up Three Mile Island for nuclear power again, to run data centers. You know, it, they're just going right into it. And it took tech to, I think, get the government's attention that nuclear was a viable source. And they weren't going to do it on solar and wind.
+
+[01:04:03] Jamie: Yeah, what do you make of the data center boom? I've read things that US energy or electricity consumption supposed to go up by like 40% over the next 10 years.
+
+[01:04:35] Scott: Yeah, we suffer a little bit from straight line ism. Data centers will become more efficient. But yes, I think we're going to see an increase in electricity demand from data centers as artificial intelligence and all the components of that come into the scene. I also think electric vehicles are going to have some role to play, but not at the level that they're being forecast. In the developed world, we have the luxury. So, we're starting to transition toward other things. Nuclear is coming back and that's a good thing.
+
+[01:08:07] Jamie: It's an interesting time. The last 20 years, everyone seemingly has been focused on building out the digital infrastructure. And now it seems that the physical infrastructure needs attention.
+
+[01:09:18] Scott: In a soundbite sense, energy dominance, right? I think affordable, reliable is going to be the driver of energy policy in the US for the next four years. Chris Wright's a good friend of mine. The new Secretary of Energy. He's also big on energy poverty.
+
+[01:13:56] Scott: Sure. Yeah, so I've been speaking about energy for a long time. We made a film called Switch. Very popular film. We have Switch Classroom, free resource to teachers. We have a case competition on energy poverty in universities around the world. And then there's the PBS show Energy Switch. We're filming season 7 in February.
+
+[01:18:19] Jamie: Do any of their recommendations or projects ever get implemented?
+
+[01:18:53] Jamie: Well Scott I think I've kept you. I told you we're gonna be here for an hour. I think we're getting closer to two now. Is there anything you'd like to say before we say goodbye?
+
+[01:19:07] Scott: People get frustrated. I would say get involved. Go speak to a school. Volunteer to be a mentor. Find a way to start to engage at some local level. The website is switchon.org. I'm personally on LinkedIn.
+
+[01:21:09] Jamie: Well, Scott, thank you very much for taking some time out of your day today.
+
+[01:21:12] Scott: Yeah. You bet, Jamie. Thanks. Keep up the good work.
+
+[01:21:16] Jamie: Thank you. Bye for now.
+
+[01:21:17] Scott: Okay.
+===END===
+
+===POST===
+SLUG: 064-robert-bryce
+TITLE: Robert Bryce, Energy Expert — Breaking Down the Energy Grid (#64)
+DATE: Not specified in page content
+BODY:
+"European countries have looked at Russia and saying, oh, well, we can't rely on Russian gas and they have a choice of paying, $12 or $13 for gas at TTF or having nuclear or coal. So, they don't have another choice. They have been forced into nuclear effectively. Right. And then meanwhile, here you have big tech finally realizing with AI. Oh, we've been playing around with you know posing around wind and solar and you know."
+
+— Robert Bryce
+
+Join us for this discussion with Robert Bryce, journalist, author, and energy expert, as we explore the complexities of global energy systems and the myths surrounding the energy transition. From the staggering scale of energy demands to the nuances of copper mining and nuclear power, Robert shares insights that will change the way you think about energy and its role in shaping the modern world.
+
+In this episode, Robert and Jamie discuss:
+
+- The distinction between energy and power and why it matters.
+- The myths of energy transition versus energy addition.
+- Challenges and opportunities in copper mining and renewable energy.
+- The nuclear renaissance and its implications for energy demand.
+- Why community opposition to renewables is growing worldwide.
+- The intersection of AI, data centers, and escalating energy needs.
+
+Please enjoy!
+
+[NOTE: Full transcript available in source file. This is a podcast episode with a complete interview transcript between Jamie Keech and Robert Bryce covering topics including the energy transition myth, copper supply challenges, the nuclear renaissance, community opposition to wind/solar projects, data center energy demand, and natural gas markets.]
+===END===
+
+===POST===
+SLUG: 063-dr-adam-simon
+TITLE: Dr. Adam Simon, University of Michigan — The Copper Time Bomb (#63)
+DATE: Not specified in page content
+BODY:
+"[…] what the data demonstrate is over the next 30 years, we need to mine 115% more copper than we've mined since the Stone Age. […] if we round that out, it's double. So, we need to mine double the amount of copper than we've mined since […] we were walking around using stones as tools."
+
+— Dr. Adam Simon
+
+In this episode of the Resource Insider Podcast, Jamie sits down with Dr. Adam Simon, a professor and expert in natural resources economics, to explore the challenges and future of copper mining, the energy transition, and the essential role of responsible mining in global development.
+
+Adam provides insights into the demand for copper driven by green initiatives and the massive supply challenges facing the mining industry. They discuss the complexities of meeting climate goals without compromising on metal supply, the underappreciated role of mining in modern society, and what policymakers and tech companies need to address to support responsible mining.
+
+[NOTE: Full transcript available in source file. This is a podcast episode with a complete interview transcript between Jamie Keech and Dr. Adam Simon covering topics including the IEF copper demand study, academia's anti-mining bias, the supply pipeline crisis, the Resolution Mine in Arizona, the Pebble deposit, Kamoa-Kakula, tech companies and supply chains, and price floors for critical minerals.]
+===END===
+
+===POST===
+SLUG: 062-mark-cutifani
+TITLE: Mark Cutifani, Vale Base Metals — Leadership, Innovation and the Future of Mining (#62)
+DATE: Not specified in page content
+BODY:
+"Understanding your resource, your mining methods, and your efficiency—those are the three things that determine the success of a mining operation. Most companies don't get those right." — Mark Cutifani
+
+Mark Cutifani has spent over 40 years in the mining industry, rising from a cadet in a coal mine to one of the most respected leaders in global mining. As the former CEO of Anglo American and now Chairman of Vale Base Metals, Mark has seen it all.
+
+[NOTE: Full transcript available in source file. This is a podcast episode with a complete interview transcript between Jamie Keech and Mark Cutifani covering topics including his early career from coal mine cadet to CEO, the turnaround at Coalcliff mine, leading Anglo American's transformation (doubling productivity, cutting costs 45%), mining strategy innovation, the future of critical minerals, stakeholder relationships, and the mining industry's identity crisis.]
+===END===
+
+===POST===
+SLUG: 061-john-harpole
+TITLE: John Harpole, Mercator Energy — The Future of US Natural Gas (#61)
+DATE: Not specified in page content
+BODY:
+"From 2004 to 2023, global spending on wind and solar totaled $4.7 trillion. And yet, during that same time period, hydrocarbon use increased 3.2 times faster. […] anything that we're doing is more than offset by the behavior of China and India and the other countries that are starving. […] There are 1.2 billion people — 20 percent of the world's population — that are still without access to electricity. Almost all of those people live in developing countries. […] They want a quality of life that we've achieved over the last 100 years that extended our lifespan by 40 years in that time. So I just, I don't think there's really an energy transition going on." — John Harpole
+
+John Harpole has spent over 40 years moving billions of cubic feet of natural gas across America. He is the Founder and President of Mercator Energy, a company that brokers natural gas for producers and end-users in the western United States. Today, Mercator manages over a billion cubic feet of gas per day, representing about 1% of US natural gas production.
+
+[NOTE: Full transcript available in source file. This is a podcast episode with a complete interview transcript between Jamie Keech and John Harpole covering topics including natural gas brokering, regional pricing dynamics, the Permian Basin's gas glut, LNG export expansion, California's energy vulnerability, the ERCOT crisis, fertilizer dependence on natural gas, and investment opportunities in midstream/NGL exports.]
+===END===
+
+===POST===
+SLUG: 060-oskar-lewnowski
+TITLE: Oskar Lewnowski, Orion Resource Partners — The Man Behind an $8 Billion Mining Investment Firm (#60)
+DATE: Not specified in page content
+BODY:
+This is the first long form interview with the man who built the world's largest mining private equity firm: Oskar Lewnowski.
+
+Over the last decade, Orion Resource Partners has gone from startup financier to the world's dominant mining investment firm.
+
+There is very little information about Orion publicly available, and Oskar has never done a podcast before. After meeting last year, he agreed to sit down with me for an interview and take us behind the curtain.
+
+As public markets plunge into increased volatility, private equity investing is delivering some of the highest returns for the investors. Understanding the Orion strategy will be critical to any resource investor looking to capitalize on the commodity boom currently underway.
+
+In this interview with Oskar, I'll show you:
+
+The Big Bet: The single commodity Oskar would invest in if he could only make one big bet.
+
+The Orion Strategy: Inside Orion Resource Partners' all-encompassing approach to delivering returns in the mining and metals sector.
+
+The Magic of Accountability: The innovative financing model that ensures projects stay on track and management teams are incentivized to deliver for shareholders.
+
+Leadership: Oskar's hands-on leadership style and visionary strategies that put Orion at the forefront.
+
+Mastering Risk: How Orion proactively manages risk and prevents issues from escalating.
+
+The Future of Metals: Oskar's view on the global trends shaping the mining industry and how Orion is taking advantage of it.
+
+[NOTE: Full transcript available in source file. This is a podcast episode with a complete interview transcript between Jamie Keech and Oskar Lewnowski covering Orion Resource Partners' investment strategy across the mining vertical.]
+===END===
+
+===POST===
+SLUG: obvious-trade
+TITLE: A trade so obvious even the U.S. gov. can see it…
+DATE: Not specified in page content (context clues suggest early 2023)
+BODY:
+When Russia turned the nat gas taps off things got ugly.
+
+Europeans saw their energy bills go from €250/month to more than €2,500/month.
+
+Energy costs skyrocketed from under €100 / MWh to +€1,000 / MWh in some EU countries.
+
+Liquid Natural Gas (LNG) import prices shot up from €7 in 2021 to €70.
+
+Corporations, individuals, and utilities felt the pain.
+
+To ensure that there would be enough natural gas to keep the lights on, many fertilizer companies were forced to cut production by 50%. The effect on crop yields are still to be seen.
+
+Then, there was relief.
+
+It's better to be lucky than smart…
+
+Europe got lucky, and had the second mildest winter on record – which brought energy prices down to pre-invasion levels.
+
+A blessing for European energy bills and an opportunity for savvy investors.
+
+This wasn't a stay of execution… just a delay. However, it has given the West more time to come up with solutions – one of which is U.S. LNG imports.
+
+The Freeport LNG terminal, which was shut down due to a fire and explosion in June of 2022, is ready to come back online. This will be a major source of LNG exports heading to Europe.
+
+Added EU demand will put price pressure on U.S. natural gas.
+
+There is a high probability that a significant price move could occur in the North American natural gas markets over the next 12 months.
+
+Last summer we saw U.S. natural gas prices break $7.00 / mcf for the first time in 14 years.
+
+State of the (natural gas) Union.
+
+We have been convinced that U.S. oil and gas production growth would stall and eventually turn negative, delivering a major hit to US energy supply. This thesis has been largely driven by the research of our friend Scott Lapierre– a world class petrophysicist that we had on the Ri Podcast 3 years ago.
+
+So far, things are playing out as we expected.
+
+Peak Oil
+
+Today many analysts refer to peak oil demand, but originally peak oil referred to supply.
+
+The idea of a basin's peak oil supply is associated with a controversial Royal Dutch Shell geologist from the 1950s named M. King Hubbert. He believed that an oil or gas field's production resembles a bell-shaped curve.
+
+Hubbert expected a field's production to increase at an accelerating rate, level off / plateau, and then decline at a rate similar to its growth phase.
+
+In 1956 he predicted that U.S. crude oil production would peak in the 1970s at around 10 mm b/d. In 1970 when U.S. production did peak at 10 mm b/d, his work gained widespread attention.
+
+From 1970 until 2008 U.S. oil production declined, until a new type of basin came into the limelight…
+
+U.S. Shale Oil & Gas
+
+When hydraulic fracturing (aka: fracking) came on the scene, shale oil and gas became huge. In return, the U.S. became the largest producer of oil and gas in the world.
+
+But, we believe the theory of a bell shaped production curve still holds true for fracked wells, just like it did for conventional oil and gas.
+
+If we're right… We're running out of O&G.
+
+Our own controversial geologist, Scott Lapierre, has been pounding the table warning investors of declining shale production.
+
+Scott came to this conclusion independently of Hubbert's ideas. Scott's ideas arose from first principle calculations using the physical properties of oil, gas, and the rocks that trap it.
+
+If both Scott's science and Hubbert's theories are correct, it could mean U.S. oil and gas production could fall as fast as it rose since the onset of fracking.
+
+The proof is in the pudding.
+
+The two earliest shale basins, the Barnett and Fayetteville, saw peak production between 2011 and 2014. Since, they have each declined by 70%.
+
+Both of these early shale basins were gas fields.
+
+What does this mean?
+
+The days of cheap natural gas in the U.S. are over.
+
+The next largest natural gas fields are the Marcellus and the Haynesville.
+
+The Marcellus is following Hubbert's bell curve model, having reached its plateau in 2020. Over the last twelve months, the Marcellus declined by 300 mcf/d. Hubbert models suggest that the Haynesville could plateau as soon as next year.
+
+Exploration is dead.
+
+Natural gas drilling in the U.S. is near all-time lows.
+
+The number of active natural gas rigs in the United States has declined by more than 75% since 2014, resulting in U.S. gas production declining by more than 10% in the same period.
+
+Because of low energy prices, and a move towards clean energy, the appetite for hydrocarbon exploration has been dead.
+
+This leaves the U.S. in a precarious position… And natural gas prices are vulnerable to a surge.
+
+We've been watching the U.S. energy sector for 3-years, searching for the right deals to get energy exposure through natural gas.
+
+On a trip to Texas earlier this year, we finalized one of our next deals…
+
+Project Patriot
+
+This is a natural gas development opportunity in East Texas with an all-star team.
+
+The company is led by a gentleman that was groomed at a multi-billion dollar oil and gas company before he left to run his own deals. After a string of success stories, he is putting together his forth deal.
+
+On the technical side, this company is led by the geologist that literally wrote the discovery paper for the Haynesville-Bossier shale basin, where this deal is located. With her protege, she's successfully drilled over 100 wells in the basin.
+
+Now, they're at it again.
+===END===
+
+===POST===
+SLUG: no-easy-mining
+TITLE: "There's no easy mining left—not in Chile nor the rest of the world."
+DATE: Not specified in page content (context clues suggest mid-2023)
+BODY:
+If I had to choose one metal to own it would be copper. It's essential to nearly everything, but more importantly we're running out…
+
+There are two trends driving copper demand:
+
+The energy revolution (AKA the electrification of energy)
+
+The urbanization of underdeveloped countries (primarily Asia and Africa)
+
+To meet demand we're going to need to mine more copper over the next 27 years then we've mined in ALL of human history to date.
+
+That would be a challenging task even IF we had the copper reserves… the problem is, we don't.
+
+Copper production is falling at the world's biggest mines.
+
+Codelco, the Chilean government-owned copper miner, is the world's largest copper producer. And, Chile is where most of the copper comes from.
+
+Things are not going well.
+
+Production is at its lowest in a quarter century, costs have surged, and profits have slumped – all at a time when the world's need for copper is greater than ever.
+
+Codelco's production fell more than 10% in 2022 and is set to fall another 7% this year, to 1.35 million metric tons.
+
+This is more than a 20% drop from six years ago.
+
+But, it is not only Codelco, ore grade is deteriorating around the world as existing deposits are mined and new ones are more difficult and costly to develop.
+
+Codelco's CEO said "There's no easy mining left—not in Chile nor the rest of the world."
+
+Global production issues confirmed.
+
+I came across an interesting Twitter thread looking at Q1 2023 financial statements from the biggest copper producers.
+
+Copper production from Q1 2023 to Q1 2022, production was down ~200kt.
+
+The biggest contributor to falling numbers is the fact that there is consistently less copper in every tonne of rock that comes out of the ground (Note: Percentage of copper per tonne of rock is known as grade.)
+
+It is becoming more expensive to mine a pound of copper. Add to that the fact that energy and labor prices are skyrocketing.
+
+4 of the 8 copper companies that reported cash costs saw increases of more than 20% from last quarter…
+
+Let that sink in. 20% increase in costs in 3-months. That is insane!
+
+All of this is to say one thing: the world's future copper supply is seriously in trouble.
+
+We need much higher copper prices to incentivize exploration and development. And remember, we can't just turn on the taps and produce more Cu – It takes +10-years to bring a new copper mine online.
+
+Oh, BTW Inventories are running dry…
+
+Below is a chart of global copper inventories over the past 10 years. The gray area is the high, and low range, the white line is the average, and the orange is the 2023 inventory level.
+
+This chart should scare you because it says one thing: the world has no copper inventories.
+
+In summary:
+
+Copper demand is stronger than ever.
+
+The world's biggest copper miner is having major production issues.
+
+Costs are up and production is down for the world's top 10 biggest copper producers.
+
+Current copper inventories are lower than they have been in the past 10 years.
+
+My takeaway is simple: Own copper or be poor.
+
+I don't want to be poor, and neither do Ri Members. That's why we're about to launch our next Ri Deal:
+
+Project Patriot
+
+We have one objective with this deal: BIG GAIN HUNTING.
+
+Kazakhstan's Chu-Sarysu is the world's 3rd largest sediment-hosted copper basin. Yet, the region has been largely unexplored since the 1970s, but that is changing as we speak.
+
+In 2018, the government overhauled the mining code, unlocking exploration in Kazakhstan for the first time since the collapse of the Soviet Union.
+
+The team locked down some of the most interesting assets in the region and are applying a fresh, modern approach to discovery.
+
+Big Data – compiled and digitized the largest privately-held exploration dataset for Central Asia.
+
+Machine Learning – applying predictive machine learning to datasets, optimizing for the most prospective geology.
+
+Major Partners – They have signed a joint venture agreement with one of the largest copper companies on the planet.
+
+They are ready to drill multiple porphyry copper targets. These are the type of geological formations that have the potential to become monster deposits.
+
+These are the types of deposits that took Filo Mining (FIL.TO) from a $200 million market cap to a $2 billion market cap.
+===END===
+
+===POST===
+SLUG: og-royalties
+TITLE: The Case for Oil & Gas Royalties
+DATE: Not specified in page content (context clues suggest mid-2023)
+BODY:
+I recently invested into American Oil and Gas royalties.
+
+Here's why:
+
+Exposure to energy;
+
+Exposure to the USA;
+
+Exposure to cash flow;
+
+Exposure to assets NOT listed on capital markets;
+
+Let's dig in…
+
+The Case for Higher Oil
+
+The investment case for oil and gas is pretty straight forward. It boils down to the this:
+
+Oil is cheap, but is about to get expensive.
+
+We believe oil prices, compared to equity markets, will revert to the mean due to significant under investment in the sector.
+
+We are now going to walk through the market conditions that got us to this conclusion.
+
+FACT: Oil is Cheaper than ever.
+
+We compare oil and natural gas prices to the S&P 500 because the ratio helps give us an understanding of the true cost of energy.
+
+When energy is "cheap" compared to the value of the S&P we can anticipate that over time this will correct. It will do so but either energy prices going up, or company valuations going down – either way you want to own energy in this environment as a means of protecting and/or growing your capital. The inverse is true when energy prices are "expensive" as we saw in the 80's during the oil embargo.
+
+Theoretically energy should be priced so that investors and producers make enough money to justify operating and investing in new production. But, cheap enough that consumers are not gouged at the pump and can maintain a comfortable life.
+
+But markets do not exist in a state of equilibrium. The pendulum swings back and forth.
+
+Right now energy is objectively cheap.
+
+Nothing in life is certain but based on historic data we expect the pendulum is about to swing the other way.
+
+The chart below shows the price of oil compared to the S&P 500 since 1900.
+
+Today the price of oil is ~$75/bbl and natural gas is ~$3/mcf while the S&P 500 is trading at 4,000.
+
+Before 2020/the pandemic, oil and gas prices were the cheapest in recorded history when compared to the S&P 500.
+
+If the ratio swings back to 2008 levels at today's S&P 500 levels then oil will be ~$240/bbl and gas ~$30/mcf.
+
+If the ratio reaches 1918 or 1980 levels… then the world is in for a world of hurt. Oil prices will be ~$660/bbl and natural gas will be $84/mcf.
+
+Now, I think it is unlikely that oil prices will spike without a simultaneous pull back in the S&P – but even still I wouldn't be surprised if we see oil prices above $150/barrel.
+
+Even if oil prices don't move at all (unlikely in my opinion), in the event of a major pull back in listed equities energy should act as a safe haven for capital.
+
+Why is Oil so Cheap?
+
+Horizontal fracturing (AKA fracking) came on the scene in a big way in the mid 2000s.
+
+Between 2005 and 2010 the shale-gas industry in the United States grew by 45% a year. In 2005 shale gas production made up just 4% of the USAs overall gas production, by 2012 it accounted for 24%.
+
+Meanwhile, oil prices were high. In 2008 oil price shot up to more than $140/bbl. Prices briefly crashed later that year, but quickly recovered and consistently traded around $100/bbl until 2014.
+
+From 2005-2014 the frackers were printing money – the likes of Harrold Hamm of Continental Resources (CLR) developed the Bakken, Tom Ward and Aubrey McClendon of Chesapeake Energy (CHK) built the 2nd largest natural gas producer through a levered land grab, Charif Souki of Cheniere Energy (NYSE: LNG) built the first U.S. LNG export terminal, and Scott Sheffield at Pioneer Natural Resources led the development of the world renowned Permian Basin.
+
+Horizontal wells came online with huge volumes of oil, but were expensive to drill.
+
+Then the problems started.
+
+Banks allowed the frackers to borrow against their estimated oil reserves, and so they did.
+
+Frackers would drill, hitting oil nearly every time, but unknowingly (to most) they were significantly overestimating their reserves.
+
+The result?
+
+Wells would "run dry" sooner than expected… There was a lot less accessible oil than anticipated.
+
+So what did they do?
+
+Naturally, they drilled more wells to keep production high and meet debt payments. Inadvertently creating a pyramid scheme, with the revenue generated by new wells was required to pay off the debts on the old wells.
+
+They drilled to borrow, and borrowed to drill.
+
+Companies relied on rising oil prices to bail them out. But inevitably the sheer volume of oil that was being produced ensured that maintaining high prices was impossible.
+
+More Supply = Lower Prices.
+
+By 2018 the U.S. had grown to be the biggest oil and gas producer in the world.
+
+A Change of Heart
+
+Executive bonuses were tied to production, not profitability. Which brings to mind one of Charlie Munger's favorite sayings "show me the incentive and I will show you the outcome."
+
+During the Covid Crash, when oil prices went negative, this all changed and executive compensation was restructured. Today, compensation is driven by profitability.
+
+This means more disciplined balance sheets with less debt (aka less drilling). In turn, capital discipline will lead to less production, higher oil prices, and more profitable companies.
+
+The Rusky Bailout
+
+Then Russia invaded Ukraine and oil prices skyrocketed, saving many companies.
+
+They took this opportunity to pay down debt, hedge production at higher prices, and start telling a different narrative (closer to the truth) to the market.
+
+The truth is that they had "high-graded" all of the U.S. shale plays. This means that they have drilled the best and most profitable shale locations trying to make ends meet. What's left is lower quality acreage.
+
+This means that the U.S. shale production outlook is in bad shape.
+
+Speaking at a Goldman Sachs energy conference in Miami, Scott Sheffield, CEO U.S. shale giant Pioneer Natural Resources, said that the company has lowered its 2030 total Permian Basin oil production forecast from +8 million b/d to ~7 million b/d.
+
+This indicates a significant slowdown in annual U.S. oil production.
+
+Lower production means higher prices.
+
+Will drilling come back?
+
+It is going to take time for drilling to come back in a big way. The world at large has mismanaged invested in the energy space for two main reasons:
+
+The Green Energy Transition
+
+A willful blindness has infected the western world, with the claim that oil demand is somehow going to disappear in 5 or 10 years.
+
+This is highly unlikely.
+
+Two decades of aspirational policies and trillions of dollars in subsidies, most of it on solar, wind, and battery technologies, have yet to produce anything close to an energy transition that eliminates hydrocarbons.
+
+Over the last 10 years $3.8 trillion has been poured into renewables, yet fossil fuel dependence has only been reduced by 1% (82% to 81% of the overall energy consumption).
+
+The IEA (International Energy Agency) noted that an energy transition is "a shift from a fuel-intensive to a material-intensive energy system."
+
+They estimate the world will need to increase the supply of minerals such as lithium, graphite, nickel, and rare earths by 4,200%, 2,500%, 1,900%, and 700%, respectively, by 2040.
+
+The world will need dozens of new world-class mines for all of these minerals, requiring tens of billions of dollars of investment to develop.
+
+On average, it takes 16 years to bring a mine from exploration to production. So, even if we had the technology (which we don't) and the mineral reserves (which we don't), it is nearly impossible to provide the materials required to replace hydrocarbons for energy demand in the next 10 years.
+
+Poor Returns
+
+The frackers were so far off on production estimates that many investors watched their money get torched by aggressive drill programs.
+
+Once upon a time any semi competent wildcatter with a half-baked idea could call up an energy PE fund and walk out with a $100m cheque. Today it is nearly impossible to find private equity money willing to drill new wells. Their mandates have been changed to buy production (where they can accurately calculate reserve estimates).
+
+To give you an idea of how far off historic reserve estimates were, today banks discount all future annual production by 10% then discount reserve estimates by 50% before calculating how much they are willing to lend.
+
+To incentivize this sort of investing again, oil prices are going to have to move MUCH higher.
+
+What about today?
+
+The lost energy production resulting from the Russia/Ukraine war is just the start. China's reopening is about to shock the oil markets once again.
+
+Since China reopened, the International Energy Agency (IEA) increased its 2023 forecast for oil demand growth by nearly 200,000 bbls/day to 1.9m bbls/day.
+
+The IEA now expects 2023 total oil demand to average 101.7m barrels/day – setting new record highs.
+
+We have already talked about that OPEC+ has been cutting production. But that's just the tip of the iceberg….
+
+Saudi Arabia is saying that they are maxed out on production – meaning, they don't have the capacity to produce any more oil than they are currently producing.
+
+Why Now?
+
+The Russians are off the board, the Arab world is tightening production, the Chinese are ramping up the economy all whilst oil demand is peaking and USA energy reserves are dwindling.
+
+This confluence of events has made me want to get long U.S. energy production.
+
+BUT I want to minimize risk so I'll be using an investment instrument you're all familiar with: royalties.
+===END===
+
+===POST===
+SLUG: bp-the-100-year-showdown
+TITLE: BP & the 100 Year Showdown
+DATE: Not specified in page content (context clues suggest October 2022)
+BODY:
+In 1872 William Knox D'Arcy had the good sense to marry Elena Birkbeck of Rockhampton, the daughter of a successful mining engineer. After a decent legal career D'Arcy was launched into the world of gold speculating.
+
+In this, it turned out, he had a special talent.
+
+By 1889 he was worth £711,000,000 (in today's money). Most decent Englishmen would retire to their country estate to drink gin and smoke cigars when they achieved filthy rich status…
+
+Turns out this was only D'Arcy's opening act.
+
+Black Gold
+
+In 1900 with the help of a few associates and the grand sum of £20,000 (worth ~US$2.9 million today) D'Arcy and crew locked down the oil rights to nearly the entirety of Iran (1,200,000 km2). In exchange D'Arcy promised Iran 50% equity ownership, including 16% of any future net profits.
+
+In 1908 he struck oil and the money started rolling in.
+
+But, as Europe descended into World War oil became a strategic resource, prompting the British government to buy a controlling stake in D'Arcy's venture, effectively nationalizing British oil production in Iran. In 1935 the company was renamed the "Anglo-Iranian Oil Company" (AIOC).
+
+But… All was not well.
+
+Throughout Iran discontent was brewing over the management of AIOC, seen as a tool of British imperialism.
+
+The Brits didn't do themselves any favors; refusing to allow the AIOC's books to be audited they left the Iranian government with no way of knowing whether they were being paid what they were promised.
+
+But that was about to change…
+
+In 1951, Mohammad Mosaddegh was elected as the 35th Prime Minister of Iran.
+
+Mosaddegh wouldn't take no for an answer. When the Brits refused to cooperate, the Iranian parliament voted to nationalize Iran's oil industry, including the British-built Abadan oil refinery – the world's largest refinery at the time.
+
+The nationalization of AIOC meant the Iranian government took total control and ownership over the company and its assets.
+
+Calling in the Kermit
+
+This did not sit well with King & country back in the UK.
+
+Following the nationalization of AIOC, Britain instigated a global boycott of Iranian oil. The UK and US saw Mosaddegh as unreliable and potentially a communist.
+
+Mosaddegh confirmed their fears by dissolving Parliament, giving himself complete control, whilst stripping the Shah (AKA the Iranian King) of any power.
+
+Mosaddegh granted himself total dictatorial power.
+
+UK prime minister Winston Churchill and the Eisenhower administration now had the excuse they needed to overthrow Mosaddegh's government and put AIOC back in the hands of Western business owners. The Shah (Reza Shah Pahlavi), who had been reluctant to support the CIA's demand for a coup, finally agreed to support it.
+
+In 1953, Mosaddegh's government was overthrown by MI6 and the CIA, in an operation led by Kermit Roosevelt Jr. (President Theodore Roosevelt's grandson).
+
+Following the coup, the Shah reigned as leader of Iran and implemented a series of economic, social, and political reforms. He was the founding father of modern Iran as he replaced Islamic law with western law, and forbade traditional Islamic clothing, separation of the sexes, and veiling of women (hijab).
+
+Oil & Policy
+
+In 1954, Anglo-Iranian Oil Company was renamed once again; to the British Petroleum Company or "BP."
+
+When the Shah took power, the British-led oil embargo ended and oil revenues ripped.
+
+The Anglo-Iranian Oil Company's monopoly was replaced with a group of corporations that included British Petroleum and eight European and American companies – called the Oil Consortium Agreement.
+
+Oil revenues increased from $34 million in 1954/55 to $181 million in 1956/57.
+
+Not bad for 24-months work.
+
+As might be expected Iran began to develop rapidly. Reforms resulted in decades of sustained economic growth that made it one of the fastest growing economies in the world. Growth that exceeded the United States, Britain, and France. All while national income rose 423X.
+
+But… All good things come to an end.
+
+Nobody likes a dictator… especially one whose reign has the look of a lavish orgy. Eventually the Shah's total power led to resentment internally and externally.
+
+Crisis #1
+
+Externally, The US stopped supporting the Shah when Iran supported OPEC's (Organization of Petroleum Exporting Countries) 1973 oil embargo. This embargo caused the first oil crisis, causing oil to jump from $3/bbl to $12/bbl.
+
+After the embargo in 1973, the Shah faced further tensions with the US after announcing he would not renew the consortium's agreement, and planned to nationalize Iranian oil in 1979.
+
+Internally, the Shah's regime was seen as oppressive, brutal, corrupt, and lavish. The Shah was perceived by many as beholden to non-Muslim Western powers (i.e., the United States)… which makes sense, because he was.
+
+Out goes the money, in comes the zealots.
+
+In 1975, oil prices dropped sharply and crushed Iran economically. Things deteriorated quickly due to high inflation and the country's inability to pay back its debts (sound familiar?).
+
+Eventually, internal resentment led to the Iranian/Islamic Revolution in 1979 which replaced the Shah's government with an Islamic anti-Western totalitarian theocracy under the rule of Ayatollah Khomeini.
+
+Crisis #2
+
+This led to the 1979/second oil crisis. During the second oil crisis, the fall of Iranian production led to a 4% drop in global oil production, which sent prices higher once again. Prices rose from $14/bbl to $39/bbl.
+
+TODAY: A new wave of protests.
+
+Protests in Iran have been going on for the past several weeks following the death of 22-year-old Mahsa Amini.
+
+Amini was visiting family in Tehran, where she was arrested by Iran's "Guidance Patrol" for wearing an "inappropriate" hijab. Amini was transferred to the "Moral Security" agency, which informed her brother she would be attending a "briefing class", and released shortly after.
+
+Amini never made it out.
+
+Kasra Hospital announced Amini's death after being in a coma for three days, saying she was brain dead on arrival. Police claim she died from a heart issue, but all evidence points to police brutality as the cause of death.
+
+Anger (rightfully) swept through Iran following Amini's death, with people risking taking the streets in defiance.
+
+Women burnt their hijabs, cut their hair and screamed "Women, life, freedom" and "Death to the dictator".
+
+Viva La Revolution!
+
+This response is unprecedented for the last 40 years. The movement is quickly turning from protest to revolution.
+
+The current regime knows this and is responding with censorship and brutality.
+
+According to human rights groups, hundreds of protesters have been killed by government officials.
+
+What comes next?
+
+If Khameni's regime survives, then the Joint Comprehensive Plan of Action (JCPOA), commonly known as the Iran nuclear deal, is almost certainly dead.
+
+Khameni stated that "[The West] feel that the country [Iran] is progressing towards full-scale power and they can't tolerate this."
+
+Under the JCPOA Iran agreed to dismantle much of its nuclear program and open its facilities to extensive international inspections in exchange for billions of dollars worth of sanctions relief.
+
+If the Iran nuclear deal dies, It is very possible Iran will charge full steam ahead towards building a nuclear bomb – strategically it will be their best insurance policy against invasion. However, there is a very serious risk that Israel would launch a preemptive strike against Iran.
+
+Crisis #3?
+
+Beyond the very scary prospect of a brutal theocratic dictator having a nuke, a revolution in Iran would likely disrupt the global supply of oil for a third time.
+
+Russia's invasion of Ukraine has thrown global energy supplies off balance, and a revolution in Iran has the potential to throw fuel on the fire.
+
+Russia and Iran are the world's third and seventh largest oil producing countries; supply disruptions from either nation have major implications for energy markets.
+
+Spare capacity in global oil production has fallen to exceptionally low levels – meaning the world doesn't have the ability to easily or quickly increase oil production in a meaningful way.
+
+Global spare production capacity has shrunk to just 1.5% of global consumption according to Saudi Aramco, leaving the market vulnerable to shocks from unexpectedly strong consumption/demand or any disruption to production/supply.
+
+Where will new production come from?
+
+Between 2010 – 2019 U.S. shale producers accounted for nearly the total increase in global crude production. Today these shale companies are opting to limit growth and enjoy higher profits from existing production. The majority of their land producing the cheapest oil has seemingly been drilled.
+
+Until there is an oil exploration boom, the world may be out of "cheap" oil. Leaving the future supply of oil and gas in a precarious state.
+
+As Churchill said: "Never let a good crisis go to waste."
+
+It's time for investors, and ANYONE hoping to protect their hard earned capital, to start thinking seriously about their portfolios energy exposure.
+===END===
+
+===POST===
+SLUG: world-short-og
+TITLE: Is the World Short Oil & Gas?
+DATE: Not specified in page content (context clues suggest October 2022)
+BODY:
+Energy markets are the talk of the town right now, and for good reason.
+
+Here are some headlines:
+
+- Nord Stream 1 and 2 are down
+- US petroleum stocks are below the 5yr range
+- OPEC+ cuts production by 2million bbl/d
+
+Nord Stream
+
+The Nord Stream pipelines connect Russia to Germany via the Baltic Sea. Nord Stream 1 historically supplied the EU with ~35% of the total gas imported from Russia; Nord Stream 2 (which was on track to be operational in the first half of 2022) is equally as large.
+
+Both Nord Stream 1 and 2 are down after suffering catastrophic losses of pressure. No one is exactly sure what happened to the pipelines, but the Swedish Security Service said that they found evidence of detonations and have high suspicions of "gross sabotage."
+
+No matter who attacked the pipelines, the results are clear: Europe is in for a very tough winter.
+
+It's estimated that it will take at least 20-25 weeks just to get all of the materials and equipment in place to repair the pipelines. Meaning that there is no way to repair the pipelines for at least 6 months… Probably much longer.
+
+This leaves Europe very short on energy heat homes this winter. Protesters are claiming they will be forced to choose between eating or heating their homes.
+
+The damage to the pipelines means that Russia just lost substantial physical capacity to transport natural gas to Europe, even if current sanctions are removed. With the loss of the pipelines, also comes the loss of any leverage for Europe to bring Russia to a compromise over the Ukraine invasion… Which just made this war much more complicated.
+
+We should all be paying close attention to the pipelines connecting Russia to Europe via Ukraine. These pipelines just became essential to the EU.
+
+If Ukraine was looking for leverage to join the EU and/or Nato… They just got it.
+
+US Petroleum Stocks
+
+The US's Energy Information Administration (EIA) releases a weekly inventory report – this week's was quite telling.
+
+Two noteworthy items:
+
+- Gasoline demand increased
+- Total petroleum stocks fell below the 5-year low once again
+
+In short, demand is strong and supply is struggling to keep up in a big way. Petroleum stocks haven't been this low since 2004.
+
+OPEC+ Cuts Production
+
+OPEC+ is a group of 23 oil-exporting countries that decide how much crude oil to sell on the global market.
+
+At the core of this group are the 13 original members of OPEC (the Organization of Oil Exporting Countries), which consist of mostly Middle Eastern and African countries. OPEC was formed in 1960 as a cartel, with the aim of fixing the worldwide supply of oil and its price.
+
+Today, OPEC+ nations produce around 40% of the world's crude oil; the two biggest producers being Saudi Arabia and Russia.
+
+Just a few weeks ago it was reported that Russian President Vladimir Putin met with Saudi Crown Prince Mohammed bin Salman (MBS) suggesting that OPEC+ cut production.
+
+Those suggestions became a reality as OPEC+ agreed to cut production by 2 million barrels per day.
+
+Given the fact that OPEC+ has struggled to meet their production quotas, this cut will more likely look like a cut of ~900,000 barrels per day to the current supply.
+
+Most of that production cut will come from nations that have a complicated history with the west: Saudi Arabia (48%), UAE (16%), Kuwait (15%), and Iraq (11%).
+
+What drove the production cuts?
+
+The United Arab Emirates' (UAE) energy minister, Suhail Al Mazrouei, said that the group was solely focused on avoiding an oil price crash similar to 2008.
+
+Mazrouei said "In Europe they have their story, in Russia they have their own story. We can't be siding with this country or that country."
+
+With a recession looming OPEC+ is most concerned about keeping a finger on the pulse of global oil supply and demand to maintain profitable prices.
+
+The takeaway?
+
+Oil and gas prices will likely head lower in the short term if the world heads into a recession, but they won't be staying low for long. OPEC+ is determined to keep prices high even in the midst of a recessionary environment.
+
+Remember, recessions massively impact oil and gas markets. Inventories rise when, and only when, the business cycle slows; this in turn leads to lower production capacity.
+
+The world is short on energy supply and any reduction in production capacity will have a longstanding impact on the market. This will only be righted through significant investment in new production.
+
+Unfortunately, the US is working hard to beat the EU in the global "idiodic energy policy competition".
+
+Here's a short summary of some of the current administration's noteworthy policy decisions:
+
+- Kill Keystone XL pipeline on Day 1
+- Drain the Strategic Petroleum Reserves (SPR) before midterm elections
+- Tell oil and gas producers to lower prices at the pump…. Seriously WTF?!?!
+- Beg Saudi Arabia and Russia to produce more oil
+- Contemplate banning exports on refined products and gas
+- Lift Venezuelan sanctions to import more oil
+
+If you're not long oil, you might want to reconsider…
+===END===
+
+===POST===
+SLUG: silent-warnings-real-estate
+TITLE: Silent Warnings in Real Estate
+DATE: Not specified in page content (context clues suggest late 2022)
+BODY:
+We're in the midst of stagflation with a recession looming and the Fed has been unrelenting in raising interest rates.
+
+Big Problems are Ahead for Real Estate Investors.
+
+If you locked in a 30-year fixed mortgage rate on a $600,000 house at 2.6% interest rate in 2021 you have the same monthly mortgage payment as someone that just bought a $380,000 home at today's 6.5% mortgage rate.
+
+That's ~37% reduction in home value based on monthly mortgage payment affordability, but that's not the only problem lurking in the real estate market…
+
+Bonds are back baby!
+
+US Treasury rates are now trading at 3.97% (6-month), 4.27% (2-year), and 3.83% (10-year).
+
+US Treasury's now generate nearly that same yield as buying and renting out a house in America (aka the cap rate).
+
+Would you rather tie up capital in a home, take on the costs of ownership and deal with some asshole tenant you're renting it out to… OR simply buy US Treasuries for the same return?
+
+Exactly.
+
+This is going to translate to a massive real estate selloff, especially among the big wall street firms (like Blackstone) who have been buying up single family homes hand over fist.
+
+In markets like Dallas, Austin, Denver, Salt Lake City, Seattle, and Los Angeles US Treasury rates are already higher than average cap rates.
+
+Meaning there is very little incentive for investors to be invested in these markets. Especially if prices are going down.
+
+Before 2010 institutional landlords essentially didn't exist in the single-family-rental market. Now there are more than 30 multi-billion dollar institutional investment funds, such as Blackstone, focused on buying single family housing.
+
+Next will be margin calls as banks order investors to sell off properties to deleverage their portfolio.
+
+Many wall street real estate investors have funded their strategy using floating rate credit facilities. So every time the Fed hikes rates, their cost of capital on their EXISTING portfolio gets more expensive.
+
+Think of the crisis in adjustable rate mortgages from 2008, but this time instead of individual borrowers getting hit with higher rates and defaulting, it's now big landlords who own thousands of units. Sometimes all in one city or neighborhood.
+
+The "experiment" of Wall Street buying single-family homes was never meant to last. Wall Street piled in, earned their fees, and are now looking to exit as quickly (and quietly) as possible before the crash gets bad.
+
+Thinking about buying a new home? Maybe give it a few minutes…
+
+Real Assets.
+
+As the financialized world sits precariously on the edge of ruin, we must remember where there is value: commodities.
+
+If you are a Ri Member, you understand the commodity trade, but sometimes it's hard to remember why we are commodity investors when our portfolio is getting whacked.
+
+This is a volatile game that isn't for everybody, but for those willing to weather the storm and play the game to the final whistle, there can (and should!) be big rewards.
+
+Right now the world is in a transitional period – realizing that the past 10-years of making big returns by investing in high growth overpriced tech names has come to an end.
+
+We're now in a world in turmoil, short on commodity supply, and on the edge of a recession. As hard as it is to stomach, this is what a financial regime change looks like – hard times and volatile markets.
+
+We must not forget that on the other side of this trade there will eventually be institutional capital flows into commodities that will drive commodity valuations (multiples) higher.
+
+This move will happen faster than anyone anticipates, leaving investors little time to reposition their portfolios, which is why it is essential to allocate capital while there is blood in the streets and deals are cheap.
+===END===
+
+===POST===
+SLUG: friendly-fire
+TITLE: Friendly Fire
+DATE: Not specified in page content (context clues suggest September-October 2022)
+BODY:
+Have you ever wondered why we no longer invade middle eastern countries?
+
+I'll give you a hint. It has nothing to do with Trump, Obama, or Biden spontaneously growing a conscience.
+
+It has nothing to do with a love for the troops.
+
+There is one simple reason: ENERGY SECURITY
+
+We don't invade middle eastern countries because we don't have to. The US shale revolution accomplished what pouring trillions of dollars and thousands of life into desert countries never could. It turned the USA into a net exporter of energy from a net importer.
+
+The ability to economically recover shale gas is perhaps one of greatest technological achievements of this generation and, although few know it, initiated the biggest shift in geopolitics of the last 30-years. Allowing US isolationism to thrive and giving Presidents the ability to turn the other cheek when their line in the sand is crossed.
+
+Because here is the reality: If your country does not have energy security it's not really your country… You're merely renting it from someone else.
+
+Just ask our friends in the EU…
+
+Despite ample warnings from Trump and others they've managed to snatch defeat from the jaws of victory and leave an entire continent exposed to the imperial ambitions of a lunatic despot.
+
+But Jamie, that's not fair you say? Europe can't contend with North America's vast geological resources. Just the luck of the draw!
+
+Wrong!
+
+Even though they don't want you to know it, there is vast shale potential in Europe too. According to a 2011 study, Europe has 18 trillion cubic meters (tcm) of natural gas.
+
+Europe has a long history of oil and gas production dating back to the mid 19th century, just like the US. The Polish Bobrka field was discovered in 1853, gas in Britain's Weald Basin was discovered in 1875, and deep gas was discovered in Italy's Po Valley in 1945.
+
+There is oil and gas in Europe.
+
+But to put this fact into context first we must explore how shale revolutionized O&G estimates for US recoverable reserves.
+
+This next chart demonstrates more of the same. Basically if you invest in exploration and production (E&P) you tend to find new reserves (shocker!).
+
+Now, let's look at a few European countries with shale potential – which have all been thwarted by bad policy.
+
+European Shale Basins
+
+Some of the most prospective shale gas fields are:
+
+Poland: Estimated reserves of 5.3 tcm of shale gas with +1bcf/d of production possible by 2025 (~3% of the EU's current gas demand) if development started today.
+
+But, because of a lack of support from the EU and local governments there has not been any natural gas production to date
+
+UK: There are shale plays in the East and South along with remaining conventional reserves in the North Sea. There are estimates of more than 25 tcf of recoverable natural gas in Britain.
+
+No commercial gas has been produced to date – British regulations stopped shale gas exploration in its tracks via a 2019 moratorium. Today, the tide is turning. Just a few days ago, new British Prime Minister Liz Truss removed the ban on fracking.
+
+France: The infamous Paris Basin (discovered in 1923) has produced significant oil – 800 wells have been drilled producing more than 240 million barrels of oil. The Paris Basin is estimated to have more than 5.6 tcf of natural gas resource and 558 million barrels of oil.
+
+In 2017, led by French President Macron, parliament passed laws to become the first country in the world banning any new oil exploration licenses with immediate effect and all oil and gas extraction by 2040.
+
+Even in the midst of an energy crisis, the French are sticking by their green policies.
+
+The takeaway: the EU has hydrocarbon resources.
+
+Energy independence?
+
+There is a case to be made that within 3 years the EU could be approaching energy independence if they simply opened up the market to meaningful exploration; not just shale but offshore as well.
+
+In the US, we saw ~30% natural gas production growth in 2 years from 2017 to 2019.
+
+With the EU's current high gas prices, the tailwind behind E&P growth could be much greater than what we saw in the US.
+
+We haven't even talked about the Dutch Groningen gas field yet – one of the 10 largest gas fields globally. Just 5 years ago the field was producing 30bcm annually. Since then, the Dutch government has reduced production to sub 5bcm annually, but believes production could easily be ramped up to 25-30bcm (16% of Russian imports).
+
+Why did they reduce production? Because regulators believe that natural gas production out of certain regions of the Groningen gas field carry significant earthquake risk.
+
+Europe's reliance on Russian gas is not geological destiny, but rather choice. A choice that continues to look increasingly dire as we approach winter.
+
+What do you think politicians' appetite for O&G production will be after a winter of sleeping in their mittens?
+===END===
+
+===POST===
+SLUG: which-do-you-want-to-be
+TITLE: Which do you want to be?
+DATE: Not specified in page content (context clues suggest August 2022)
+BODY:
+Democrats passed the Inflation Reduction Act and it magically made inflation vanish, even before the bill was signed into law. This is how good the bill is, it retroactively reduced inflation.
+
+No, this is not Biden having a brain fart. This is the official messaging of the current administration.
+
+Now, this isn't exactly a lie – the official inflation number increased 0% from June to July (month over month), but it did increased by 8.5% year over year.
+
+The Market Responds
+
+Inflation fell from 9.1% in June to 8.5% in July, and the market believes that the Fed is getting closer to hitting a homerun (AKA gradually cooling inflation without a recession). This bodes well for stocks and the USD, and the market is reacting accordingly.
+
+As we mentioned a few weeks ago, the US looks like a much more attractive home for capital at the moment than the rest of the world. For this reason, we've been predicting this rally in equity markets… But I wouldn't get your hopes up as we don't expect it to be long lived.
+
+Industrial output peaked in 2Q 2022. What many investors got wrong was the assumption that following this peak would be an immediate recession. Before we see a recession, manufacturing jobs have to start contracting. In July, manufacturing jobs increased by 30,000.
+
+The 30,000 jobs created are half of what that number was in April, which establishes a slowdown, but not a contraction.
+
+Manufacturing jobs are a lagging indicator, but tend to be led by the ISM Manufacturing Employment Index by about 3 months. This is also yet to decline in a manner that would indicate we are in a recession.
+
+So, over the past 2 weeks the market has apparently decided that we're not in a recession, the economy is strong, and inflation is declining…
+
+All this misses a few key points.
+
+If inflation stays at 0% month over month for the remainder of the year, December's inflation number will still land at 6.3% year over year. Which is still 3x higher than the Fed's target of 2%.
+
+Meaning, the Fed isn't going to pivot – they'll likely be hiking rates into 2023.
+
+Here are the major events leading up the September Fed meeting and the importance of each event:
+
+- Fed's Jackson Hole Economic Symposium: end August (updated Fed guidance)
+- Monthly Jobs Report: Sept. 2 (indicator of economic growth)
+- September Inflation: Sept. 13 (will determine magnitude of rate hikes)
+- Fed Interest Rate Decision: Sept. 21
+
+The road to this imagined September pivot on rate hikes will be paved with pain as investors come to realize that the economy is neither in a growth or recessionary phase. We are in the midst of STAGFLATION – stagnant economic growth paired with high inflation.
+
+Let me be as clear as possible.
+
+Inflation will not resolve itself, the Fed will have to slow the economy to contain inflation. The market will likely come to this realization when 2023 corporate earnings expectations are slashed.
+
+Meaning, eventually the economy will roll over into a recession and only then will the Fed pivot on interest rate policy.
+
+Tech jobs are getting slashed left and right. Many of my tech friends are telling me their companies are in the midst of laying off 30% of their workforce.
+
+Housing is beginning to cool off as well – new homes for sale are handily outpacing new homes sold. In the last 50 years, this has always led to a recession, and usually an ugly one, as housing stats and GDP tend to be very closely correlated.
+
+The size of the gap between Housing Sales and Houses For Sale suggests a recession like 1974, which was pretty damn ugly.
+
+Which are you going to be?
+
+The world has yet to come to terms with the fact that we are not going back to an environment supported by low inflation, globalization, and cheap energy.
+
+Out of control government spending continues to tip the debt/GDP scale in the wrong direction, which is wildly bullish for precious metals.
+
+Meanwhile, destructive environmental and energy policies continue to drive capital out of the commodity sector and reduce supply. This has been the first commodity upcycle to end without any significant capex being spent.
+
+Think about that, prices of commodities went up, and almost no money was spent increasing supply… thus offering no price relief.
+
+Once we get through this bumpy patch, what is it going to take to actually bring more supply online? Commodities such as copper, oil, gas, uranium, lithium, etc will NEED to be much much more expensive.
+===END===
+
+===POST===
+SLUG: rates-market
+TITLE: Rates & the Market
+DATE: Not specified in page content (context clues suggest late July 2022)
+BODY:
+Recently we discussed how, as the Fed raises rates, we expect the dollar to continue its move higher, and a subsequent rally in broader equity markets.
+
+We are currently seeing this trade in full swing as the Fed raised the fed funds rate last week by 0.75% to 2.25% and the S&P 500 is trading at about 4,125 (up from 3,700 a few weeks ago!). Stocks are still following the playbook from the past decade, acting as though the Fed will soon ease interest rate policy.
+
+This rally will be short lived.
+
+Things are different in a post pandemic world – inflation, not deflation, is now public enemy number 1. Under the current economic conditions, the Fed will likely continue hiking rates into the fall until inflation is under control.
+
+The only way inflation is going to slow is through a true recession, the kind where we see mass layoffs and real economic hardship. Only then will the Fed finally start slowing hikes or cutting rates.
+
+This recession is coming faster than most believe.
+
+It's going to be painful BUT it will kick off the next bull market in precious metals. In the meantime, it is important to understand why markets are behaving the way they are.
+
+The chart above compares the S&P 500 today (black) with the S&P 500 during the 2000 tech bubble (blue) and the 2008 housing bubble (green).
+
+As you can see… It's not looking good for our generalist friends.
+
+Gas & Fertilizers
+
+The green revolution tribe is quickly turning into a death cult. The hardcore greenies are pushing forward policies that are going to have very scary impacts on access to food and energy.
+
+Prime Minister Justin Trudeau is pursuing the same climate policy that sparked mass protests in Europe.
+
+The Trudeau government introduced a plan to reduce nitrogen emissions from fertilizer use similar to the Netherlands policy that sparked protests among thousands of farmers.
+
+The plan to achieve emission targets set by the Canadian Federal government calls for reduction in fertilizer production by 30%.
+
+Now… I'm no farmer, but I have been blessed by a bit of common sense, and it's telling me:
+
+Less fertilizer = Less food
+
+Let's take a look at our friends in Sri Lanka who decided to ban organic fertilizers which cut crop yields in half.
+
+Turns out hungry citizens don't make the best constituents… Conversely they do appear to have more energy to occupy Presidential Palaces.
+
+While we're on the topic of fertilizers…
+
+Last Wednesday, Germany's BASF (the world's largest chemical company) cut ammonia production even further to preserve natural gas for electricity use. Germany's first and fourth largest ammonia producers, SKW Piesteritz and Ineos also said they could not rule out production cuts as the country grapples with disruption to Russian gas supplies.
+
+It's looking like a long, cold and now hungry winter for Europe.
+
+Famines & Fertilizers.
+
+Farmers rely on three key nutrients for fertilizer: nitrogen, phosphorus, and potassium. A combination of these elements is used to fertilize crops and maximize harvests. Natural gas, after being converted to ammonia, is the main feedstock for nitrogen based fertilizer.
+
+Most of the world's ammonia is used for making nitrogen fertilizers.
+
+Fertilizer shortages not only mean that prices have been rising, but many farmers are not even able to buy as much fertilizer as they need. This has led to farmers all over the world struggling to figure out how to keep crop yields up with as little fertilizer as possible.
+
+This might sound like a distant problem, but less fertilizer is going to lead to food shortages. The world's biggest soybean producer estimates that a 20% cut in potash (potassium) would result in a 14% drop in yields. The International Fertilizer Development Center is predicting that this year's rice and corn harvest in West Africa will shrink by 30%.
+
+Food shortages make food more expensive. Even in the best-case scenario, experts are calling for lower crop yields and higher grocery store prices across the board on everything from milk to beef to packaged foods. This could last for months or even years.
+
+Food inflation causes people to eat more processed/unhealthy food and poor diet leads to a litany of health consequences.
+
+Energy supply is life.
+
+The takeaways.
+
+There are a few important points to note:
+
+- We have not fully experienced the effects of the Russian invasion – markets are trying to price in expectations, but we haven't seen supply/demand shortfalls fully play out yet.
+- The energy and fertilizer shortage is going to sustain inflationary pressures.
+- The same inflationary pressures are likely to stir more and more civil unrest around the world.
+
+This wild ride is just getting started. Stay vigilant and diligent, there will be opportunities to make a few fortunes over the coming years for those paying attention.
+===END===
+
+===POST===
+SLUG: the-usd
+TITLE: The USD
+DATE: Not specified in page content (context clues suggest mid-July 2022)
+BODY:
+Last week we saw another MASSIVE inflation print as headline CPI reached a four-decade high: 9.1%
+
+This puts the Fed and markets in an interesting position. As inflation has yet to peak there remains pressure to raise rates even faster to slow the economy, meanwhile GDP is likely contracting for the second straight quarter. This means the Fed is in the unusual position of trying to slow the economy while GDP is contracting.
+
+This comes as no surprise to Ri Members, as we've been hammering on this theme for months. We also know these conditions are setting up a trade in precious metals.
+
+However, precious metals miners have been under significant selling pressure all year. This downward pressure is unlikely to let up before the fall, when I expect silver and gold to enter their next bull run.
+
+Let's dig into why.
+
+The USD & Rates
+
+Fact: precious metals perform well when the dollar is weakened.
+
+Today this is largely tied to the fed funds rate. As the fed funds rate increases, overall interest rates such as treasury and credit rates rise. Higher rates typically result in a stronger economy and better returns. As global capital flows into US dollar-denominated assets, chasing higher returns, the dollar strengthens.
+
+The important takeaway here is that the dollar won't weaken until the Fed is forced to capitulate on their current stance by cutting interest rates.
+
+The question is when will that happen?
+
+The Fed will only capitulate when a recession is imminent.
+
+Globally many central banks have been far slower than the Fed to raise rates, especially the European Central Bank (ECB) and Bank of Japan (BoJ). Because of this, we are seeing capital flee those regions and pour into US equities and bonds.
+
+This has resulted in the USD surging higher. We're seeing the Euro and USD hit parity for the first time.
+
+This is good for US consumers, but bad news for exporters – AKA bad for GDP growth.
+
+High inflation is catalyzing a narrative that the Fed is doing the right thing by raising rates to preserve US equity markets and dampen wage growth. This narrative could very likely only last a few months while the Fed maintains hope that a US recession isn't a done deal…
+
+BUT, the rest of the world appears to be sticking to loose monetary policy, and keeping interest rates low. The ECB and BoJ's decision to promote loose monetary policy is furthering dollar strength, whilst their own economies struggle due to high oil/coal/natgas prices impacting growth.
+
+REMEMBER: Energy commodities are priced in USD, meaning price increases are even greater in weak foreign countries.
+
+For example:
+
+- Last summer EUR€1.00 was worth USD$0.85.
+- Today EUR€1.00 is worth USD$1.00.
+- Last summer Brent Oil was trading at USD$70/bbl, or EUR€59.50/bbl.
+- This summer Brent Oil is trading at USD$100/bbl, which is EUR€100/bbl.
+
+While that's a 43% increase in USD terms, it's a 68% increase in EUR terms.
+
+What does this mean for markets?
+
+Since mid June we have seen US equity markets trading higher. Perhaps this summer we'll continue to see a rally in US equities while USD strength persists and foreign assets plunge.
+
+Eventually (we think this fall) stocks will finally get the message that 2023 earnings are going to SUCK. Then it's risk off in the US this autumn and the party is over.
+
+When the Fed realizes that the earnings outlook is bleak and a recession is imminent, only then will they start softening policy (AKA slowing hikes or cutting rates).
+
+What will happen next (our thesis)?
+
+- The dollar will start to fall;
+- US equity markets will sell off hard;
+- Precious metals will catch a bid in a big way; and
+- Energy Prices are going to soar with a weakening USD as a tailwind.
+
+This has been a brutal few months for basically every other asset class out there. I know from talking to several Ri Members over the past month that most of you are feeling it across your portfolio.
+
+But, buckle up friends. This ride is only getting started.
+
+We all knew a major secular sell off was coming. We all knew tech had to get crushed. We knew the S&P was massively overvalued compared to real assets. We knew interest rates could not stay at all time lows FOREVER and had to rise.
+
+We've been talking about it and positioning for months years.
+
+Now the rebalancing is happening.
+
+There's a crisis, blood in the streets, and panic.
+
+And investors are doing what they always do in a panic – going to cash. Selling anything they can at any price. Stuffing the USD under the proverbial mattress.
+
+And when the dust settles…
+
+When companies start getting valued on cash flow as opposed to hype…
+
+When earnings get crushed…
+
+When the dollar begins to slide…
+
+And, the reality of this brave new world sets in…
+
+Where do you think that money goes??
+
+1. Gold;
+2. Energy; and
+3. Basically every other essential commodity.
+
+So… when you lie awake at night and think about your beaten down portfolio, fear not, you're in the right place.
+
+And when your friends at the country club tell you they're buying the dip and loading up on Facebook… Maybe forward them this post and help them do a little damage control before it's too late!
+===END===
+
+===POST===
+SLUG: fragile-handle-with-care
+TITLE: Fragile – Handle with Care
+DATE: Not specified in page content (context clues suggest June 2022)
+BODY:
+At Resource Insider we have been talking about how gold is an antifragile investment (as volatility and uncertainty increase gold strengthens), and why the current situation in the global economy has been setting up for gold to outperform broader equity markets.
+
+Today, the economy appears increasingly more fragile as the hours pass. Let's discuss some of the pain points that are starting to show.
+
+Inflation has been eating into consumer buying power as the average person's fixed costs are skyrocketing. In May, the average cost of utilities, gasoline, food at home, and electricity printed the highest inflation number since the 1980 peak of 25.7%.
+
+You'll recall last year economists and politicos called inflation "transitory" declaring that consumers are "flush with cash".
+
+Both statements are proving to be false.
+
+In May, US retail sales posted the first drop in five months, led by a plunge in auto sales and other big-ticket items.
+
+Retailers such as Walmart, Gap, and others are starting to feel the pain as well. According to Bloomberg, companies that released earnings over the past 2 weeks within the S&P consumer indexes with a market cap of at least $1 billion reported that inventories rose $44.8 billion (AKA they have a bunch of stuff they can't sell). That's a 26% increase from this time last year.
+
+In the past, the primary culprit behind inflation was wages. Labor is a huge component of input costs, so the Fed's playbook to fight inflation has been to raise interest rates and increase unemployment. In the wake of globalization, the US has sustained much lower levels of unemployment without experiencing inflation.
+
+Today's inflationary environment is different. This wave of inflation has been driven by supply constraints, resulting in real wages going down (consumers have less purchasing power).
+
+The Fed is fighting it by raising interest rates. In return, this is further putting a squeeze on corporate profits as the economy weakens. We are starting to see the first wave of layoffs as companies such as Netflix, Peloton, MasterClass, Coinbase, Robinhood, and Carvana have all laid off as much as 20% of their workforce. Even Tesla has announced layoffs to "keep from going bankrupt."
+
+Now, the cracks are starting to show in real estate.
+
+Twin Deficits
+
+The US is in a twin deficit, meaning there is both a current account deficit and a fiscal deficit.
+
+- A fiscal deficit is when government spending is more than (tax) revenue.
+- A current account deficit is when the value of the goods and services imported is more than the value of the products exported.
+
+The way that a country typically reduces a fiscal deficit is by running at surplus (aka exporting more than it is importing). The US is far from running at a surplus and the fiscal deficit is in bad shape with debt levels running at 125% of GDP.
+
+So, the only real solution to solving the debt problem is by inflating the debt away.
+
+Meaning, making money so worthless that the debt becomes worthless as well.
+
+Let that sink in for a minute…
+
+When you think about from this perspective, you start to understand the high degree of inflation that could become the new norm.
+
+The table above shows the inflation rate needed to reach healthy debt to GDP levels assuming spending stays constant and real GDP growth is 0%.
+
+Death to Bonds
+
+If I were to write a guide on how to crash the US Treasury market, it would be a simple four part process.
+
+1. Stop the Fed's QE program, which was financing the US deficits
+2. Raise Interest Rates, making investing expensive which slows growth
+3. Impede trade of the world's biggest commodity exporter (Russia)
+4. Impede trade of the world's factory (China)
+
+Sound familiar?
+
+That's because ALL of these things are currently taking place.
+
+Steps 1 and 2 are slowing economic growth and steps 3 and 4 are creating systemic inflation that the Fed can do very little to stop. All while real incomes are being cut as rising interest rates slash consumer spending.
+
+The result?
+
+Death to bonds.
+
+Since the pandemic started, US Treasuries have been highly correlated to equity markets, which you can see in the chart below. The NASDAQ is in blue and US Treasuries in red.
+
+If the bond market is dead, where will people find solace?
+
+I think that answer HAS to be GOLD. (especially considering the recent implosion of bitcoin)
+
+According to Incrementum, gold could more than triple against the S&P 500 if it reaches its 122-year median of 1.67 over the next ten years as the ratio is at 0.47 today.
+
+One last thought to keep in mind.
+
+Gold will likely not take off until the general investor loses faith in bonds, stocks, and the general economy. This is a long process, and we are still likely +8 months away from that becoming a reality, but when the move happens it will be fast and violent.
+
+Prepare accordingly my friends.
+===END===
+
+===POST===
+SLUG: real-assets-reign-supreme
+TITLE: Real Assets are about to reign supreme.
+DATE: Not specified in page content (context clues suggest June 2022)
+BODY:
+"Real" assets are assets with an intrinsic physical value due to their substance.
+
+This includes precious metals, commodities, natural resources, transportation infrastructure (roads, airports, railroads), land, and real estate.
+
+Basically everything we do here at Ri.
+
+Many investors include real assets (or should be) in a diversified portfolio due to a relatively low correlation with financial assets, such as stocks and bonds.
+
+But the world has changed… Today it's questionable if real estate can still be considered a "real asset" asset class.
+
+Since quantitative easing began flooding the market with cheap and easy money from December of 2008, real estate has had a high correlation with the stock market. Cheap money turned houses from a place you keep your kids/stuff in to an "investment" for ordinary people…
+
+Today average home prices have a 60% correlation to the stock market. 60% might not sound like a particularly high correlation rate, but when we put on our data science glasses (and look at the t-scores and p-values), this is a very significant. In simple terms, it means that during months when housing prices are down, there is a very high probability that the stock market will also be down and vice versa.
+
+But more important than the correlation exact % is the fact that it's been increasing.
+
+Prior to 2008, the correlation between the stock market and housing prices was 28%; in other words – not correlated (housing prices and stock prices were not related – the stock market was not the economy).
+
+Since 2008 housing has been "financialized" – the values of homes are no longer based on supply and demand (wages and housing supply). Housing has turned into a leveraged investment class based on the premise that the future value of a house will rise because someday another buyer will pay more for the house than you.
+
+Inflation is at 8.6% and the average cap rate on real estate is about 5% in most major cities. The cap rate is the yearly return in cash flow (aka rent) that an investor expects to make on a property.
+
+Real estate investors now have a negative real yield on their investments.
+
+Why should you care?
+
+The last time real interest rates (in black) were at comparable levels was in January 1975 and July 1980. At that time, the cost of purchasing a family home, in terms of average annual salary (in green below), was 4.26 years and 5.43 years respectively. That means the average home cost about 5x the average salary.
+
+Today, the average cost of buying a home in the USA is 9.09X the average salary. This is greater than the peak of the 2007 housing bubble.
+
+There are two ways that this could play out:
+
+1. Wages surge higher while housing prices remain relatively flat.
+2. Housing prices collapse while wages maintain.
+
+Either way, it indicates that the housing market is on track for a correction. And given the correlation we discussed earlier, it's very possible the stock market is headed for a similar fate. It also means that housing is not a "real asset".
+
+What remains uncorrelated?
+
+Real real assets.
+
+Real assets tend to be uncorrelated because they are driven by supply and demand fundamentals rather than market sentiment (aka they're based on reality).
+
+This tends to mean more resilient cash flow underpinned by inherent value that protects wealth in times of volatility. It costs a certain amount of $$ to mine a pound of copper or pump a barrel of oil, thus they are unquestionably worth something… unlike, say, an app that acts as the "Uber of Water Fountains" (yes, this is real… sadly).
+
+I believe we are on the cusp of seeing the below chart revert to the mean. Commodities and real assets are set to outperform other asset classes and thy've got a LOT of catching up to do.
+===END===
+
+===POST===
+SLUG: a-closer-look
+TITLE: A closer look.
+DATE: Not specified in page content (context clues suggest May 2022)
+BODY:
+A closer look at the markets.
+
+I am not saying that a recession is imminent, but one may be lurking around the corner; and if it's not a recession, it's probably recession's cousin stagflation.
+
+Let's take a quick look at what we're seeing.
+
+Real Wages – Wages adjusted for inflation have been growing at a negative rate since April 2021. This means that people are making less today than they were in May 2021 (in terms of buying power).
+
+Mortgage Rates – Mortgage rates are now above 5% and are set to continue rising as the Federal Reserve has an aggressive rate schedule of rate hikes planned for 2022. This is important because the Fed is just starting its rate hike cycle.
+
+Household Debt – Total household debt is above 100% of GDP in countries such as Canada, Australia, and Switzerland (Meaning: the people owe more than the total country's GDP). Higher Fed rates also mean higher revolving and floating debt rates for households.
+
+Producer Price Index (PPI) – Price index that measures the changes in prices received by domestic producers. In other words, what producers of goods pay for their raw materials. Year over year % change in PPI is now the highest it has been since the early 80s.
+
+The Chairman of Restoration Hardware said it plainly:"I don't think anybody really understands what's coming from an inflation point of view, because either businesses are going to make a lot less money or they're going to raise their prices. And I don't think anybody really understands how high prices are going to go everywhere."
+
+Some people remain bullish broader equities based on the idea that we are at peak inflation. I don't see that as a reality as long as PPI keeps surging, because we have 2 options:
+
+1. Companies eat the price increases and margins collapse
+2. Companies pass on the price increases to consumers, inflation keeps rising (buying power continues to erode), and the Fed plans even more rate hikes.
+
+What is my takeaway from all of this?
+
+The world is in a very precarious position. The pundits that said "don't fight the Fed" are now fighting the Fed. The same people who said the consumer is strong with 1.8% inflation are saying they're still strong at 8.5% inflation.
+
+My point is we're not only seeing perma-bulls we're seeing perma-BS, and there are already warnings of a flagging market. Netflix is ~70% off its highs, wiping out 4 years of gains in a few weeks. JP Morgan shares are down ~40% after last week's earnings showed a slide in profits.
+
+You can see from the chart below that JPM's stock is highly correlated to the S&P 500. Are these stocks the proverbial canary in a coal mine?
+
+That remains to be seen. I do not know if the market will sell off tomorrow, in 7 months, or if it'll mostly trade sideways for the next few years.
+
+What I do know, is that when the market turns over, it will be time to own precious metals. I am a firm believer in gold as an antifragile investment – which we have talked about at length over the past several months.
+
+"Antifragile is a property of systems in which they increase in capability to thrive as a result of stressors, shocks, volatility, noise, mistakes, faults, attacks, or failures." – Nassim Taleb
+
+For gold, this means that as volatility and uncertainty increase gold strengthens.
+
+The world is entering tumultuous times. I know many of you are disappointed in the recent performance of precious metals miners, but I expect the tides to be turning over sooner than later.
+===END===
+
+===POST===
+SLUG: golden-shield-what-a-result
+TITLE: Golden Shield – What a Result!!
+DATE: Not specified in page content (context clues suggest March 2022)
+BODY:
+Golden Shield drilled 50 m grading at 9.1 g/t gold at Mazaoa Hill, Marudi. This is possibly the best drill result that we have seen out of any Ri holding to date (rivaled only by Vizsla).
+
+Those of you that have watched my podcast with Francis MacDonald will remember that he talks about a concept called GT or Grade Thickness. (I highly recommend watching to learn about this metric).
+
+GT = grade (g/t) x thickness of a drill hole (m)
+
+It is important to note that thickness isn't the entire length of the drill hole, but the portion of the drill hole that mineralization occurs over.
+
+In this scenario, the GT = 455 = 9.1 g/t x 50 m.
+
+To put this into perspective, the majority of:
+
+- +2Moz gold deposits have initial GT intersects of +50GT; and
+- +5Moz gold deposits have initial GT intersects of +134 GT.
+
+To capture the majority of +5Moz deposits, discovery intersects should have +10m of mineralized rock. This is because, for big deposits, you generally don't want to be chasing narrow high-grade veins. It is more profitable to mine larger wide veins.
+
+A GT of 455 is 3.4 times higher than the much sought-after 134 GT metric.
+
+Equally importantly the "new discovery" is not a "twinned hole" or simply re-drilling a previously known deposit, this hole represents a meaningful expansion of the known mineralization. Simply put, this is a banging drill hole and indicates that there is probably a lot more gold at Marudi than previously expected.
+
+Leo Hathaway, the executive chairman, who has found multiple gold mines working with Ross Beaty, said that this is the best drill result he has ever seen out of an initial drill program.
+
+My comment: YESSSSSSSS!!!!!
+
+The share price has bounced back to ~$0.80, more muted than we'd like to see, but remember this company is not yet listed on the OTC markets, meaning it is challenging for USA inventors to buy this stock. I expect significant buying when the OTC cross-listing is complete (soon I'm told!).
+
+In summary: I'm very excited about what's happening at GSRI.
+
+Congrats to all Members who participated in this deal, I expect our patience will pay off!
+
+What We've Been Waiting for… Unfortunately.
+
+Over the past decade, as tech stocks reached insane heights, the world seemed to forget that we actually need commodities to, you know, do anything.
+
+But such is the fickle nature of the markets.
+
+Commodity markets are cyclical, the pendulum swings from side to side as the market tries to balance at an equilibrium point. For the past several years the pendulum has been artificially pushed in one direction… But now it's swinging back with a vengeance.
+
+Fortunately at Ri, we're ready for this violent move.
+
+It was easy to predict as the world has trended away from globalization towards a protectionist/nationalist view.
+
+We saw examples of this with:
+
+- Brexit;
+- The renegotiation of NAFTA;
+- Trade wars between the US and China; and
+- The election of Donald Trump.
+- Today, our anti-globalization fate has been sealed by Russia's invasion of Ukraine.
+
+The geopolitical battle for economic dominance has evolved into an all-out war. The Ukrainian war is showing signs that it is not just about Ukraine. It's not even Russian vs. American. More accurately, it is about authoritarian empires vs. the democratic West.
+
+Whether this specific conflict in Ukraine escalates or cools off, the world is forever changed.
+
+The fissures that are growing each day are not easily healed. The damaging impact of sanctions and supply chain disruptions will have far-reaching consequences. Alliances are being formed for the decades to come that will influence trade, travel, economic activity, and global power dynamics.
+
+Globalization has been dealt a mortal blow, as have the disinflationary benefits that accompany it. The financial implications are immeasurable and compounding daily.
+
+The world has entered an environment where energy and food independence is a top priority. A key component of global power will be the control of critical commodities and resources. China has been aware of this for a long time and controls significant mineral, energy, and agricultural resources globally, Russia is positioned as an energy and resource nation – the West, after decades of neglect, has a long way to catch up.
+
+It will take years for this to become a reality. Expect much higher costs (inflation) and a continued shortage of goods we used to take for granted. Each of these "ruptures" will have second and third-order effects the impacts of which are as yet unknown.
+
+But the coming chaos also represents one of the greatest investment opportunities of our generation.
+
+Bear down.
+
+Commodities price movement is accelerating rapidly.
+
+But, commodity equities have barely budged. Believe me – this is a good thing for us.
+
+Miners, especially junior miners, are always delayed when commodities start to run, but when they do move it tends to be violent. Commodity runs very often coincide with global uncertainty, in this scenario capital pulls out of the market and assesses where to "re-deploy" and the answer: The companies that actually produce commodities.
+
+And, there is a long way to go for the relationship between the S&P 500 and commodities to normalize. Even with many commodity prices reaching new all-time highs, the data suggests that the real move in commodities is just getting started.
+
+(Data as of March 7, 2022)
+
+We have an unbelievable buying window, and I intend to take full advantage of it.
+===END===
