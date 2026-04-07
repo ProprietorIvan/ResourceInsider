@@ -1,5 +1,7 @@
-import { Schema, model, models } from 'mongoose'
+import mongoose from 'mongoose'
 import bcrypt from 'bcryptjs'
+
+const { Schema, model } = mongoose
 
 export type MembershipTier = 'free' | 'stock_picks' | 'private_placements'
 export type UserRole = 'user' | 'admin'
@@ -42,4 +44,5 @@ UserSchema.pre('save', async function (next) {
   next()
 })
 
-export const User = models.User || model('User', UserSchema, 'users')
+export const User =
+  mongoose.models.User || model('User', UserSchema, 'users')
