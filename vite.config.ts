@@ -11,8 +11,11 @@ export default defineConfig({
         target: 'http://localhost:3001',
         changeOrigin: true,
         configure: (proxy) => {
-          proxy.on('error', () => {
-            // suppress startup race condition errors (server not ready yet)
+          proxy.on('error', (_err, _req, res) => {
+            if (res && 'writeHead' in res) {
+              res.writeHead(502, { 'Content-Type': 'application/json' })
+              res.end(JSON.stringify({ error: 'API not ready' }))
+            }
           })
         },
       },
