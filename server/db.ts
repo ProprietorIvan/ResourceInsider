@@ -25,12 +25,10 @@ declare global {
 }
 
 const cache: MongooseCache = global.mongooseCache ?? { conn: null, promise: null }
-if (process.env.NODE_ENV !== 'production') {
-  global.mongooseCache = cache
-}
+global.mongooseCache = cache
 
 export default async function dbConnect(): Promise<typeof mongoose> {
-  refreshEnvFromFile()
+  if (process.env.NODE_ENV !== 'production') refreshEnvFromFile()
   const uri = getMongoUri()
   if (!uri) {
     throw new Error(

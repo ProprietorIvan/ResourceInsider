@@ -31,7 +31,13 @@ export function createApp(options: CreateAppOptions = {}) {
 
   app.use(
     cors({
-      origin: baseUrl,
+      origin: (origin, cb) => {
+        if (!origin || origin === baseUrl || origin.endsWith('.vercel.app')) {
+          cb(null, true)
+        } else {
+          cb(null, baseUrl)
+        }
+      },
       credentials: true,
     }),
   )

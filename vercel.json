@@ -10,7 +10,7 @@
   "functions": {
     "api/index.ts": {
       "includeFiles": "dist-server/**",
-      "memory": 1024,
+      "memory": 512,
       "maxDuration": 30
     }
   }
