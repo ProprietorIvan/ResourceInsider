@@ -54,6 +54,12 @@ const FAQ_ITEMS = [
   { q: 'Can I talk to someone before joining?', a: 'Yes. Just reach out and we\u2019ll set up a quick call to walk through any questions you have.' },
 ]
 
+const HERO_STATS = [
+  { over: 'Over', num: '50', label: 'Deals Evaluated Annually' },
+  { over: 'Trusted by', num: '170+', label: 'of Accredited Investors' },
+  { over: 'More than', num: '20', label: 'Years of On-the-Ground Due Diligence' },
+] as const
+
 const WHAT_YOU_GET = [
   { icon: Landmark, t: 'Deals Usually Limited to Institutional Investors', d: 'Participate in deals normally closed to the public\u2014so you break into the circles that usually require connections or capital.' },
   { icon: Pickaxe, t: 'Direct Investment into Mining and Energy', d: 'Go beyond ETFs and passive exposure\u2014so you can target real upside with real ownership.' },
@@ -71,27 +77,68 @@ export default function App() {
 
   return (
     <>
-      {/* Hero */}
+      {/* Hero — stats overlaid on landscape (dashboard-style glass tiles) */}
       <section id="invest" className="relative overflow-hidden bg-[var(--color-navy)]">
-        <div className="pointer-events-none absolute inset-0 bg-[url('/mining-landscape-1.png')] bg-cover bg-center opacity-25" aria-hidden />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-[var(--color-navy)]/60 via-[var(--color-navy)]/30 to-[var(--color-navy)]/80" aria-hidden />
-        <div className="relative mx-auto max-w-3xl px-5 pt-20 pb-12 text-center md:px-8 md:pt-28 md:pb-14">
-          <h1 className="font-[family-name:var(--font-display)] text-4xl leading-[1.15] font-bold not-italic text-white md:text-5xl lg:text-[3.5rem]">Invest in the Best Opportunities in Mining, Energy &amp; Infrastructure</h1>
-          <p className="mx-auto mt-6 max-w-2xl text-[15px] leading-relaxed text-white/70">Resource Insider gives serious investors access to a curated portfolio of public companies and private deals most never see &mdash; so you can invest in natural resources like an industry insider.</p>
-          <form id="join" className="mx-auto mt-10 flex max-w-lg flex-col gap-3 sm:flex-row" onSubmit={(e) => e.preventDefault()}>
-            <label className="sr-only" htmlFor="hero-email">Email</label>
-            <input id="hero-email" type="email" placeholder="Enter Your Email" className="min-h-[48px] flex-1 rounded border border-gray-300 bg-white px-4 text-[var(--color-heading)] placeholder:text-gray-400 focus:border-[var(--color-teal)] focus:outline-none" />
-            <BtnTeal type="submit" className="min-h-[48px] shrink-0 whitespace-nowrap">Join the List</BtnTeal>
+        <div
+          className="pointer-events-none absolute inset-0 bg-[url('/mining-landscape-1.png')] bg-cover bg-center opacity-40"
+          aria-hidden
+        />
+        <div
+          className="pointer-events-none absolute inset-0 bg-gradient-to-b from-[var(--color-navy)]/75 via-[var(--color-navy)]/45 to-[#060d16]/95"
+          aria-hidden
+        />
+        <div className="relative z-10 mx-auto max-w-3xl px-5 pt-20 pb-8 text-center md:px-8 md:pt-28 md:pb-10">
+          <h1 className="font-[family-name:var(--font-display)] text-4xl leading-[1.15] font-bold not-italic text-white md:text-5xl lg:text-[3.5rem]">
+            Invest in the Best Opportunities in Mining, Energy &amp; Infrastructure
+          </h1>
+          <p className="mx-auto mt-6 max-w-2xl text-[15px] leading-relaxed text-white/70">
+            Resource Insider gives serious investors access to a curated portfolio of public companies and private deals most never see &mdash; so you can invest in natural resources like an industry insider.
+          </p>
+          <form
+            id="join"
+            className="mx-auto mt-10 flex max-w-lg flex-col gap-3 sm:flex-row"
+            onSubmit={(e) => e.preventDefault()}
+          >
+            <label className="sr-only" htmlFor="hero-email">
+              Email
+            </label>
+            <input
+              id="hero-email"
+              type="email"
+              placeholder="Enter Your Email"
+              className="min-h-[48px] flex-1 rounded border border-gray-300 bg-white px-4 text-[var(--color-heading)] placeholder:text-gray-400 focus:border-[var(--color-teal)] focus:outline-none"
+            />
+            <BtnTeal type="submit" className="min-h-[48px] shrink-0 whitespace-nowrap">
+              Join the List
+            </BtnTeal>
           </form>
-          <p className="mt-5 text-sm font-medium text-white/70">Free research, new deals, and expert insights&mdash;straight to your inbox.</p>
+          <p className="mt-5 text-sm font-medium text-white/70">
+            Free research, new deals, and expert insights&mdash;straight to your inbox.
+          </p>
         </div>
-        <div className="relative bg-[var(--color-stats-bg)]">
-          <div className="mx-auto grid max-w-5xl grid-cols-1 divide-y divide-[var(--color-navy)]/10 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
-            {[{ over: 'Over', num: '50', label: 'Deals Evaluated Annually' }, { over: 'Trusted by', num: '170+', label: 'of Accredited Investors' }, { over: 'More than', num: '20', label: 'Years of On-the-Ground Due Diligence' }].map((s) => (
-              <div key={s.label} className="px-6 py-10 text-center">
-                <p className="text-[11px] font-semibold uppercase tracking-[0.15em] text-[var(--color-navy)]/60">{s.over}</p>
-                <p className="mt-1 font-[family-name:var(--font-display)] text-5xl font-bold not-italic text-[var(--color-navy)]">{s.num}</p>
-                <p className="mt-2 text-[13px] font-medium not-italic text-[var(--color-navy)]/70">{s.label}</p>
+
+        <div className="relative z-10 mx-auto max-w-5xl px-5 pb-12 pt-2 md:px-8 md:pb-16">
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-3">
+            {HERO_STATS.map((s) => (
+              <div
+                key={s.label}
+                className="landing-hero-stat group relative overflow-hidden rounded-sm border border-white/[0.12] bg-[#060d16]/65 px-4 py-5 text-center shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06),0_20px_48px_-24px_rgba(0,0,0,0.65)] backdrop-blur-xl md:px-5 md:py-6"
+              >
+                <div
+                  className="pointer-events-none absolute inset-x-0 top-0 h-0.5 bg-gradient-to-r from-[var(--color-teal)] via-cyan-400/70 to-[var(--color-teal)] opacity-90"
+                  aria-hidden
+                />
+                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[var(--color-teal)]/90 md:text-[11px]">
+                  {s.over}
+                </p>
+                <p className="mt-2 font-[family-name:var(--font-display)] text-4xl font-bold not-italic tracking-tight text-white md:text-5xl">
+                  <span className="font-[ui-monospace,SFMono-Regular,monospace] tabular-nums tracking-tighter">
+                    {s.num}
+                  </span>
+                </p>
+                <p className="mt-2 text-[12px] font-medium leading-snug text-white/55 md:text-[13px]">
+                  {s.label}
+                </p>
               </div>
             ))}
           </div>
