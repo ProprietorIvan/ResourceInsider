@@ -1,5 +1,5 @@
 import { useState, type FormEvent } from 'react'
-import { Link, useNavigate, useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { LogIn, Mail, Lock, AlertCircle } from 'lucide-react'
 
 export default function LoginPage() {
@@ -7,7 +7,6 @@ export default function LoginPage() {
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
-  const navigate = useNavigate()
   const location = useLocation()
   const from = (location.state as { from?: string } | null)?.from || '/members'
 
@@ -27,7 +26,8 @@ export default function LoginPage() {
       const data = await res.json().catch(() => ({}))
 
       if (res.ok) {
-        navigate(from, { replace: true })
+        // Full page reload so AuthContext re-reads the cookie and ProtectedRoute passes
+        window.location.href = from
       } else {
         setError(data?.error || 'Invalid credentials')
       }
