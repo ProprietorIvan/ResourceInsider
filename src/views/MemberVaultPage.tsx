@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useAuth } from '@/contexts/AuthContext'
 import MemberGate from '@/components/MemberGate'
 import GlassCard from '@/components/GlassCard'
+import { SITE_SHELL_X } from '@/lib/site-shell'
 import {
   STOCK_PICKS,
   PRIVATE_PLACEMENTS,
@@ -30,7 +31,7 @@ export default function MemberVaultPage() {
 
   return (
     <main className="px-5 py-10 md:px-8 md:py-14">
-      <div className="mx-auto max-w-5xl">
+      <div className={`mx-auto ${SITE_SHELL_X}`}>
         <div className="reveal">
           <Link
             href="/members"

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { ChevronLeft, ChevronRight, Shield, Eye, Lightbulb, Bell, Users, FileText, Mic, MessageCircle, RefreshCw, Network } from 'lucide-react'
 import { BtnTeal, CheckIcon } from '@/components/shared'
+import { SITE_PAD_X, SITE_SHELL_X } from '@/lib/site-shell'
 
 const TESTIMONIALS = [
   { quote: 'I\u2019ve invested in ten different opportunities I never would\u2019ve found on my own. Each one came with clear, expert analysis. I know I\u2019m investing alongside Jamie on the same terms\u2014and that makes all the difference.', name: 'Gary Morgan', role: 'Member', title: 'Serious Research, Serious Results' },
@@ -80,7 +81,8 @@ export default function JoinPage() {
       <section className="relative overflow-hidden bg-[var(--color-navy)]">
         <div className="pointer-events-none absolute inset-0 bg-[url('/mining-landscape-1.png')] bg-cover bg-center opacity-25" aria-hidden />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-[var(--color-navy)]/60 via-[var(--color-navy)]/30 to-[var(--color-navy)]/80" aria-hidden />
-        <div className="relative mx-auto max-w-3xl px-5 py-24 text-center md:px-8 md:py-32">
+        <div className={`relative mx-auto ${SITE_SHELL_X}`}>
+          <div className="mx-auto max-w-4xl pt-32 pb-24 text-center md:pt-40 md:pb-32">
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--color-teal)]">Looking to invest in natural resources this year?</p>
           <h1 className="mt-6 font-[family-name:var(--font-display)] text-4xl font-bold leading-[1.15] text-white md:text-5xl lg:text-[3.5rem]">
             Invest in the Best Opportunities in Mining, Energy &amp; Infrastructure
@@ -92,12 +94,13 @@ export default function JoinPage() {
             <a href="#pricing"><BtnTeal className="px-10 py-4 text-base">Join Resource Insider</BtnTeal></a>
           </div>
           <p className="mt-6 text-sm font-medium text-white/60">Trusted by 170+ Accredited Investors</p>
+          </div>
         </div>
       </section>
 
       {/* Resource boom */}
       <section className="bg-white py-16 md:py-24">
-        <div className="mx-auto max-w-3xl px-5 md:px-8">
+        <div className={`mx-auto max-w-3xl ${SITE_PAD_X}`}>
           <h2 className="font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-[var(--color-heading)] md:text-4xl">
             The Resource Boom Is Coming&mdash;Will You Miss It?
           </h2>
@@ -111,7 +114,7 @@ export default function JoinPage() {
 
       {/* Get into deals */}
       <section className="bg-[var(--color-light-bg)] py-16 md:py-24">
-        <div className="mx-auto max-w-3xl px-5 md:px-8">
+        <div className={`mx-auto max-w-3xl ${SITE_PAD_X}`}>
           <h2 className="font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-[var(--color-heading)] md:text-4xl">
             Get Into the Deals Driving the Next Decade of Growth
           </h2>
@@ -125,7 +128,7 @@ export default function JoinPage() {
 
       {/* When you join */}
       <section className="bg-white py-16 md:py-24">
-        <div className="mx-auto max-w-6xl px-5 md:px-8">
+        <div className={`mx-auto ${SITE_SHELL_X}`}>
           <h2 className="text-center font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-[var(--color-heading)] md:text-4xl">
             When You Join Resource Insider, You&hellip;
           </h2>
@@ -152,7 +155,7 @@ export default function JoinPage() {
 
       {/* 4-step process */}
       <section className="bg-[var(--color-navy)] py-16 md:py-24">
-        <div className="mx-auto max-w-6xl px-5 md:px-8">
+        <div className={`mx-auto ${SITE_SHELL_X}`}>
           <h2 className="text-center font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-white md:text-4xl">
             You Don&rsquo;t Have to Be a Billionaire to Invest Like One
           </h2>
@@ -179,7 +182,7 @@ export default function JoinPage() {
 
       {/* Membership access */}
       <section className="bg-white py-16 md:py-24">
-        <div className="mx-auto max-w-6xl px-5 md:px-8">
+        <div className={`mx-auto ${SITE_SHELL_X}`}>
           <h2 className="text-center font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-[var(--color-heading)] md:text-4xl">
             Your Membership Gives You Access To
           </h2>
@@ -207,7 +210,7 @@ export default function JoinPage() {
 
       {/* Not for everyone */}
       <section className="bg-[var(--color-light-bg)] py-16 md:py-24">
-        <div className="mx-auto max-w-3xl px-5 md:px-8">
+        <div className={`mx-auto max-w-3xl ${SITE_PAD_X}`}>
           <h2 className="font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-[var(--color-heading)] md:text-4xl">
             We&rsquo;re Not for Everyone&hellip; and That&rsquo;s the Point
           </h2>
@@ -222,7 +225,7 @@ export default function JoinPage() {
 
       {/* Pricing 1 */}
       <section id="pricing" className="bg-white py-16 md:py-24">
-        <div className="mx-auto max-w-3xl px-5 md:px-8">
+        <div className={`mx-auto max-w-3xl ${SITE_PAD_X}`}>
           <h2 className="text-center font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-[var(--color-heading)] md:text-4xl">
             Become a Resource Insider Member Today
           </h2>
@@ -232,7 +235,7 @@ export default function JoinPage() {
 
       {/* Money-back guarantee */}
       <section className="bg-[var(--color-light-bg)] py-16 md:py-24">
-        <div className="mx-auto max-w-xl px-5 text-center md:px-8">
+        <div className={`mx-auto max-w-xl ${SITE_PAD_X} text-center`}>
           <h2 className="font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-[var(--color-heading)] md:text-4xl">30-Day No-Questions-Asked</h2>
           <h3 className="mt-2 font-[family-name:var(--font-display)] text-2xl font-bold not-italic text-[var(--color-teal)]">Money-Back Guarantee</h3>
           <p className="mt-6 text-[15px] leading-relaxed text-[var(--color-body)]">
@@ -243,7 +246,7 @@ export default function JoinPage() {
 
       {/* Testimonials */}
       <section className="bg-white py-16 md:py-24">
-        <div className="mx-auto max-w-5xl px-5 md:px-8">
+        <div className={`mx-auto ${SITE_SHELL_X}`}>
           <h2 className="text-center font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-[var(--color-heading)] md:text-4xl">
             Trusted by 170+ Accredited Investors
           </h2>
@@ -267,7 +270,7 @@ export default function JoinPage() {
 
       {/* FAQ */}
       <section className="bg-[var(--color-light-bg)] py-16 md:py-24">
-        <div className="mx-auto max-w-3xl px-5 md:px-8">
+        <div className={`mx-auto max-w-3xl ${SITE_PAD_X}`}>
           <h2 className="text-center font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-[var(--color-heading)] md:text-4xl">Frequently Asked Questions</h2>
           <div className="mt-12 divide-y divide-gray-200 border-y border-gray-200">
             {FAQ_ITEMS.map((item, i) => {
@@ -288,7 +291,7 @@ export default function JoinPage() {
 
       {/* Jamie closing */}
       <section className="bg-[var(--color-navy)] py-16 md:py-24">
-        <div className="mx-auto max-w-3xl px-5 md:px-8 text-center">
+        <div className={`mx-auto max-w-3xl ${SITE_PAD_X} text-center`}>
           <h2 className="font-[family-name:var(--font-display)] text-2xl font-bold not-italic text-white md:text-3xl">
             If you&rsquo;ve made it this far, you know where the world is headed&mdash;toward a future built on mining, energy, and infrastructure.
           </h2>
@@ -309,7 +312,7 @@ export default function JoinPage() {
 
       {/* Final pricing */}
       <section className="bg-white py-16 md:py-24">
-        <div className="mx-auto max-w-3xl px-5 md:px-8">
+        <div className={`mx-auto max-w-3xl ${SITE_PAD_X}`}>
           <p className="text-center text-[15px] leading-relaxed text-[var(--color-body)]">
             Don&rsquo;t miss your chance to be part of a small group of accredited investors positioning for the future of resources.
           </p>

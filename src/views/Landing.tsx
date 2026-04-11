@@ -11,6 +11,7 @@ import {
   HardHat,
 } from 'lucide-react'
 import { BtnTeal } from '@/components/shared'
+import { SITE_SHELL_X } from '@/lib/site-shell'
 
 const TESTIMONIALS = [
   { quote: 'I\u2019ve invested in ten different opportunities I never would\u2019ve found on my own. Each one came with clear, expert analysis. I know I\u2019m investing alongside Jamie on the same terms\u2014and that makes all the difference.', name: 'Gary Morgan', role: 'Member', title: 'Serious Research, Serious Results' },
@@ -77,66 +78,60 @@ export default function App() {
 
   return (
     <>
-      {/* Hero — stats overlaid on landscape (dashboard-style glass tiles) */}
-      <section id="invest" className="relative overflow-hidden bg-[var(--color-navy)]">
+      {/* Hero — full viewport height, stats overlaid on image near bottom */}
+      <section id="invest" className="relative min-h-svh overflow-hidden bg-[var(--color-navy)]">
         <div
-          className="pointer-events-none absolute inset-0 bg-[url('/mining-landscape-1.png')] bg-cover bg-center opacity-40"
+          className="pointer-events-none absolute inset-0 bg-[url('/files/8d43d0c0113dfc1e6499bc3e90718d10.jpg')] bg-cover bg-center opacity-45"
           aria-hidden
         />
         <div
-          className="pointer-events-none absolute inset-0 bg-gradient-to-b from-[var(--color-navy)]/75 via-[var(--color-navy)]/45 to-[#060d16]/95"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-b from-[var(--color-navy)]/80 via-[var(--color-navy)]/50 to-transparent"
           aria-hidden
         />
-        <div className="relative z-10 mx-auto max-w-3xl px-5 pt-20 pb-8 text-center md:px-8 md:pt-28 md:pb-10">
-          <h1 className="font-[family-name:var(--font-display)] text-4xl leading-[1.15] font-bold not-italic text-white md:text-5xl lg:text-[3.5rem]">
+
+        <div className="relative z-10 mx-auto max-w-3xl px-5 pt-32 pb-8 text-center md:px-8 md:pt-40 md:pb-10 lg:pt-44">
+          <h1 className="font-[family-name:var(--font-display)] text-4xl leading-[1.12] font-bold not-italic text-white md:text-5xl lg:text-[3.35rem] lg:leading-[1.1]">
             Invest in the Best Opportunities in Mining, Energy &amp; Infrastructure
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-[15px] leading-relaxed text-white/70">
+          <p className="mx-auto mt-5 max-w-2xl text-[15px] leading-relaxed text-white/70 md:mt-6">
             Resource Insider gives serious investors access to a curated portfolio of public companies and private deals most never see &mdash; so you can invest in natural resources like an industry insider.
           </p>
           <form
             id="join"
-            className="mx-auto mt-10 flex max-w-lg flex-col gap-3 sm:flex-row"
+            className="mx-auto mt-8 flex max-w-lg flex-col gap-3 sm:mt-10 sm:flex-row md:max-w-xl"
             onSubmit={(e) => e.preventDefault()}
           >
-            <label className="sr-only" htmlFor="hero-email">
-              Email
-            </label>
+            <label className="sr-only" htmlFor="hero-email">Email</label>
             <input
               id="hero-email"
               type="email"
               placeholder="Enter Your Email"
-              className="min-h-[48px] flex-1 rounded border border-gray-300 bg-white px-4 text-[var(--color-heading)] placeholder:text-gray-400 focus:border-[var(--color-teal)] focus:outline-none"
+              className="min-h-[48px] flex-1 rounded border border-gray-300/90 bg-white px-4 text-[var(--color-heading)] placeholder:text-gray-400 focus:border-[var(--color-teal)] focus:outline-none"
             />
             <BtnTeal type="submit" className="min-h-[48px] shrink-0 whitespace-nowrap">
-              Join the List
+              Join The List
             </BtnTeal>
           </form>
-          <p className="mt-5 text-sm font-medium text-white/70">
+          <p className="mt-4 text-sm font-medium text-white/60 sm:mt-5">
             Free research, new deals, and expert insights&mdash;straight to your inbox.
           </p>
         </div>
 
-        <div className="relative z-10 mx-auto max-w-5xl px-5 pb-12 pt-2 md:px-8 md:pb-16">
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-3">
+        {/* Stats — on the image, with space below so you see landscape at the bottom */}
+        <div className="relative z-10 mx-auto max-w-5xl px-5 pb-16 md:px-8 md:pb-20 lg:pb-24">
+          <div className="grid grid-cols-1 divide-y divide-[var(--color-navy)]/10 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
             {HERO_STATS.map((s) => (
               <div
                 key={s.label}
-                className="landing-hero-stat group relative overflow-hidden rounded-sm border border-white/[0.12] bg-[#060d16]/65 px-4 py-5 text-center shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06),0_20px_48px_-24px_rgba(0,0,0,0.65)] backdrop-blur-xl md:px-5 md:py-6"
+                className="landing-hero-stat-cell bg-[#c8d4de]/80 px-6 py-5 text-center backdrop-blur-lg sm:py-6 md:px-10"
               >
-                <div
-                  className="pointer-events-none absolute inset-x-0 top-0 h-0.5 bg-gradient-to-r from-[var(--color-teal)] via-cyan-400/70 to-[var(--color-teal)] opacity-90"
-                  aria-hidden
-                />
-                <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[var(--color-teal)]/90 md:text-[11px]">
+                <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--color-navy)]/45">
                   {s.over}
                 </p>
-                <p className="mt-2 font-[family-name:var(--font-display)] text-4xl font-bold not-italic tracking-tight text-white md:text-5xl">
-                  <span className="font-[ui-monospace,SFMono-Regular,monospace] tabular-nums tracking-tighter">
-                    {s.num}
-                  </span>
+                <p className="mt-1 text-[2.5rem] font-bold leading-none tracking-tight text-[var(--color-heading)] md:text-[3rem]">
+                  {s.num}
                 </p>
-                <p className="mt-2 text-[12px] font-medium leading-snug text-white/55 md:text-[13px]">
+                <p className="mt-1.5 text-[11px] font-medium leading-snug text-[var(--color-navy)]/60 md:text-[12px]">
                   {s.label}
                 </p>
               </div>
@@ -147,7 +142,7 @@ export default function App() {
 
       {/* Resource boom */}
       <section id="about" className="bg-white py-16 md:py-24">
-        <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 md:grid-cols-2 md:gap-16 md:px-8">
+        <div className={`mx-auto grid items-center gap-12 md:grid-cols-2 md:gap-16 ${SITE_SHELL_X}`}>
           <div className="order-2 md:order-1">
             <h2 className="font-[family-name:var(--font-display)] text-3xl font-bold not-italic leading-tight text-[var(--color-heading)] md:text-4xl">The Resource Boom Is Coming&mdash;Will You Miss It?</h2>
             <div className="mt-6 space-y-4 text-[15px] leading-relaxed text-[var(--color-body)]">
@@ -164,7 +159,7 @@ export default function App() {
 
       {/* Real assets */}
       <section id="strategy" className="bg-[var(--color-light-bg)] py-16 md:py-24">
-        <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 md:grid-cols-2 md:gap-16 md:px-8">
+        <div className={`mx-auto grid items-center gap-12 md:grid-cols-2 md:gap-16 ${SITE_SHELL_X}`}>
           <div><div className="aspect-[4/3] w-full overflow-hidden rounded-lg bg-[url('/mining-landscape-2.png')] bg-cover bg-center" role="img" aria-label="Mining landscape" /></div>
           <div>
             <h2 className="font-[family-name:var(--font-display)] text-3xl font-bold not-italic leading-tight text-[var(--color-heading)] md:text-4xl">Invest in Real Assets That Power the World</h2>
@@ -182,7 +177,7 @@ export default function App() {
 
       {/* Founder */}
       <section className="bg-white py-16 md:py-24">
-        <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 md:grid-cols-2 md:gap-16 md:px-8">
+        <div className={`mx-auto grid items-center gap-12 md:grid-cols-2 md:gap-16 ${SITE_SHELL_X}`}>
           <div>
             <h2 className="font-[family-name:var(--font-display)] text-3xl font-bold not-italic leading-tight text-[var(--color-heading)] md:text-4xl">A Note from Our Founder</h2>
             <div className="mt-6 space-y-4 text-[15px] leading-relaxed text-[var(--color-body)]">
@@ -204,7 +199,7 @@ export default function App() {
 
       {/* Why choose */}
       <section className="bg-[var(--color-navy)] py-16 md:py-24">
-        <div className="mx-auto max-w-6xl px-5 md:px-8">
+        <div className={`mx-auto ${SITE_SHELL_X}`}>
           <h2 className="text-center font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-white md:text-4xl">Why Savvy Investors Choose Resource Insider</h2>
           <div className="mt-14 grid gap-8 md:grid-cols-3">
             {[
@@ -223,7 +218,7 @@ export default function App() {
 
       {/* How it works */}
       <section className="bg-white py-16 md:py-24">
-        <div className="mx-auto max-w-7xl px-5 md:px-8">
+        <div className={`mx-auto ${SITE_SHELL_X}`}>
           <h2 className="text-center font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-[var(--color-heading)] md:text-4xl">How Resource Insider Works</h2>
           <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-5">
             {STEPS.map((step) => (
@@ -242,9 +237,9 @@ export default function App() {
 
       {/* Testimonials */}
       <section className="bg-[var(--color-light-bg)] py-16 md:py-24">
-        <div className="mx-auto max-w-5xl px-5 md:px-8">
+        <div className={`mx-auto ${SITE_SHELL_X}`}>
           <h2 className="text-center font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-[var(--color-heading)] md:text-4xl">Trusted by Investors. Respected by Operators.</h2>
-          <div className="relative mt-12 rounded-lg bg-white px-8 py-10 shadow-lg md:px-16 md:py-14">
+          <div className="relative mx-auto mt-12 max-w-4xl rounded-lg bg-white px-8 py-10 shadow-lg md:px-16 md:py-14">
             <span className="pointer-events-none absolute left-6 top-4 font-[family-name:var(--font-display)] text-[120px] leading-none text-[var(--color-teal)]/10 md:left-10 md:top-2 md:text-[160px]" aria-hidden>&ldquo;</span>
             <span className="pointer-events-none absolute bottom-0 right-6 font-[family-name:var(--font-display)] text-[120px] leading-none text-[var(--color-teal)]/10 md:right-10 md:text-[160px]" aria-hidden>&rdquo;</span>
             <p className="relative text-center font-[family-name:var(--font-display)] text-xl font-bold not-italic text-[var(--color-teal)] md:text-2xl">{TESTIMONIALS[tIndex].title}</p>
@@ -264,7 +259,7 @@ export default function App() {
 
       {/* What you get */}
       <section className="bg-white py-16 md:py-24">
-        <div className="mx-auto max-w-6xl px-5 md:px-8">
+        <div className={`mx-auto ${SITE_SHELL_X}`}>
           <h2 className="text-center font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-[var(--color-heading)] md:text-4xl">What You Get with Resource Insider</h2>
           <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {WHAT_YOU_GET.map((item) => { const Icon = item.icon; return (
@@ -280,7 +275,8 @@ export default function App() {
 
       {/* FAQ */}
       <section id="faq-section" className="bg-white py-16 md:py-24">
-        <div className="mx-auto max-w-3xl px-5 md:px-8">
+        <div className={`mx-auto ${SITE_SHELL_X}`}>
+          <div className="mx-auto max-w-3xl">
           <h2 className="text-center font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-[var(--color-heading)] md:text-4xl">Frequently Asked Questions</h2>
           <div className="mt-12 divide-y divide-gray-200 border-y border-gray-200">
             {FAQ_ITEMS.map((item, i) => { const open = openFaq === i; return (
@@ -293,12 +289,14 @@ export default function App() {
               </div>
             ) })}
           </div>
+          </div>
         </div>
       </section>
 
       {/* Bottom CTA */}
       <section id="join-bottom" className="bg-[var(--color-navy)] py-16 md:py-24">
-        <div className="mx-auto max-w-xl px-5 md:px-8">
+        <div className={`mx-auto ${SITE_SHELL_X}`}>
+          <div className="mx-auto max-w-xl">
           <h2 className="text-center font-[family-name:var(--font-display)] text-3xl font-bold not-italic text-white md:text-4xl">Get Insights into Natural Resource Investing</h2>
           <p className="mx-auto mt-6 max-w-lg text-center text-white/60">Join <strong className="text-white">10,000+</strong> investors staying ahead on mining, energy, and infrastructure&mdash;plus early notice when new opportunities go live.</p>
           <form className="mt-10 space-y-4" onSubmit={(e) => e.preventDefault()}>
@@ -313,6 +311,7 @@ export default function App() {
             <BtnTeal type="submit" className="w-full">Join The List</BtnTeal>
             <p className="text-center text-xs text-white/40">By clicking &ldquo;Join The List&rdquo;, you agree to our <a href="https://resourceinsider.com/privacy-policy-2/" className="text-[var(--color-teal)] underline underline-offset-2" target="_blank" rel="noreferrer">Privacy Policy</a>.</p>
           </form>
+          </div>
         </div>
       </section>
     </>

@@ -1,8 +1,9 @@
-import { useState, type ReactNode } from 'react'
+import { useState, useEffect, type ReactNode } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Menu, X } from 'lucide-react'
 import { useAuth } from '@/contexts/AuthContext'
+import { SITE_PAD_X, SITE_SHELL_X } from '@/lib/site-shell'
 import { BtnTeal, RILogo, XIcon, LinkedInIcon, YouTubeIcon, SpotifyIcon, ApplePodcastsIcon } from './shared'
 
 const SOCIAL_LINKS = [
@@ -13,6 +14,8 @@ const SOCIAL_LINKS = [
   { name: 'Apple Podcasts', href: 'https://podcasts.apple.com/ca/podcast/resource-insider-podcast/id1395299172', Icon: ApplePodcastsIcon },
 ]
 
+const SCROLL_SOLID_AT = 24
+
 export default function Layout({
   children,
   membersAtmosphere = false,
@@ -22,30 +25,59 @@ export default function Layout({
 }) {
   const router = useRouter()
   const [menuOpen, setMenuOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
   const { user, isAuthenticated, logout } = useAuth()
   const onMembers = router.pathname.startsWith('/members')
   const onAdmin = router.pathname.startsWith('/admin')
 
-  const headerClass = membersAtmosphere
-    ? 'sticky top-0 z-50 border-b border-white/[0.06] bg-[#060d16]/80 backdrop-blur-xl'
-    : 'sticky top-0 z-50 bg-[var(--color-navy)]/95 backdrop-blur-md'
+  const fullBleedHero =
+    router.pathname === '/' ||
+    router.pathname === '/join' ||
+    router.pathname === '/blog'
+
+  useEffect(() => {
+    const onScroll = () => {
+      setScrolled(window.scrollY > SCROLL_SOLID_AT)
+    }
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [router.pathname])
+
+  const solidBar = scrolled || menuOpen
+
+  let headerClass =
+    'fixed top-0 left-0 right-0 z-50 transition-[background-color,backdrop-filter,border-color,box-shadow] duration-300 ease-out'
+  if (membersAtmosphere) {
+    headerClass += solidBar
+      ? ' border-b border-white/[0.08] bg-[#060d16]/92 shadow-[0_8px_32px_-12px_rgba(0,0,0,0.5)] backdrop-blur-xl'
+      : ' border-b border-transparent bg-transparent'
+  } else {
+    headerClass += solidBar
+      ? ' border-b border-white/10 bg-[var(--color-navy)]/95 shadow-[0_8px_32px_-12px_rgba(0,0,0,0.4)] backdrop-blur-md'
+      : ' border-b border-transparent bg-transparent'
+  }
 
   const navLinkMembers = (active: boolean) =>
     active
       ? 'text-sm font-medium text-[var(--color-teal)] drop-shadow-[0_0_12px_rgba(0,152,166,0.35)]'
-      : 'text-sm text-white/80 transition hover:text-white'
+      : 'text-sm text-white/90 transition hover:text-white'
+
+  const mobileNavPanelClass = solidBar
+    ? 'border-white/10 bg-[var(--color-navy)]/98 backdrop-blur-lg'
+    : 'border-white/10 bg-[var(--color-navy)]/95 backdrop-blur-xl'
 
   return (
     <>
       <header className={headerClass}>
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
+        <div className={`mx-auto flex items-center justify-between py-4 ${SITE_SHELL_X}`}>
           <Link href="/">
             <RILogo />
           </Link>
           <nav className="hidden items-center gap-5 md:flex" aria-label="Main">
             {isAuthenticated ? (
               <>
-                <span className="max-w-[140px] truncate text-sm text-white/70" title={user?.email}>
+                <span className="max-w-[160px] truncate text-sm text-white/80" title={user?.email}>
                   {user?.name || user?.email}
                 </span>
                 <Link href="/members" className={navLinkMembers(onMembers && !onAdmin)}>
@@ -58,7 +90,7 @@ export default function Layout({
                 )}
                 <button
                   type="button"
-                  className="text-sm text-white/80 transition hover:text-white"
+                  className="text-sm text-white/90 transition hover:text-white"
                   onClick={() => void logout()}
                 >
                   Log out
@@ -66,7 +98,7 @@ export default function Layout({
               </>
             ) : (
               <>
-                <Link href="/register" className="text-sm text-white/70 transition hover:text-white">
+                <Link href="/register" className="text-sm text-white/80 transition hover:text-white">
                   Register
                 </Link>
                 <Link
@@ -92,11 +124,11 @@ export default function Layout({
           </button>
         </div>
         {menuOpen && (
-          <div className="border-t border-white/10 px-5 py-4 md:hidden">
-            <nav className="flex flex-col gap-4" aria-label="Mobile">
+          <div className={`border-t md:hidden ${mobileNavPanelClass}`}>
+            <nav className={`flex flex-col gap-4 py-4 ${SITE_PAD_X}`} aria-label="Mobile">
               {isAuthenticated ? (
                 <>
-                  <span className="text-base text-white/70">{user?.name || user?.email}</span>
+                  <span className="text-base text-white/80">{user?.name || user?.email}</span>
                   <Link
                     href="/members"
                     className={onMembers && !onAdmin ? 'text-base font-medium text-[var(--color-teal)]' : 'text-base text-white'}
@@ -126,7 +158,7 @@ export default function Layout({
                 </>
               ) : (
                 <>
-                  <Link href="/register" className="text-base text-white/70" onClick={() => setMenuOpen(false)}>
+                  <Link href="/register" className="text-base text-white/80" onClick={() => setMenuOpen(false)}>
                     Register
                   </Link>
                   <Link
@@ -146,7 +178,11 @@ export default function Layout({
         )}
       </header>
 
-      {children}
+      {fullBleedHero ? (
+        children
+      ) : (
+        <div className="pt-[4.75rem]">{children}</div>
+      )}
 
       <footer
         className={
@@ -155,7 +191,7 @@ export default function Layout({
             : 'bg-[var(--color-navy-light)] py-14'
         }
       >
-        <div className="mx-auto grid max-w-6xl gap-10 px-5 md:grid-cols-2 md:px-8 lg:grid-cols-5">
+        <div className={`mx-auto grid gap-10 md:grid-cols-2 lg:grid-cols-5 ${SITE_SHELL_X}`}>
           <div className="lg:col-span-1">
             <Link href="/">
               <RILogo />
@@ -244,7 +280,7 @@ export default function Layout({
           </div>
         </div>
 
-        <div className="mx-auto mt-12 max-w-6xl border-t border-white/10 px-5 pt-8 md:flex md:items-center md:justify-between md:px-8">
+        <div className={`mx-auto mt-12 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between ${SITE_SHELL_X}`}>
           <p className="text-center text-xs text-white/40 md:text-left">
             &copy; {new Date().getFullYear()} Resource Insider. All rights reserved.
           </p>

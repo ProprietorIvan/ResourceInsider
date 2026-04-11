@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { SITE_SHELL_X } from '@/lib/site-shell'
 import { KeyRound, Mail, X, RefreshCw, Send, Check, ChevronDown, ChevronUp } from 'lucide-react'
 
 interface UserRow {
@@ -271,7 +272,7 @@ export default function AdminPage() {
   if (loading) {
     return (
       <main className="bg-[var(--color-navy)] px-5 py-16 md:px-8 md:py-24">
-        <div className="mx-auto max-w-6xl text-white/60">Loading admin data…</div>
+        <div className={`mx-auto text-white/60 ${SITE_SHELL_X}`}>Loading admin data…</div>
       </main>
     )
   }
@@ -279,7 +280,7 @@ export default function AdminPage() {
   if (error) {
     return (
       <main className="bg-[var(--color-navy)] px-5 py-16 md:px-8 md:py-24">
-        <div className="mx-auto max-w-6xl">
+        <div className={`mx-auto ${SITE_SHELL_X}`}>
           <p className="rounded border border-red-500/40 bg-red-500/10 px-4 py-3 text-red-200">{error}</p>
           <Link href="/members" className="mt-4 inline-block text-sm text-[var(--color-teal)] hover:underline">
             Back to dashboard
@@ -291,7 +292,7 @@ export default function AdminPage() {
 
   return (
     <main className="bg-[var(--color-navy)] px-5 py-10 md:px-8 md:py-16">
-      <div className="mx-auto max-w-6xl">
+      <div className={`mx-auto ${SITE_SHELL_X}`}>
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
             <h1 className="font-display text-3xl font-bold text-white not-italic md:text-4xl">Admin panel</h1>

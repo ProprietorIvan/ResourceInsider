@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import Link from 'next/link'
 import { useAuth } from '@/contexts/AuthContext'
 import { BtnTeal } from '@/components/shared'
+import { SITE_SHELL_X } from '@/lib/site-shell'
 
 export default function RegistrationSuccessPage() {
   const { refreshUser } = useAuth()
@@ -11,7 +12,7 @@ export default function RegistrationSuccessPage() {
   }, [refreshUser])
 
   return (
-    <main className="bg-[var(--color-navy)] px-5 py-16 md:px-8 md:py-24">
+    <main className={`bg-[var(--color-navy)] py-16 md:py-24 ${SITE_SHELL_X}`}>
       <div className="mx-auto max-w-lg rounded-xl border border-white/10 bg-[var(--color-navy-light)]/80 p-8 text-center">
         <h1 className="font-display text-3xl font-bold text-white not-italic">
           You&apos;re all set

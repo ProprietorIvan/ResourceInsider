@@ -2,6 +2,7 @@ import { useState, type FormEvent } from 'react'
 import Link from 'next/link'
 import { useAuth } from '@/contexts/AuthContext'
 import { BtnTeal } from '@/components/shared'
+import { SITE_SHELL_X } from '@/lib/site-shell'
 
 type Step = 1 | 2
 type SelectedTier = 'free' | 'stock_picks' | 'private_placements'
@@ -62,7 +63,7 @@ export default function RegisterPage() {
   }
 
   return (
-    <main className="bg-[var(--color-navy)] px-5 py-16 md:px-8 md:py-24">
+    <main className={`bg-[var(--color-navy)] py-16 md:py-24 ${SITE_SHELL_X}`}>
       <div className="mx-auto max-w-3xl">
         <h1 className="font-display text-3xl font-bold text-white not-italic md:text-4xl">
           Join Resource Insider

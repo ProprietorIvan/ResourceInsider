@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { BLOG_POSTS } from '@/data/blogPosts'
+import { SITE_PAD_X } from '@/lib/site-shell'
 
 export default function BlogPostPage() {
   const router = useRouter()
@@ -29,7 +30,7 @@ export default function BlogPostPage() {
   return (
     <>
       <section className="bg-[var(--color-navy)] py-16 md:py-20">
-        <div className="mx-auto max-w-3xl px-5 md:px-8">
+        <div className={`mx-auto max-w-3xl ${SITE_PAD_X}`}>
           <Link href="/blog" className="text-sm text-[var(--color-teal)] hover:underline">
             &larr; Back to Blog
           </Link>
@@ -41,7 +42,7 @@ export default function BlogPostPage() {
       </section>
 
       <article className="bg-white py-12 md:py-16">
-        <div className="mx-auto max-w-3xl px-5 md:px-8">
+        <div className={`mx-auto max-w-3xl ${SITE_PAD_X}`}>
           <div className="space-y-5 text-[15px] leading-relaxed text-[var(--color-body)]">
             {post.body.map((para, i) => (
               <p key={i}>{para}</p>

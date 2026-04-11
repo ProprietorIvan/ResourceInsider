@@ -2,6 +2,7 @@ import { useState, type FormEvent } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { LogIn, Mail, Lock, AlertCircle } from 'lucide-react'
+import { SITE_PAD_X } from '@/lib/site-shell'
 
 export default function LoginPage() {
   const [email, setEmail] = useState('')
@@ -43,7 +44,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[var(--color-navy)] flex items-center justify-center px-4">
+    <div className={`flex min-h-screen items-center justify-center bg-[var(--color-navy)] ${SITE_PAD_X}`}>
       <div className="bg-white rounded-2xl shadow-xl p-8 max-w-md w-full">
         <div className="text-center mb-6">
           <div className="w-16 h-16 bg-teal-50 rounded-full flex items-center justify-center mx-auto mb-4">

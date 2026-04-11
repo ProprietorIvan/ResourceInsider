@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import { useAuth } from '@/contexts/AuthContext'
 import { BtnTeal } from '@/components/shared'
+import { SITE_SHELL_X } from '@/lib/site-shell'
 import GlassCard from '@/components/GlassCard'
 import AnimatedStat from '@/components/AnimatedStat'
 import {
@@ -87,7 +88,7 @@ export default function MemberHubPage() {
 
   return (
     <main className="px-5 py-10 md:px-8 md:py-14">
-      <div className="mx-auto max-w-6xl">
+      <div className={`mx-auto ${SITE_SHELL_X}`}>
         {/* Welcome command strip */}
         <div className="reveal flex flex-wrap items-start justify-between gap-6 border-b border-white/[0.08] pb-10">
           <div className="max-w-2xl">

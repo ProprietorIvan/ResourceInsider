@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { BLOG_POSTS } from '@/data/blogPosts'
 import { BtnTeal } from '@/components/shared'
+import { SITE_SHELL_X } from '@/lib/site-shell'
 
 const CARD_COLORS = [
   'from-cyan-800 to-teal-900',
@@ -28,7 +29,8 @@ export default function BlogPage() {
       <section className="relative overflow-hidden bg-[var(--color-navy)]">
         <div className="pointer-events-none absolute inset-0 bg-[url('/mining-landscape-2.png')] bg-cover bg-center opacity-20" aria-hidden />
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-[var(--color-navy)]/60 via-[var(--color-navy)]/30 to-[var(--color-navy)]/80" aria-hidden />
-        <div className="relative mx-auto max-w-3xl px-5 py-24 text-center md:px-8 md:py-28">
+        <div className={`relative mx-auto ${SITE_SHELL_X}`}>
+          <div className="mx-auto max-w-4xl pt-32 pb-24 text-center md:pt-36 md:pb-28">
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-[var(--color-teal)]">Looking to invest in natural resources this year?</p>
           <h1 className="mt-6 font-[family-name:var(--font-display)] text-4xl font-bold leading-[1.15] text-white md:text-5xl">
             Welcome to our Blog
@@ -40,12 +42,13 @@ export default function BlogPage() {
             <Link href="/join"><BtnTeal className="px-10 py-4 text-base">Join Resource Insider</BtnTeal></Link>
           </div>
           <p className="mt-6 text-sm font-medium text-white/60">Trusted by 170+ Accredited Investors</p>
+          </div>
         </div>
       </section>
 
       {/* Blog grid */}
       <section className="bg-[var(--color-light-bg)] py-12 md:py-16">
-        <div className="mx-auto max-w-[1400px] px-4 md:px-6">
+        <div className={`mx-auto ${SITE_SHELL_X}`}>
           <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
             {BLOG_POSTS.map((post, i) => (
               <article key={post.slug} className="group flex flex-col overflow-hidden rounded-lg border-2 border-[var(--color-teal)]/30 bg-white shadow-sm transition hover:shadow-md hover:border-[var(--color-teal)]/60">
