@@ -1,5 +1,4 @@
 import { Router, type Response } from 'express'
-import crypto from 'crypto'
 import bcrypt from 'bcryptjs'
 import { createTransport } from 'nodemailer'
 import dbConnect from '../db.js'
