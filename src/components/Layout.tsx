@@ -14,7 +14,7 @@ const SOCIAL_LINKS = [
 
 export default function Layout() {
   const [menuOpen, setMenuOpen] = useState(false)
-  const { user, isAuthenticated, isLoading, logout } = useAuth()
+  const { user, isAuthenticated, logout } = useAuth()
 
   return (
     <>
@@ -22,9 +22,7 @@ export default function Layout() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
           <Link to="/"><RILogo /></Link>
           <nav className="hidden items-center gap-5 md:flex" aria-label="Main">
-            {isLoading ? (
-              <span className="text-sm text-white/40">…</span>
-            ) : isAuthenticated ? (
+            {isAuthenticated ? (
               <>
                 <span className="max-w-[140px] truncate text-sm text-white/70" title={user?.email}>
                   {user?.name || user?.email}
@@ -57,7 +55,7 @@ export default function Layout() {
         {menuOpen && (
           <div className="border-t border-white/10 px-5 py-4 md:hidden">
             <nav className="flex flex-col gap-4" aria-label="Mobile">
-              {isLoading ? null : isAuthenticated ? (
+              {isAuthenticated ? (
                 <>
                   <span className="text-base text-white/70">{user?.name || user?.email}</span>
                   <Link to="/members" className="text-base text-white" onClick={() => setMenuOpen(false)}>Dashboard</Link>
