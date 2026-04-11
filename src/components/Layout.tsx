@@ -285,12 +285,12 @@ export default function Layout({
             &copy; {new Date().getFullYear()} Resource Insider. All rights reserved.
           </p>
           <div className="mt-4 flex items-center justify-center gap-6 md:mt-0">
-            <a href="#" className="text-xs text-white/40 hover:text-white">
+            <Link href="/privacy-policy" className="text-xs text-white/40 hover:text-white">
               Privacy Policy
-            </a>
-            <a href="#" className="text-xs text-white/40 hover:text-white">
+            </Link>
+            <Link href="/terms" className="text-xs text-white/40 hover:text-white">
               Terms of Use
-            </a>
+            </Link>
             <div className="flex items-center gap-3">
               {SOCIAL_LINKS.map(({ name, href, Icon }) => (
                 <a key={name} href={href} target="_blank" rel="noreferrer" className="text-white/40 hover:text-white" aria-label={name}>
