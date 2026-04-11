@@ -49,6 +49,28 @@ export interface PortfolioPosition {
 
 export const STOCK_PICKS: StockPick[] = [
   {
+    slug: 'selkirk-copper-mines-scmi',
+    title: 'Selkirk Copper Mines — Up 100%+ From Our Entry',
+    date: 'Apr 11, 2026',
+    readTime: '7 min',
+    excerpt:
+      'We entered Selkirk Copper Mines (SCMI.V) at $0.70. The stock now trades at $1.43 — up over 100% from our entry. This is a high-quality copper explorer in a Tier-1 jurisdiction, and we believe the move is far from over.',
+    commodity: 'Copper',
+    stage: 'Explorer',
+    location: 'British Columbia',
+    company: 'Selkirk Copper Mines Inc.',
+    ticker: 'SCMI.V',
+    status: 'active',
+    thesis: [
+      'We recommended SCMI.V at $0.70. It is now trading at $1.43 on the TSX Venture — a gain of over 100% for members who followed our initial alert.',
+      'Selkirk Copper Mines controls a large, contiguous copper land package in British Columbia, one of the most prolific copper jurisdictions in the world.',
+      'The stock has gained nearly 700% over the past six months as the copper macro story continues to attract institutional capital into quality small-cap explorers.',
+      'Copper demand is being driven by the global electrification wave — EVs, grid infrastructure, and AI data centres all require massive amounts of copper.',
+      'Despite the move, SCMI.V continues to trade at a significant discount to comparable copper explorers with similar-stage projects in Tier-1 jurisdictions.',
+      'We continue to hold our position. Members who entered at our recommended price are sitting on a 100%+ gain and we see additional upside ahead of upcoming drill results.',
+    ],
+  },
+  {
     slug: 'immediate-upside-copper-play',
     title: 'Immediate Upside in an Overlooked Copper Play',
     date: 'Mar 28, 2026',
@@ -228,6 +250,13 @@ export const PRIVATE_PLACEMENTS: PrivatePlacement[] = [
 
 export const TRADE_ALERTS: TradeAlert[] = [
   {
+    id: 'ta-0',
+    date: 'Apr 11, 2026',
+    type: 'hold',
+    title: 'SCMI.V — Hold. Up 100%+ from our $0.70 entry',
+    detail: 'Selkirk Copper Mines now at $1.43. We entered at $0.70 and are holding. More upside ahead of drill results.',
+  },
+  {
     id: 'ta-1',
     date: 'Apr 5, 2026',
     type: 'buy',
@@ -265,6 +294,7 @@ export const TRADE_ALERTS: TradeAlert[] = [
 ]
 
 export const PORTFOLIO: PortfolioPosition[] = [
+  { id: 'p-0', name: 'Selkirk Copper Mines Inc.', ticker: 'SCMI.V', entryPrice: 0.70, currentPrice: 1.43, shares: 0, gainPct: 104.3, status: 'active' },
   { id: 'p-1', name: 'Pacific Copper Corp.', ticker: 'PCOP.V', entryPrice: 0.18, currentPrice: 0.24, shares: 55000, gainPct: 33.3, status: 'active' },
   { id: 'p-2', name: 'Sierra Gold Inc.', ticker: 'SGI.TO', entryPrice: 4.10, currentPrice: 5.95, shares: 5000, gainPct: 45.1, status: 'active' },
   { id: 'p-3', name: 'Northern Fuel Corp.', ticker: 'NFC.V', entryPrice: 0.42, currentPrice: 0.39, shares: 25000, gainPct: -7.1, status: 'active' },
