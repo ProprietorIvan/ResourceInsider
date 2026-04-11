@@ -42,8 +42,10 @@ export default function Layout() {
               </>
             ) : (
               <>
-                <Link to="/login" className="text-sm text-white/80 transition hover:text-white">Login</Link>
-                <Link to="/register" className="text-sm text-white/80 transition hover:text-white">Register</Link>
+                <Link to="/register" className="text-sm text-white/70 transition hover:text-white">Register</Link>
+                <Link to="/login" className="rounded-lg border border-[var(--color-teal)] px-4 py-2 text-sm font-semibold text-[var(--color-teal)] transition hover:bg-[var(--color-teal)] hover:text-white">
+                  Login
+                </Link>
               </>
             )}
             <Link to="/join"><BtnTeal>Join The List</BtnTeal></Link>
@@ -63,8 +65,10 @@ export default function Layout() {
                 </>
               ) : (
                 <>
-                  <Link to="/login" className="text-base text-white" onClick={() => setMenuOpen(false)}>Login</Link>
-                  <Link to="/register" className="text-base text-white" onClick={() => setMenuOpen(false)}>Register</Link>
+                  <Link to="/register" className="text-base text-white/70" onClick={() => setMenuOpen(false)}>Register</Link>
+                  <Link to="/login" className="rounded-lg border border-[var(--color-teal)] px-4 py-2 text-base font-semibold text-[var(--color-teal)] text-center" onClick={() => setMenuOpen(false)}>
+                    Login
+                  </Link>
                 </>
               )}
               <Link to="/join" onClick={() => setMenuOpen(false)}><BtnTeal className="w-full">Join The List</BtnTeal></Link>
