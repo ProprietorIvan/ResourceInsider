@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { KeyRound, Mail, X, RefreshCw, Send, Check, ChevronDown, ChevronUp } from 'lucide-react'
 
 interface UserRow {
   _id: string
@@ -33,11 +34,205 @@ const TIER_LABELS: Record<string, string> = {
   private_placements: 'Private Placements',
 }
 
+function generatePassword(length = 12): string {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789!@#$%'
+  return Array.from(crypto.getRandomValues(new Uint8Array(length)))
+    .map((b) => chars[b % chars.length])
+    .join('')
+}
+
+interface PasswordPanelProps {
+  user: UserRow
+  onClose: () => void
+}
+
+function PasswordPanel({ user, onClose }: PasswordPanelProps) {
+  const [password, setPassword] = useState('')
+  const [sendEmail, setSendEmail] = useState(true)
+  const [saving, setSaving] = useState(false)
+  const [done, setDone] = useState(false)
+  const [err, setErr] = useState('')
+
+  async function handleSave() {
+    if (!password || password.length < 6) {
+      setErr('Password must be at least 6 characters')
+      return
+    }
+    setSaving(true)
+    setErr('')
+    try {
+      const res = await fetch(`/api/admin/users/${user._id}/set-password`, {
+        method: 'POST',
+        credentials: 'include',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password, sendEmail }),
+      })
+      const data = await res.json() as { error?: string }
+      if (!res.ok) throw new Error(data.error || 'Failed')
+      setDone(true)
+      setTimeout(onClose, 1500)
+    } catch (e) {
+      setErr(e instanceof Error ? e.message : 'Error')
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  return (
+    <div className="mt-2 rounded-xl border border-white/10 bg-[var(--color-navy-light)] p-5">
+      <div className="flex items-center justify-between mb-4">
+        <p className="text-sm font-semibold text-white">
+          Set password for <span className="text-[var(--color-teal)]">{user.name}</span>
+        </p>
+        <button onClick={onClose} className="text-white/40 hover:text-white">
+          <X className="h-4 w-4" />
+        </button>
+      </div>
+
+      {err && (
+        <p className="mb-3 rounded bg-red-500/10 px-3 py-2 text-xs text-red-300">{err}</p>
+      )}
+
+      {done ? (
+        <div className="flex items-center gap-2 text-emerald-400 text-sm">
+          <Check className="h-4 w-4" /> Password set{sendEmail ? ' and email sent' : ''}!
+        </div>
+      ) : (
+        <div className="space-y-3">
+          <div className="flex gap-2">
+            <input
+              type="text"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              placeholder="Enter or generate a password"
+              className="flex-1 rounded-lg border border-white/20 bg-white/10 px-3 py-2 text-sm text-white placeholder:text-white/30 font-mono"
+            />
+            <button
+              type="button"
+              onClick={() => setPassword(generatePassword())}
+              className="flex items-center gap-1.5 rounded-lg border border-white/20 px-3 py-2 text-xs text-white/70 hover:bg-white/5"
+            >
+              <RefreshCw className="h-3.5 w-3.5" />
+              Generate
+            </button>
+          </div>
+
+          <label className="flex items-center gap-2 text-sm text-white/70 cursor-pointer select-none">
+            <input
+              type="checkbox"
+              checked={sendEmail}
+              onChange={(e) => setSendEmail(e.target.checked)}
+              className="h-4 w-4 rounded border-white/30 accent-[var(--color-teal)]"
+            />
+            Send new password to {user.email}
+          </label>
+
+          <button
+            onClick={() => void handleSave()}
+            disabled={saving}
+            className="flex items-center gap-2 rounded-lg bg-[var(--color-teal)] px-4 py-2 text-sm font-semibold text-white hover:opacity-90 disabled:opacity-50"
+          >
+            {saving ? (
+              <RefreshCw className="h-4 w-4 animate-spin" />
+            ) : (
+              <KeyRound className="h-4 w-4" />
+            )}
+            {saving ? 'Saving…' : 'Set Password'}
+          </button>
+        </div>
+      )}
+    </div>
+  )
+}
+
+interface EmailPanelProps {
+  user: UserRow
+  onClose: () => void
+}
+
+function EmailPanel({ user, onClose }: EmailPanelProps) {
+  const [subject, setSubject] = useState('')
+  const [body, setBody] = useState('')
+  const [sending, setSending] = useState(false)
+  const [done, setDone] = useState(false)
+  const [err, setErr] = useState('')
+
+  async function handleSend() {
+    if (!subject || !body) { setErr('Subject and message are required'); return }
+    setSending(true)
+    setErr('')
+    try {
+      const res = await fetch(`/api/admin/users/${user._id}/send-email`, {
+        method: 'POST',
+        credentials: 'include',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ subject, body }),
+      })
+      const data = await res.json() as { error?: string }
+      if (!res.ok) throw new Error(data.error || 'Failed')
+      setDone(true)
+      setTimeout(onClose, 1500)
+    } catch (e) {
+      setErr(e instanceof Error ? e.message : 'Error')
+    } finally {
+      setSending(false)
+    }
+  }
+
+  return (
+    <div className="mt-2 rounded-xl border border-white/10 bg-[var(--color-navy-light)] p-5">
+      <div className="flex items-center justify-between mb-4">
+        <p className="text-sm font-semibold text-white">
+          Email <span className="text-[var(--color-teal)]">{user.name}</span>
+        </p>
+        <button onClick={onClose} className="text-white/40 hover:text-white">
+          <X className="h-4 w-4" />
+        </button>
+      </div>
+
+      {err && <p className="mb-3 rounded bg-red-500/10 px-3 py-2 text-xs text-red-300">{err}</p>}
+
+      {done ? (
+        <div className="flex items-center gap-2 text-emerald-400 text-sm">
+          <Check className="h-4 w-4" /> Email sent!
+        </div>
+      ) : (
+        <div className="space-y-3">
+          <input
+            type="text"
+            value={subject}
+            onChange={(e) => setSubject(e.target.value)}
+            placeholder="Subject"
+            className="w-full rounded-lg border border-white/20 bg-white/10 px-3 py-2 text-sm text-white placeholder:text-white/30"
+          />
+          <textarea
+            value={body}
+            onChange={(e) => setBody(e.target.value)}
+            placeholder="Message…"
+            rows={4}
+            className="w-full rounded-lg border border-white/20 bg-white/10 px-3 py-2 text-sm text-white placeholder:text-white/30 resize-none"
+          />
+          <button
+            onClick={() => void handleSend()}
+            disabled={sending}
+            className="flex items-center gap-2 rounded-lg bg-[var(--color-teal)] px-4 py-2 text-sm font-semibold text-white hover:opacity-90 disabled:opacity-50"
+          >
+            {sending ? <RefreshCw className="h-4 w-4 animate-spin" /> : <Send className="h-4 w-4" />}
+            {sending ? 'Sending…' : 'Send Email'}
+          </button>
+        </div>
+      )}
+    </div>
+  )
+}
+
 export default function AdminPage() {
   const [users, setUsers] = useState<UserRow[]>([])
   const [stats, setStats] = useState<Stats | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
+  const [expandedUser, setExpandedUser] = useState<string | null>(null)
+  const [activePanel, setActivePanel] = useState<'password' | 'email' | null>(null)
 
   useEffect(() => {
     async function load() {
@@ -63,6 +258,16 @@ export default function AdminPage() {
     void load()
   }, [])
 
+  function togglePanel(userId: string, panel: 'password' | 'email') {
+    if (expandedUser === userId && activePanel === panel) {
+      setExpandedUser(null)
+      setActivePanel(null)
+    } else {
+      setExpandedUser(userId)
+      setActivePanel(panel)
+    }
+  }
+
   if (loading) {
     return (
       <main className="bg-[var(--color-navy)] px-5 py-16 md:px-8 md:py-24">
@@ -75,9 +280,7 @@ export default function AdminPage() {
     return (
       <main className="bg-[var(--color-navy)] px-5 py-16 md:px-8 md:py-24">
         <div className="mx-auto max-w-6xl">
-          <p className="rounded border border-red-500/40 bg-red-500/10 px-4 py-3 text-red-200">
-            {error}
-          </p>
+          <p className="rounded border border-red-500/40 bg-red-500/10 px-4 py-3 text-red-200">{error}</p>
           <Link to="/members" className="mt-4 inline-block text-sm text-[var(--color-teal)] hover:underline">
             Back to dashboard
           </Link>
@@ -91,17 +294,10 @@ export default function AdminPage() {
       <div className="mx-auto max-w-6xl">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div>
-            <h1 className="font-display text-3xl font-bold text-white not-italic md:text-4xl">
-              Admin panel
-            </h1>
-            <p className="mt-1 text-sm text-white/50">
-              Manage users and view membership metrics.
-            </p>
+            <h1 className="font-display text-3xl font-bold text-white not-italic md:text-4xl">Admin panel</h1>
+            <p className="mt-1 text-sm text-white/50">Manage users, passwords, and membership metrics.</p>
           </div>
-          <Link
-            to="/members"
-            className="rounded border border-white/20 px-4 py-2 text-sm text-white/80 hover:bg-white/5"
-          >
+          <Link to="/members" className="rounded border border-white/20 px-4 py-2 text-sm text-white/80 hover:bg-white/5">
             ← Dashboard
           </Link>
         </div>
@@ -116,90 +312,93 @@ export default function AdminPage() {
           </div>
         )}
 
-        <div className="mt-10 overflow-x-auto rounded-xl border border-white/10">
-          <table className="w-full text-left text-sm">
-            <thead>
-              <tr className="border-b border-white/10 bg-[var(--color-navy-light)]">
-                <th className="px-4 py-3 font-semibold text-white/70">Name</th>
-                <th className="px-4 py-3 font-semibold text-white/70">Email</th>
-                <th className="px-4 py-3 font-semibold text-white/70">Role</th>
-                <th className="px-4 py-3 font-semibold text-white/70">Tier</th>
-                <th className="px-4 py-3 font-semibold text-white/70">Status</th>
-                <th className="px-4 py-3 font-semibold text-white/70">Accredited</th>
-                <th className="px-4 py-3 font-semibold text-white/70">Joined</th>
-              </tr>
-            </thead>
-            <tbody>
-              {users.map((u) => (
-                <tr
-                  key={u._id}
-                  className="border-b border-white/5 transition hover:bg-white/[0.03]"
-                >
-                  <td className="whitespace-nowrap px-4 py-3 font-medium text-white">
-                    {u.name}
-                  </td>
-                  <td className="whitespace-nowrap px-4 py-3 text-white/60">
-                    {u.email}
-                  </td>
-                  <td className="px-4 py-3">
-                    <span
-                      className={`inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${
-                        u.role === 'admin'
-                          ? 'bg-purple-500/20 text-purple-300'
-                          : 'bg-white/10 text-white/50'
-                      }`}
-                    >
-                      {u.role || 'user'}
-                    </span>
-                  </td>
-                  <td className="px-4 py-3">
-                    <span
-                      className={`inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${
-                        TIER_COLORS[u.membershipTier] || TIER_COLORS.free
-                      }`}
-                    >
-                      {TIER_LABELS[u.membershipTier] || u.membershipTier}
-                    </span>
-                  </td>
-                  <td className="px-4 py-3 text-white/60">
-                    {u.subscriptionStatus || '—'}
-                  </td>
-                  <td className="px-4 py-3 text-center">
-                    {u.accreditedInvestor ? (
-                      <span className="text-emerald-400">Yes</span>
-                    ) : (
-                      <span className="text-white/30">No</span>
-                    )}
-                  </td>
-                  <td className="whitespace-nowrap px-4 py-3 text-white/40">
-                    {new Date(u.createdAt).toLocaleDateString()}
-                  </td>
-                </tr>
-              ))}
-              {users.length === 0 && (
-                <tr>
-                  <td colSpan={7} className="px-4 py-8 text-center text-white/40">
-                    No users found
-                  </td>
-                </tr>
+        <div className="mt-10 space-y-2">
+          {/* Header */}
+          <div className="hidden md:grid grid-cols-[2fr_2fr_1fr_1fr_1fr_1fr_auto] gap-4 rounded-xl border border-white/10 bg-[var(--color-navy-light)] px-4 py-3 text-xs font-semibold uppercase tracking-wider text-white/40">
+            <span>Name</span>
+            <span>Email</span>
+            <span>Role</span>
+            <span>Tier</span>
+            <span>Status</span>
+            <span>Joined</span>
+            <span>Actions</span>
+          </div>
+
+          {users.length === 0 && (
+            <div className="rounded-xl border border-white/10 px-4 py-8 text-center text-white/40">
+              No users found
+            </div>
+          )}
+
+          {users.map((u) => (
+            <div key={u._id} className="rounded-xl border border-white/10 bg-[var(--color-navy-light)]/60 overflow-hidden">
+              <div className="grid grid-cols-1 md:grid-cols-[2fr_2fr_1fr_1fr_1fr_1fr_auto] gap-4 px-4 py-3 items-center">
+                <span className="font-medium text-white text-sm">{u.name}</span>
+                <span className="text-white/60 text-sm truncate">{u.email}</span>
+                <span>
+                  <span className={`inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${u.role === 'admin' ? 'bg-purple-500/20 text-purple-300' : 'bg-white/10 text-white/50'}`}>
+                    {u.role || 'user'}
+                  </span>
+                </span>
+                <span>
+                  <span className={`inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${TIER_COLORS[u.membershipTier] || TIER_COLORS.free}`}>
+                    {TIER_LABELS[u.membershipTier] || u.membershipTier}
+                  </span>
+                </span>
+                <span className="text-white/50 text-sm">{u.subscriptionStatus || '—'}</span>
+                <span className="text-white/40 text-xs">{new Date(u.createdAt).toLocaleDateString()}</span>
+
+                {/* Action buttons */}
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => togglePanel(u._id, 'password')}
+                    title="Set password"
+                    className={`flex items-center gap-1.5 rounded-lg border px-2.5 py-1.5 text-xs font-medium transition ${
+                      expandedUser === u._id && activePanel === 'password'
+                        ? 'border-[var(--color-teal)] bg-[var(--color-teal)]/10 text-[var(--color-teal)]'
+                        : 'border-white/20 text-white/60 hover:border-white/40 hover:text-white'
+                    }`}
+                  >
+                    <KeyRound className="h-3.5 w-3.5" />
+                    Password
+                    {expandedUser === u._id && activePanel === 'password' ? <ChevronUp className="h-3 w-3" /> : <ChevronDown className="h-3 w-3" />}
+                  </button>
+                  <button
+                    onClick={() => togglePanel(u._id, 'email')}
+                    title="Send email"
+                    className={`flex items-center gap-1.5 rounded-lg border px-2.5 py-1.5 text-xs font-medium transition ${
+                      expandedUser === u._id && activePanel === 'email'
+                        ? 'border-[var(--color-teal)] bg-[var(--color-teal)]/10 text-[var(--color-teal)]'
+                        : 'border-white/20 text-white/60 hover:border-white/40 hover:text-white'
+                    }`}
+                  >
+                    <Mail className="h-3.5 w-3.5" />
+                    Email
+                    {expandedUser === u._id && activePanel === 'email' ? <ChevronUp className="h-3 w-3" /> : <ChevronDown className="h-3 w-3" />}
+                  </button>
+                </div>
+              </div>
+
+              {/* Expanded panel */}
+              {expandedUser === u._id && activePanel === 'password' && (
+                <div className="border-t border-white/10 px-4 pb-4 pt-2">
+                  <PasswordPanel user={u} onClose={() => { setExpandedUser(null); setActivePanel(null) }} />
+                </div>
               )}
-            </tbody>
-          </table>
+              {expandedUser === u._id && activePanel === 'email' && (
+                <div className="border-t border-white/10 px-4 pb-4 pt-2">
+                  <EmailPanel user={u} onClose={() => { setExpandedUser(null); setActivePanel(null) }} />
+                </div>
+              )}
+            </div>
+          ))}
         </div>
       </div>
     </main>
   )
 }
 
-function StatCard({
-  label,
-  value,
-  color = 'text-white',
-}: {
-  label: string
-  value: number
-  color?: string
-}) {
+function StatCard({ label, value, color = 'text-white' }: { label: string; value: number; color?: string }) {
   return (
     <div className="rounded-xl border border-white/10 bg-[var(--color-navy-light)]/80 px-4 py-5 text-center">
       <p className={`text-2xl font-bold ${color}`}>{value}</p>
