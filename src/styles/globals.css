@@ -52,3 +52,315 @@ textarea {
 #__next {
   min-height: 100svh;
 }
+
+/* ——— Members world (post-login “inner sanctum”) ——— */
+.members-world {
+  position: relative;
+  isolation: isolate;
+  min-height: calc(100svh - 5rem);
+  background-color: #060d16;
+  background-image:
+    linear-gradient(
+      165deg,
+      rgba(0, 152, 166, 0.08) 0%,
+      transparent 42%,
+      rgba(180, 120, 40, 0.06) 100%
+    ),
+    radial-gradient(
+      ellipse 120% 80% at 50% -20%,
+      rgba(0, 152, 166, 0.15) 0%,
+      transparent 55%
+    ),
+    radial-gradient(
+      ellipse 80% 50% at 100% 100%,
+      rgba(180, 120, 40, 0.08) 0%,
+      transparent 50%
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 47px,
+      rgba(255, 255, 255, 0.02) 47px,
+      rgba(255, 255, 255, 0.02) 48px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 47px,
+      rgba(255, 255, 255, 0.015) 47px,
+      rgba(255, 255, 255, 0.015) 48px
+    );
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+  animation: members-bg-drift 28s ease-in-out infinite alternate;
+}
+
+@keyframes members-bg-drift {
+  0% {
+    background-position: 0% 0%, 0% 0%, 100% 100%, 0 0, 0 0;
+  }
+  100% {
+    background-position: 0% 0%, 8% 4%, 92% 96%, 12px 8px, -8px 12px;
+  }
+}
+
+.members-world::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(
+    circle at 20% 30%,
+    rgba(0, 152, 166, 0.06) 0%,
+    transparent 45%
+  );
+  animation: members-orb-pulse 12s ease-in-out infinite;
+}
+
+@keyframes members-orb-pulse {
+  0%,
+  100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+.members-world > * {
+  position: relative;
+  z-index: 1;
+}
+
+.members-world .glass-card {
+  border-radius: 0.75rem;
+  background: rgba(15, 42, 63, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 0 0 1px rgba(0, 152, 166, 0.06) inset,
+    0 24px 48px -24px rgba(0, 0, 0, 0.5);
+}
+
+.members-world .glass-card--hover {
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+.members-world .glass-card--hover:hover {
+  transform: translateY(-2px);
+  border-color: rgba(0, 152, 166, 0.25);
+  box-shadow:
+    0 0 0 1px rgba(0, 152, 166, 0.12) inset,
+    0 28px 56px -20px rgba(0, 0, 0, 0.55),
+    0 0 40px -12px rgba(0, 152, 166, 0.15);
+}
+
+.members-world .glow-border {
+  position: relative;
+}
+
+.members-world .glow-border::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 152, 166, 0.45),
+    rgba(180, 120, 40, 0.35),
+    rgba(0, 152, 166, 0.25)
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  animation: glow-border-shift 8s ease-in-out infinite;
+}
+
+@keyframes glow-border-shift {
+  0%,
+  100% {
+    opacity: 0.65;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.members-world .glow-border--gold::after {
+  background: linear-gradient(
+    135deg,
+    rgba(251, 191, 36, 0.5),
+    rgba(180, 120, 40, 0.4),
+    rgba(251, 191, 36, 0.3)
+  );
+}
+
+.members-world .glow-border--teal::after {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 184, 196, 0.5),
+    rgba(0, 152, 166, 0.35),
+    rgba(0, 184, 196, 0.25)
+  );
+}
+
+.members-world .pulse-dot {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: #34d399;
+  box-shadow: 0 0 10px rgba(52, 211, 153, 0.7);
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.75;
+    transform: scale(0.92);
+  }
+}
+
+.members-world .font-mono-nums {
+  font-variant-numeric: tabular-nums;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    'SF Mono',
+    Menlo,
+    Consolas,
+    monospace;
+}
+
+.members-world .reveal {
+  animation: reveal-up 0.7s ease forwards;
+  opacity: 0;
+}
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.members-world .reveal-delay-1 {
+  animation-delay: 0.08s;
+}
+.members-world .reveal-delay-2 {
+  animation-delay: 0.16s;
+}
+.members-world .reveal-delay-3 {
+  animation-delay: 0.24s;
+}
+.members-world .reveal-delay-4 {
+  animation-delay: 0.32s;
+}
+
+.members-world {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 152, 166, 0.45) rgba(6, 13, 22, 0.8);
+}
+
+.members-world::-webkit-scrollbar {
+  width: 8px;
+}
+
+.members-world::-webkit-scrollbar-track {
+  background: rgba(6, 13, 22, 0.9);
+}
+
+.members-world::-webkit-scrollbar-thumb {
+  background: rgba(0, 152, 166, 0.4);
+  border-radius: 4px;
+}
+
+.members-world::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 152, 166, 0.6);
+}
+
+.members-world .shimmer-border {
+  position: relative;
+  overflow: hidden;
+}
+
+.members-world .shimmer-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 152, 166, 0.35),
+    rgba(251, 191, 36, 0.25),
+    transparent
+  );
+  background-size: 200% 100%;
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.members-world .shimmer-border:hover::before {
+  opacity: 1;
+  animation: shimmer-sweep 2s linear infinite;
+}
+
+@keyframes shimmer-sweep {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Vault: smooth <details> content */
+.members-world .vault-details .vault-details-inner {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    max-height 0.5s ease,
+    opacity 0.35s ease,
+    padding-top 0.35s ease;
+  padding-top: 0;
+}
+
+.members-world .vault-details[open] .vault-details-inner {
+  max-height: 80rem;
+  opacity: 1;
+  padding-top: 0.25rem;
+}

@@ -1,5 +1,6 @@
 import { useState, type ReactNode } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { Menu, X } from 'lucide-react'
 import { useAuth } from '@/contexts/AuthContext'
 import { BtnTeal, RILogo, XIcon, LinkedInIcon, YouTubeIcon, SpotifyIcon, ApplePodcastsIcon } from './shared'
@@ -12,13 +13,31 @@ const SOCIAL_LINKS = [
   { name: 'Apple Podcasts', href: 'https://podcasts.apple.com/ca/podcast/resource-insider-podcast/id1395299172', Icon: ApplePodcastsIcon },
 ]
 
-export default function Layout({ children }: { children: ReactNode }) {
+export default function Layout({
+  children,
+  membersAtmosphere = false,
+}: {
+  children: ReactNode
+  membersAtmosphere?: boolean
+}) {
+  const router = useRouter()
   const [menuOpen, setMenuOpen] = useState(false)
   const { user, isAuthenticated, logout } = useAuth()
+  const onMembers = router.pathname.startsWith('/members')
+  const onAdmin = router.pathname.startsWith('/admin')
+
+  const headerClass = membersAtmosphere
+    ? 'sticky top-0 z-50 border-b border-white/[0.06] bg-[#060d16]/80 backdrop-blur-xl'
+    : 'sticky top-0 z-50 bg-[var(--color-navy)]/95 backdrop-blur-md'
+
+  const navLinkMembers = (active: boolean) =>
+    active
+      ? 'text-sm font-medium text-[var(--color-teal)] drop-shadow-[0_0_12px_rgba(0,152,166,0.35)]'
+      : 'text-sm text-white/80 transition hover:text-white'
 
   return (
     <>
-      <header className="sticky top-0 z-50 bg-[var(--color-navy)]/95 backdrop-blur-md">
+      <header className={headerClass}>
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
           <Link href="/">
             <RILogo />
@@ -29,9 +48,14 @@ export default function Layout({ children }: { children: ReactNode }) {
                 <span className="max-w-[140px] truncate text-sm text-white/70" title={user?.email}>
                   {user?.name || user?.email}
                 </span>
-                <Link href="/members" className="text-sm text-white/80 transition hover:text-white">
+                <Link href="/members" className={navLinkMembers(onMembers && !onAdmin)}>
                   Dashboard
                 </Link>
+                {user?.role === 'admin' && (
+                  <Link href="/admin" className={navLinkMembers(onAdmin)}>
+                    Admin
+                  </Link>
+                )}
                 <button
                   type="button"
                   className="text-sm text-white/80 transition hover:text-white"
@@ -73,9 +97,22 @@ export default function Layout({ children }: { children: ReactNode }) {
               {isAuthenticated ? (
                 <>
                   <span className="text-base text-white/70">{user?.name || user?.email}</span>
-                  <Link href="/members" className="text-base text-white" onClick={() => setMenuOpen(false)}>
+                  <Link
+                    href="/members"
+                    className={onMembers && !onAdmin ? 'text-base font-medium text-[var(--color-teal)]' : 'text-base text-white'}
+                    onClick={() => setMenuOpen(false)}
+                  >
                     Dashboard
                   </Link>
+                  {user?.role === 'admin' && (
+                    <Link
+                      href="/admin"
+                      className={onAdmin ? 'text-base font-medium text-[var(--color-teal)]' : 'text-base text-white'}
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      Admin
+                    </Link>
+                  )}
                   <button
                     type="button"
                     className="text-left text-base text-white"
@@ -111,7 +148,13 @@ export default function Layout({ children }: { children: ReactNode }) {
 
       {children}
 
-      <footer className="bg-[var(--color-navy-light)] py-14">
+      <footer
+        className={
+          membersAtmosphere
+            ? 'border-t border-white/[0.06] bg-[#0a1520] py-14'
+            : 'bg-[var(--color-navy-light)] py-14'
+        }
+      >
         <div className="mx-auto grid max-w-6xl gap-10 px-5 md:grid-cols-2 md:px-8 lg:grid-cols-5">
           <div className="lg:col-span-1">
             <Link href="/">

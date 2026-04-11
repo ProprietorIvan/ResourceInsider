@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import Link from 'next/link'
+import { Lock } from 'lucide-react'
 import { useAuth, type MembershipTier } from '@/contexts/AuthContext'
 import { BtnTeal } from './shared'
 
@@ -19,8 +20,8 @@ export default function MemberGate({
   const { user, isLoading } = useAuth()
   if (isLoading) {
     return (
-      <div className="rounded-lg border border-white/10 bg-white/5 p-6 text-white/70">
-        Checking access…
+      <div className="glass-card rounded-xl p-8 text-center text-white/60">
+        <p className="text-sm font-medium">Verifying access…</p>
       </div>
     )
   }
@@ -33,17 +34,23 @@ export default function MemberGate({
       ? 'Private Placements'
       : 'Stock Picks'
   return (
-    <div className="rounded-lg border border-[var(--color-teal)]/40 bg-[var(--color-teal-light)] p-8 text-center">
-      <h3 className="font-display text-2xl font-bold text-white not-italic">
-        Members only
-      </h3>
-      <p className="mt-3 text-sm text-white/70">
-        Upgrade to <strong className="text-white">{label}</strong> to unlock this
-        content.
-      </p>
-      <Link href="/register" className="mt-6 inline-block">
-        <BtnTeal>View membership options</BtnTeal>
-      </Link>
+    <div className="glow-border glow-border--teal relative overflow-hidden rounded-xl">
+      <div className="glass-card relative rounded-[inherit] px-8 py-10 text-center">
+        <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full border border-white/15 bg-white/[0.06] text-[var(--color-teal)] shadow-[0_0_28px_-6px_rgba(0,152,166,0.45)]">
+          <Lock className="h-6 w-6" strokeWidth={1.75} />
+        </div>
+        <h3 className="mt-6 font-display text-2xl font-bold text-white not-italic">
+          Beyond this door
+        </h3>
+        <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-white/65">
+          This archive is reserved for{' '}
+          <strong className="text-white">{label}</strong> members—the same
+          research stack, with the vault unlocked.
+        </p>
+        <Link href="/register" className="mt-8 inline-block">
+          <BtnTeal>View membership options</BtnTeal>
+        </Link>
+      </div>
     </div>
   )
 }
