@@ -54,7 +54,7 @@ export default function Layout({
       : ' border-b border-transparent bg-transparent'
   } else {
     headerClass += solidBar
-      ? ' border-b border-white/10 bg-[var(--color-navy)]/95 shadow-[0_8px_32px_-12px_rgba(0,0,0,0.4)] backdrop-blur-md'
+      ? ' border-b border-white/[0.08] bg-[#0a1520]/95 shadow-[0_8px_32px_-12px_rgba(0,0,0,0.5)] backdrop-blur-xl'
       : ' border-b border-transparent bg-transparent'
   }
 
@@ -64,8 +64,8 @@ export default function Layout({
       : 'text-sm text-white/90 transition hover:text-white'
 
   const mobileNavPanelClass = solidBar
-    ? 'border-white/10 bg-[var(--color-navy)]/98 backdrop-blur-lg'
-    : 'border-white/10 bg-[var(--color-navy)]/95 backdrop-blur-xl'
+    ? 'border-white/[0.08] bg-[#0a1520]/98 backdrop-blur-xl'
+    : 'border-white/[0.08] bg-[#0a1520]/95 backdrop-blur-xl'
 
   return (
     <>
@@ -188,7 +188,7 @@ export default function Layout({
         className={
           membersAtmosphere
             ? 'border-t border-white/[0.06] bg-[#0a1520] py-14'
-            : 'bg-[var(--color-navy-light)] py-14'
+            : 'border-t border-white/[0.06] bg-[#0a1520] py-14'
         }
       >
         <div className={`mx-auto grid gap-10 md:grid-cols-2 lg:grid-cols-5 ${SITE_SHELL_X}`}>
