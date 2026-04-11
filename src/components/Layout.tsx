@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { useState, type ReactNode } from 'react'
+import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
-import { useAuth } from '../contexts/AuthContext'
+import { useAuth } from '@/contexts/AuthContext'
 import { BtnTeal, RILogo, XIcon, LinkedInIcon, YouTubeIcon, SpotifyIcon, ApplePodcastsIcon } from './shared'
 
 const SOCIAL_LINKS = [
@@ -12,7 +12,7 @@ const SOCIAL_LINKS = [
   { name: 'Apple Podcasts', href: 'https://podcasts.apple.com/ca/podcast/resource-insider-podcast/id1395299172', Icon: ApplePodcastsIcon },
 ]
 
-export default function Layout() {
+export default function Layout({ children }: { children: ReactNode }) {
   const [menuOpen, setMenuOpen] = useState(false)
   const { user, isAuthenticated, logout } = useAuth()
 
@@ -20,14 +20,16 @@ export default function Layout() {
     <>
       <header className="sticky top-0 z-50 bg-[var(--color-navy)]/95 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
-          <Link to="/"><RILogo /></Link>
+          <Link href="/">
+            <RILogo />
+          </Link>
           <nav className="hidden items-center gap-5 md:flex" aria-label="Main">
             {isAuthenticated ? (
               <>
                 <span className="max-w-[140px] truncate text-sm text-white/70" title={user?.email}>
                   {user?.name || user?.email}
                 </span>
-                <Link to="/members" className="text-sm text-white/80 transition hover:text-white">
+                <Link href="/members" className="text-sm text-white/80 transition hover:text-white">
                   Dashboard
                 </Link>
                 <button
@@ -40,15 +42,28 @@ export default function Layout() {
               </>
             ) : (
               <>
-                <Link to="/register" className="text-sm text-white/70 transition hover:text-white">Register</Link>
-                <Link to="/login" className="rounded-lg border border-[var(--color-teal)] px-4 py-2 text-sm font-semibold text-[var(--color-teal)] transition hover:bg-[var(--color-teal)] hover:text-white">
+                <Link href="/register" className="text-sm text-white/70 transition hover:text-white">
+                  Register
+                </Link>
+                <Link
+                  href="/login"
+                  className="rounded-lg border border-[var(--color-teal)] px-4 py-2 text-sm font-semibold text-[var(--color-teal)] transition hover:bg-[var(--color-teal)] hover:text-white"
+                >
                   Login
                 </Link>
               </>
             )}
-            <Link to="/join"><BtnTeal>Join The List</BtnTeal></Link>
+            <Link href="/join">
+              <BtnTeal>Join The List</BtnTeal>
+            </Link>
           </nav>
-          <button type="button" className="text-white md:hidden" aria-expanded={menuOpen} aria-label={menuOpen ? 'Close menu' : 'Open menu'} onClick={() => setMenuOpen((o) => !o)}>
+          <button
+            type="button"
+            className="text-white md:hidden"
+            aria-expanded={menuOpen}
+            aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+            onClick={() => setMenuOpen((o) => !o)}
+          >
             {menuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>
@@ -58,46 +73,93 @@ export default function Layout() {
               {isAuthenticated ? (
                 <>
                   <span className="text-base text-white/70">{user?.name || user?.email}</span>
-                  <Link to="/members" className="text-base text-white" onClick={() => setMenuOpen(false)}>Dashboard</Link>
-                  <button type="button" className="text-left text-base text-white" onClick={() => { setMenuOpen(false); void logout() }}>Log out</button>
+                  <Link href="/members" className="text-base text-white" onClick={() => setMenuOpen(false)}>
+                    Dashboard
+                  </Link>
+                  <button
+                    type="button"
+                    className="text-left text-base text-white"
+                    onClick={() => {
+                      setMenuOpen(false)
+                      void logout()
+                    }}
+                  >
+                    Log out
+                  </button>
                 </>
               ) : (
                 <>
-                  <Link to="/register" className="text-base text-white/70" onClick={() => setMenuOpen(false)}>Register</Link>
-                  <Link to="/login" className="rounded-lg border border-[var(--color-teal)] px-4 py-2 text-base font-semibold text-[var(--color-teal)] text-center" onClick={() => setMenuOpen(false)}>
+                  <Link href="/register" className="text-base text-white/70" onClick={() => setMenuOpen(false)}>
+                    Register
+                  </Link>
+                  <Link
+                    href="/login"
+                    className="rounded-lg border border-[var(--color-teal)] px-4 py-2 text-base font-semibold text-[var(--color-teal)] text-center"
+                    onClick={() => setMenuOpen(false)}
+                  >
                     Login
                   </Link>
                 </>
               )}
-              <Link to="/join" onClick={() => setMenuOpen(false)}><BtnTeal className="w-full">Join The List</BtnTeal></Link>
+              <Link href="/join" onClick={() => setMenuOpen(false)}>
+                <BtnTeal className="w-full">Join The List</BtnTeal>
+              </Link>
             </nav>
           </div>
         )}
       </header>
 
-      <Outlet />
+      {children}
 
       <footer className="bg-[var(--color-navy-light)] py-14">
         <div className="mx-auto grid max-w-6xl gap-10 px-5 md:grid-cols-2 md:px-8 lg:grid-cols-5">
-          <div className="lg:col-span-1"><Link to="/"><RILogo /></Link></div>
+          <div className="lg:col-span-1">
+            <Link href="/">
+              <RILogo />
+            </Link>
+          </div>
 
           <div>
             <p className="text-sm font-bold uppercase tracking-wider text-white">Quick Links</p>
             <ul className="mt-4 space-y-2 text-sm text-white/60">
-              <li><Link to="/" className="hover:text-white">Home</Link></li>
-              <li><Link to="/join" className="hover:text-white">Invest</Link></li>
-              <li><a href="/#faq-section" className="hover:text-white">FAQ</a></li>
+              <li>
+                <Link href="/" className="hover:text-white">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/join" className="hover:text-white">
+                  Invest
+                </Link>
+              </li>
+              <li>
+                <a href="/#faq-section" className="hover:text-white">
+                  FAQ
+                </a>
+              </li>
             </ul>
           </div>
 
           <div>
             <p className="text-sm font-bold uppercase tracking-wider text-white">Resources</p>
             <ul className="mt-4 space-y-2 text-sm text-white/60">
-              <li><Link to="/blog" className="hover:text-white">Blog</Link></li>
+              <li>
+                <Link href="/blog" className="hover:text-white">
+                  Blog
+                </Link>
+              </li>
               {isAuthenticated ? (
-                <li><Link to="/members" className="hover:text-white">Members</Link></li>
+                <li>
+                  <Link href="/members" className="hover:text-white">
+                    Members
+                  </Link>
+                </li>
               ) : (
-                <li><Link to="/register" className="hover:text-white">Membership</Link></li>
+                <li>
+                  <Link href="/register" className="hover:text-white">
+                    Membership
+                  </Link>
+                </li>
               )}
             </ul>
           </div>
@@ -120,20 +182,36 @@ export default function Layout() {
             <p className="text-sm font-bold uppercase tracking-wider text-white">Subscribe</p>
             <p className="mt-4 text-sm text-white/60">Join our newsletter for the latest updates and insights.</p>
             <form className="mt-4 flex gap-2" onSubmit={(e) => e.preventDefault()}>
-              <input type="email" placeholder="Your Email" className="min-h-[42px] flex-1 rounded border border-white/20 bg-white/10 px-3 text-sm text-white placeholder:text-white/40" />
-              <button type="submit" className="min-h-[42px] rounded bg-[var(--color-teal)] px-4 text-sm font-semibold text-white">Join</button>
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="min-h-[42px] flex-1 rounded border border-white/20 bg-white/10 px-3 text-sm text-white placeholder:text-white/40"
+              />
+              <button type="submit" className="min-h-[42px] rounded bg-[var(--color-teal)] px-4 text-sm font-semibold text-white">
+                Join
+              </button>
             </form>
             <p className="mt-2 text-xs text-white/40">
-              By subscribing, you agree to our <a href="https://resourceinsider.com/privacy-policy-2/" className="text-[var(--color-teal)]" target="_blank" rel="noreferrer">Privacy Policy</a> and consent to receive updates.
+              By subscribing, you agree to our{' '}
+              <a href="https://resourceinsider.com/privacy-policy-2/" className="text-[var(--color-teal)]" target="_blank" rel="noreferrer">
+                Privacy Policy
+              </a>{' '}
+              and consent to receive updates.
             </p>
           </div>
         </div>
 
         <div className="mx-auto mt-12 max-w-6xl border-t border-white/10 px-5 pt-8 md:flex md:items-center md:justify-between md:px-8">
-          <p className="text-center text-xs text-white/40 md:text-left">&copy; {new Date().getFullYear()} Resource Insider. All rights reserved.</p>
+          <p className="text-center text-xs text-white/40 md:text-left">
+            &copy; {new Date().getFullYear()} Resource Insider. All rights reserved.
+          </p>
           <div className="mt-4 flex items-center justify-center gap-6 md:mt-0">
-            <a href="#" className="text-xs text-white/40 hover:text-white">Privacy Policy</a>
-            <a href="#" className="text-xs text-white/40 hover:text-white">Terms of Use</a>
+            <a href="#" className="text-xs text-white/40 hover:text-white">
+              Privacy Policy
+            </a>
+            <a href="#" className="text-xs text-white/40 hover:text-white">
+              Terms of Use
+            </a>
             <div className="flex items-center gap-3">
               {SOCIAL_LINKS.map(({ name, href, Icon }) => (
                 <a key={name} href={href} target="_blank" rel="noreferrer" className="text-white/40 hover:text-white" aria-label={name}>

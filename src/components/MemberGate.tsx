@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
-import { Link } from 'react-router-dom'
-import { useAuth, type MembershipTier } from '../contexts/AuthContext'
+import Link from 'next/link'
+import { useAuth, type MembershipTier } from '@/contexts/AuthContext'
 import { BtnTeal } from './shared'
 
 const tierRank: Record<MembershipTier, number> = {
@@ -41,7 +41,7 @@ export default function MemberGate({
         Upgrade to <strong className="text-white">{label}</strong> to unlock this
         content.
       </p>
-      <Link to="/register" className="mt-6 inline-block">
+      <Link href="/register" className="mt-6 inline-block">
         <BtnTeal>View membership options</BtnTeal>
       </Link>
     </div>
